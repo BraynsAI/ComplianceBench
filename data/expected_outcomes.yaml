@@ -1,0 +1,4 @@
+M1-KYB: [approve, decline, escalate, request_info]
+M1-KYC: [approve, decline, escalate, request_info]
+M1-TM:  [dismiss, monitor, escalate, report]
+M2-GAP: [compliant, partly_compliant, missing, conflicting, not_applicable, future_requirement]

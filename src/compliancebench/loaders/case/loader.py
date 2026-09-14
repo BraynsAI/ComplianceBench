@@ -3,14 +3,19 @@ import os
 from pathlib import Path
 
 # Project Dependencies
-from omegaconf import DictConfig, OmegaConf
-
+from omegaconf import DictConfig, OmegaConf, ListConfig
 # Project Imports
-from compliancebench.constants import SYSTEM_PROMPT
+from compliancebench.constants import build_system_prompt
+
+
+
 
 
 def build_case_messages(case_dir: Path, profile_dir: Path):
-    messages = [SYSTEM_PROMPT]
+    messages = []
+    user_message_packs = []
+
+    messages = [build_system_prompt(case_dir.stem)]
     user_message_packs = []
     # The pack slice. In production you attach the full text of the SOPs the
     # case lists (pdftotext on the files in pack/). The skeleton lists them.
