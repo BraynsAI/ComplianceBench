@@ -1,0 +1,225 @@
+SOP-18: Transaction monitoring instruction
+Rules are grouped in families per product area with documented coverage. New rules and rule
+changes are tested before activation, and model performance is reviewed on a set cycle as part of
+model risk management. Switching a rule off follows the same governance as switching one on.
+
+Company                      Mynta AB
+
+Last approval date           2026-09-10
+
+Approved by                  MLRO
+
+Document type                Work procedure
+
+Document owner               Monitoring function
+
+Information class            Open internally, confidential externally
+
+
+
+Versioning
+DATE               VERSION   CHANGES                                                            BY
+
+2026-09-07         1.x       Earlier versions per the change notes in this document             Document owner
+
+2026-09-10         2.0       Rewritten in plain language. No rules changed.                     Document owner
+
+FIELD                        VALUE
+
+Implements                   GOV-02 section 9 monitoring duty. GOV-01 conclusion C5.
+
+Outputs to                   SOP-19 (all alerts). SOP-12 (counterparty name hits). SOP-21 (sanctions-linked,
+                             immediate).
+
+Parameter source             The monitoring rule register. Threshold values shall not be written into this
+                             instruction.
+
+
+
+1 · Purpose and scope
+This instruction sets out how customer activity is monitored across all four product areas: accounts
+and payments, card issuing, merchant acquiring, and crypto Crypto Service activity. It defines the
+monitoring architecture, the rule families per product area, the alert standard, and the governance of
+rules and parameters. It applies to all customers and all products from activation. Investigation of
+alerts is governed by SOP-19.
+
+
+2 · Architecture
+Monitoring operates on three inputs: transaction data per product area, the customer's baseline
+recorded at onboarding (SOP-10 section 16, SOP-11 S7.2), and the customer's risk class per SOP-14.
+Rules run continuously or in daily batch per the rule register. Each rule evaluates against the
+customer's total position across all product areas as well as the triggering product area. Per GOV-01
+conclusion C5, a monitoring configuration that evaluates product areas in isolation only is a control
+failure and shall be reported as an incident.
+
+
+
+Mynta AB | SOP-18 | v2.0                                                                                     Page 1 of 4
+Risk class scales monitoring: high-risk customers run the enhanced rule set with tighter parameters
+and shorter look-back windows, per the register. New customers run the new-account regime in
+section 5 in addition to standard rules.
+
+
+3 · Rule families per product area
+The families below define what is monitored. Parameters (thresholds, windows, percentages) live in
+the rule register with per-risk-class values. Rule identifiers follow the pattern R-[product area]-
+[number].
+
+3.1 Accounts and payments (R-ACC)
+ID           FAMILY                DETECTS
+
+R-ACC-01 Velocity                  Incoming or outgoing volume above baseline multiples within the
+                                   window.
+
+R-ACC-02 Pass-through              High in-out symmetry with short holding time and low residual
+                                   balance.
+
+R-ACC-03 Structuring               Repeated amounts clustered under register-defined levels, within and
+                                   across days.
+
+R-ACC-04 Counterparty breadth      Number of distinct counterparties above baseline expectation for the
+                                   segment.
+
+R-ACC-05 Cross-border flow         Transfers to or from the elevated category and the high-risk category
+                                   countries per C-2, weighted by risk class and baseline geography.
+
+R-ACC-06 Dormancy activation       Material activity on an account inactive beyond the register window.
+
+R-ACC-07 Baseline deviation        Sustained departure from recorded expected volumes, counterparty
+                                   types or geographies.
+
+R-ACC-08 Related-customer flow     Circular or repeated flows among customers linked by device, address
+                                   or ownership data.
+
+
+3.2 Card issuing (R-CRD)
+ID           FAMILY                DETECTS
+
+R-CRD-01 ATM extraction            Withdrawal patterns riding limits, dispersed geographically or
+                                   concentrated off-hours.
+
+R-CRD-02 Load-spend cycling        Account funding followed by immediate card depletion inconsistent
+                                   with the profile.
+
+R-CRD-03 Cross-border spend        Spend concentrated in the elevated category and the high-risk
+                                   category countries against a domestic baseline.
+
+R-CRD-04 Merchant category         Spend concentrated in register-flagged MCC groups inconsistent with
+             deviation             the profile.
+
+
+3.3 Merchant acquiring (R-ACQ)
+ID           FAMILY                DETECTS
+
+
+
+
+Mynta AB | SOP-18 | v2.0                                                                            Page 2 of 4
+R-ACQ-01 Volume versus profile      Settlement volume above the underwritten expectation by register
+                                    multiples.
+
+R-ACQ-02 Chargeback ratio           Chargeback rate above register levels for the MCC, by count and
+                                    value.
+
+R-ACQ-03 Refund anomaly             Refund ratios or refund-to-new-card patterns above register levels.
+
+R-ACQ-04 Ticket profile shift       Average ticket or ticket distribution departing from the underwritten
+                                    profile.
+
+R-ACQ-05 Settlement fan-out         Settlement proceeds forwarded to third parties inconsistent with the
+                                    merchant's stated operations.
+
+R-ACQ-06 Activity pattern           Processing hours, seasonality or geography inconsistent with the
+                                    stated business.
+
+
+3.4 Crypto Crypto Service (R-CRY)
+ID           FAMILY                 DETECTS
+
+R-CRY-01 Crypto Service share       Crypto activity share above baseline or above the C-9 level for the
+                                    class.
+
+R-CRY-02 Rapid conversion           Fiat in to crypto out, or the reverse, within register windows and above
+                                    register values.
+
+R-CRY-03 Wallet risk                SOP-17 screening signals on counterparty wallets: sanctioned, high-
+                                    risk cluster, or mixer-adjacent per the vendor taxonomy.
+
+R-CRY-04 Cap approach               Customer or institutional Crypto Service volumes approaching
+                                    GOV-04 caps.
+
+
+
+4 · Cross-product area rules (R-XR)
+ID          FAMILY                 DETECTS
+
+R-XR-01 Cross-product area         Total activity across product areas exceeding levels that no single
+            structuring            product area exceeded.
+
+R-XR-02 Product areas              Register-defined sequences: acquiring settlement to account to Crypto
+            sequencing             Service; card load to Crypto Service; account to card to ATM.
+
+R-XR-03 Total baseline deviation   Total activity departing from the combined baseline where per-product
+                                   area activity remains within limits.
+
+
+
+5 · New-account regime
+For the register-defined initial period after activation, customers run tightened parameters on R-
+ACC-01, R-ACC-02, R-CRD-02 and R-CRY-02, and any first occurrence of the high-risk category
+cross-border flow activity or Crypto Service use alerts regardless of value. If an alert during the
+period closes with a note, the period extends automatically. Otherwise the customer leaves the
+regime automatically when the period ends.
+
+
+
+
+Mynta AB | SOP-18 | v2.0                                                                            Page 3 of 4
+6 · Alert standard
+Every alert delivered to SOP-19 shall contain: the rule ID and version, the triggering data with values
+against parameters, the customer identifier and risk class, the relevant baseline fields, a link to total
+cross-product area activity for the window, and prior alert history on the customer. An alert missing
+any of these is a data incident and shall be logged as such. Sanctions-linked alerts route
+simultaneously to SOP-21 handling.
+
+
+7 · Data completeness
+Monitoring depends on complete feeds from all four product areas and on baseline data. Feed
+interruptions, schema changes and missing-field rates above register tolerances shall be detected
+by automated reconciliation, logged as incidents, and reported to the MLRO the same day.
+Transactions arriving during an interruption shall be monitored retroactively on restoration, and the
+retroactive run shall be documented.
+
+
+8 · Rule governance and tuning
+The monitoring rule register is the system of record for rules, parameters, per-class values, versions
+and owners. Changes follow change control: proposal with rationale and expected effect, MLRO
+approval, pre-implementation testing on historical data, implementation, and a post-implementation
+check after one full cycle. Emergency additions in response to an active typology may be
+implemented on MLRO approval with testing completed within ten business days.
+
+Tuning inputs: the SOP-19 closing decision tags (true concern, reasonable but benign, rule noise),
+per-rule alert and conversion statistics, and QC findings. Parameter changes that reduce alert
+volume shall be tested for their effect on detection of known cases before approval. Suppression of
+a rule for a named customer requires senior-analyst proposal, MLRO approval, a recorded reason, an
+expiry date, and quarterly review of all live suppressions.
+
+
+9 · Effectiveness testing
+Annually, and after material rule changes: above-the-line and below-the-line testing on samples
+around current parameters; seeding of known typology patterns through the test environment with
+expected alerts verified; coverage mapping of the GOV-01 Appendix B typologies against live rules,
+with uncovered typologies logged and corrected; and review of the alert-to-outcome funnel per rule.
+Results are reported in the MLRO report with correction owners and dates.
+
+
+10 · Records and review
+Alert data, rule versions, parameter histories, suppressions, incidents and test results follow GOV-02
+section 10 retention. This instruction is reviewed annually and on GOV-01 revisions. The rule register
+is reviewed quarterly by the MLRO.
+
+
+
+
+Mynta AB | SOP-18 | v2.0                                                                         Page 4 of 4
+

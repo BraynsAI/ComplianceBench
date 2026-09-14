@@ -1,0 +1,149 @@
+SOP-19: Alert investigation and escalation routine
+Company                      Mynta AB
+
+Last approval date           2026-09-10
+
+Approved by                  MLRO
+
+Document type                Work procedure
+
+Document owner               Monitoring function
+
+Information class            Open internally, confidential externally
+
+
+
+Versioning
+DATE               VERSION   CHANGES                                                          BY
+
+2026-09-07         1.x       Earlier versions per the change notes in this document           Document owner
+
+2026-09-10         2.0       Rewritten in plain language. No rules changed.                   Document owner
+
+FIELD                        VALUE
+
+Implements                   GOV-02 §9 examination duty; rules C-5, C-6
+
+Intake from                  SOP-18 alerts, SOP-12 escalations, SOP-10 S4.5 memos, SOP-22 events, fraud loop
+                             referrals, internal staff reports
+
+Routes out                   SOP-20 (report), SOP-21 (freeze), SOP-13 (EDD), SOP-22 (review), SOP-23 (exit),
+                             SOP-18 (tuning feedback)
+
+
+
+1 · Purpose and scope
+Every signal that needs examining flows through this routine. It owns the path from signal to closing
+decision. The examination duty in GOV-02 §9 is discharged here. That sets the quality bar: closing an
+alert without a genuine examination is a breach of GOV-02 section 9.2. The routine also owns the
+internal reporting channel. Any employee, in any role, can raise a suspicion here or directly with the
+MLRO, using a simple dedicated form, the customer, the facts, the transactions, the urgency and the
+supporting documents, kept separate from the whistleblowing channel, is logged like any other
+intake, and carries protection against reprisal per the whistleblowing procedure.
+
+
+2 · Definitions and closing decisions
+
+Alert                        Any signal requiring examination, whatever its source.
+
+Case                         One or more linked alerts on one customer or connected customers, examined
+                             together.
+
+Closing decisions            Close, no finding; close with note (fact recorded to the profile, no suspicion); refer
+                             to SOP-13, SOP-22 or SOP-23; refer to the MLRO for SOP-20 assessment;
+                             SOP-21 immediate (sanctions). Every closing decision carries a written rationale.
+
+
+
+
+Mynta AB | SOP-19 | v2.0                                                                                   Page 1 of 3
+3 · Procedure
+S1         First sorting. Within the priority SLA (section 5): deduplicate, link to the customer and any
+           related open items, and set priority: sanctions-linked immediate, active-fraud-linked urgent
+           (same day), all else standard. IF the alert concerns a file the analyst personally onboarded or
+           decided, THEN it is reassigned; nobody examines their own decisions.
+
+S2         Context assembly. Pull the monitoring baseline (SOP-10 §16 data), the due-diligence file,
+           screening records, prior alerts and their closing decisions, and activity across all product
+           areas per GOV-01 conclusion C5. The closing options are: duplicate alert; false alert;
+           explained, with the explanation verified; profile update required; fraud referral; system error;
+           and suspicion, routed to SOP-20. An examination performed on the triggering transaction
+           alone, without the total view, does not meet the standard.
+
+S3         Examination. Establish what actually happened and whether it makes sense against the
+           customer's profile and the typology the rule encodes. The record separates facts (each with
+           its source) from assessment. Findings of "unusual but explained" name the explanation and
+           its evidence; "explained by the customer" without confirmation by a second source is
+           recorded as exactly that.
+
+S4         Customer contact. Requests for information are permitted and often necessary; where the
+           contact itself could create a tipping-off risk, the MLRO is consulted first; they are worded
+           neutrally (documentation requests, activity clarification), never disclosing examination,
+           suspicion or reporting, per meddelandeförbudet. Deadlines are set and logged. IF the
+           customer does not respond by the deadline plus one reminder, THEN the non-response
+           becomes a finding in its own right and routes to SOP-22 or SOP-23 assessment.
+
+S5         Second review. Second review before closure for: repeated alerts on the same customer,
+           connected customers, large transactions, cases closed mainly on the customer’s
+           explanation, and any case touching a high-risk or PEP relationship, any case with a prior SAR
+           on the customer, any close-no-finding on an urgent-priority case, and any closing decision
+           the analyst marks uncertain. The reviewer is never the examining analyst.
+
+S6         Closing decision and routing. Close or route per section 2. IF examination leaves reasonable
+           grounds to suspect, or cannot dispel them, THEN the case goes to the MLRO for SOP-20
+           assessment; uncertainty after examination is a reason to escalate, not to close. Referrals
+           carry the assembled context, so the receiving routine does not start from zero.
+
+S7         Feedback. Every closing decision tags alert quality (true concern, reasonable but benign,
+           rule noise); the tags are added up monthly and feed SOP-18 tuning through its change
+           control. This feedback loop is what keeps alert quality workable at Mynta's volumes.
+
+
+4 · Case records
+Per case: intake source and time, priority, context assembled, facts with sources, customer contacts
+verbatim, assessment, closing decision with rationale, reviewer where S5 applied, and routing. The
+reconstruction standard from SOP-10 S7.2 applies: a reader with the record alone can follow the
+reasoning to the closing decision.
+
+
+
+
+Mynta AB | SOP-19 | v2.0                                                                           Page 2 of 3
+5 · Timelines and queue governance
+The first review target is 3 business days, and sooner is better. Once suspicion is formed, reporting
+follows SOP-20 without delay. No case ages past 15 days without escalation to the MLRO, and
+overdue cases escalate from the due date.
+EVENT                        STANDARD (C-5)
+
+Sanctions-linked             Immediate; SOP-21 first, examination after
+
+Urgent (active fraud, live   First sorting and first action same business day
+risk)
+
+Standard first-line          Within 3 business days of alert
+review
+
+Escalation to senior or      Within 24 hours of the escalating closing decision
+MLRO
+
+Case aging                   Open cases over 15 business days appear by name in the MLRO's queue review;
+                             over 30, in the MLRO report
+
+
+Queue health (volumes, aging, closing decision mix, per-rule noise rates) is reviewed weekly by the
+senior analysts and monthly in the MLRO report; sustained backlog shall be escalated to
+management as a resourcing decision and shall not reduce examination quality.
+
+
+6 · Quality control
+Monthly re-review of a random selection: 10% of close-no-finding closing decisions re-examined by
+a senior analyst not involved in them, graded on the SOP-10 §13 scale; all reopened cases logged
+with cause. Grading looks for the two failure modes in order of harm: closes that missed the point,
+and escalations that merely moved work without examination. Findings feed training and, where a
+rule generates systematic noise, SOP-18 tuning.
+
+
+
+
+Mynta AB | SOP-19 | v2.0                                                                          Page 3 of 3
+

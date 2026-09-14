@@ -1,0 +1,100 @@
+Declaration of beneficial owners
+  Company                            Mynta AB
+
+  Last approval date                 2026-09-10
+
+  Approved by                        MLRO
+
+  Document type                      Template
+
+  Document owner                     Head of Onboarding
+
+  Information class                  Open internally, confidential externally
+
+
+
+Versioning
+
+  DATE                 VERSION         CHANGES                                                  BY
+
+  2026-09-07           1.x             Earlier versions per the change notes in this document   Document owner
+
+  2026-09-10           2.0             Rewritten in plain language. No rules changed.           Document owner
+
+
+Completed by an authorised representative of the applicant. Mynta AB verifies every statement in
+this declaration against registry evidence; discrepancies are escalated under our procedures and
+may be reportable to Bolagsverket under lag (2017:631) om registrering av verkliga huvudmän.
+
+
+A · Applicant
+
+  Legal name                                                      Registration number
+
+  Legal form                                                      Jurisdiction
+
+
+
+B · Declaration
+   Alternative 1. The following natural persons each ultimately own or control more than 25% of the
+applicant, directly or indirectly, or otherwise exercise control. All qualifying persons are listed.
+
+                                                                                   BASIS OF          PEP, FAMILY
+              DATE                             COUNTRY
+  FULL                                                       DIRECT     INDIRECT   CONTROL IF        MEMBER OR
+              OF             CITIZENSHIP       OF
+  NAME                                                       %          %          NOT               CLOSE
+              BIRTH                            RESIDENCE
+                                                                                   OWNERSHIP         ASSOCIATE?
+
+
+
+
+   Alternative 2. After full review of the applicant's complete ownership and control structure, no
+natural person meets the test above. The senior managing official below is therefore recorded as
+
+
+
+
+Mynta AB | T-1 Beneficial owner declaration | v2.0                                                          Page 1 of 2
+beneficial owner. The applicant confirms the entire ownership structure is known to it and disclosed
+in the attached chart.
+
+  Senior managing official,                                Role
+  full name
+
+  Date of birth                                            Residence
+
+
+
+C · Ownership structure
+    A complete ownership chart is attached, showing every legal person and arrangement between
+the applicant and its natural-person owners, with percentages per layer and jurisdictions of every
+entity.
+
+  Number of layers in the                            Jurisdictions appearing
+  structure                                          in the structure
+
+
+
+D · Undertakings
+The applicant confirms that: this declaration is complete and accurate; it is consistent with the
+applicant's filing in the beneficial-ownership register, or any inconsistency is explained in an
+attachment; and Mynta AB will be notified in writing within 14 days of any change to the ownership
+or control structure. The applicant understands that false or incomplete declarations may lead to
+refusal or termination of the relationship and to reports to competent authorities.
+
+
+E · Signature
+
+  Name of signatory                                        Capacity
+
+
+
+  Place and date                                           Signature
+
+
+
+
+Mynta AB | T-1 Beneficial owner declaration | v2.0                                           Page 2 of 2
+

@@ -1,0 +1,14 @@
+<result>
+<outcome>escalate</outcome>
+<reasoning>
+<point doc="m05">Lindqvist holds 24 per cent directly per the share register.</point>
+<point doc="m06">Lindqvist holds 78 per cent of Novena Holding, which holds 32 per cent: indirect 24.96 per cent.</point>
+<point doc="m02">The T-1 declaration claims no beneficial owner exists; the registry evidence contradicts it.</point>
+<point doc="m07">The Bolagsverket entry mirrors the false declaration, so the register is wrong.</point>
+</reasoning>
+<actions>
+<action>Escalate to a senior analyst with a T-2 memo.</action>
+<action>Notify Bolagsverket immediately.</action>
+</actions>
+<explanation>Recalculating the ownership makes Lindqvist a beneficial owner at 48.96 per cent, contradicting the declaration and the register entry, so the file escalates.</explanation>
+</result>

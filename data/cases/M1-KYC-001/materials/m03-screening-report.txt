@@ -1,0 +1,29 @@
+S CREENING REPORT                                                                             R UN 2026-09-01 22:01 UTC
+
+
+
+Name screening report: consumer intake
+Lists screened: EU consolidated, UN, SE national, designated OFAC programmes, PEP database, adverse
+media (designated categories).
+SUBJECT              LIST                MATCH     DETAILS
+
+Aylin Kaya           Sanctions, all      No hits
+(1994-07-19,         regimes
+TR)
+
+Aylin Kaya           Adverse             No hits
+(1994-07-19,         media,
+TR)                  designated
+
+Aylin Kaya           PEP database        HIT       Profile: Aylin Kaya, born 1994 (month and day not recorded), Turkiye.
+(1994-07-19,                             88%       Category: family member of a politically exposed person. Related
+TR)                                                profile: Osman Kaya, member of the Grand National Assembly of
+                                                   Turkiye since 2018 (father). Profile last updated 2026-05-11.
+
+Hit requires adjudication per institution procedure. Reference SCR-2026-19602.
+
+
+
+
+Screening vendor | Intake screening report                                                                         Page 1 of 1
+

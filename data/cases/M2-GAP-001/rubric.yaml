@@ -1,0 +1,14 @@
+version: 1.1
+id: M2-GAP-001
+criteria:
+  - {id: C01, text: Entity-scope reading states CASP-direct obligation on the affiliate and Mynta's distributor exposure, reasoned.}
+  - {id: C02, text: Hierarchy and timing read correctly, directly applicable and live since 30 December 2024.}
+  - {id: C03, text: SOP-17 stub classified missing with binding points acknowledged.}
+  - {id: C04, text: Absent REG-C value and method classified missing, tied to the EUR 1,000 provision.}
+  - {id: C05, text: Compliant findings stated with covering references.}
+  - {id: C06, text: Four-way scheme used correctly throughout.}
+  - {id: C07, text: Remediation plan has owner, date and interim measure per gap, register value set immediately.}
+  - {id: C08, text: Incident consequence under SOP-25 section 5 stated and applied.}
+  - {id: C09, text: Approval routing and required EUR-Lex verification stated.}
+  - {id: C10, text: No fabricated article numbers or invented legal text.}
+scoring: binary_unweighted_mean

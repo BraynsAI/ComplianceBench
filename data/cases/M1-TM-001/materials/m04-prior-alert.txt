@@ -1,0 +1,26 @@
+K OMPASS | CASE HISTORY                                                                        C LOSED 2026-07-24
+
+
+
+Prior alert: ALR-2026-91544
+Rule                             R-ACC-01 v6 (velocity)
+
+Window                           2026-07-10 to 2026-07-16
+
+Facts                            Incoming SEK 21,400 in 6 days from four private counterparties, against baseline
+                                 of 9,000 to 11,000 per month.
+
+Customer contact                 RFI sent 2026-07-18: documentation request for recent incoming payments.
+                                 Response 2026-07-22: "sold my motorcycle and got a work bonus". No
+                                 documentation attached.
+
+Disposition                      Close with note. Customer explanation recorded; volumes returned to baseline in
+                                 the following week. Quality tag: plausible but benign.
+
+Reviewer                         None (below four-eyes thresholds)
+
+
+
+
+Mynta AB | Prior alert extract                                                                             Page 1 of 1
+

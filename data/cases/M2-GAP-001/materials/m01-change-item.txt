@@ -1,0 +1,30 @@
+S OP-25 REGISTER                                                                                   I TEM RCR-2026-041
+
+
+
+Change register item RCR-2026-041
+Source                              Annual look-back sampling per SOP-25 section 6: coverage verification of a live
+                                    instrument
+
+Instrument                          Regulation (EU) 2023/1113 on information accompanying transfers of funds and
+                                    certain crypto-assets (recast)
+
+Provision under review              The obligations concerning transfers of crypto-assets involving self-hosted
+                                    addresses, including the requirement, for transfers exceeding EUR 1,000, to verify
+                                    whether the self-hosted address is owned or controlled by the crypto-asset
+                                    service provider's customer, and the travel-rule information requirements for
+                                    crypto-asset transfers generally.
+
+Dates                               In force 2023. Applies from 30 December 2024. Live obligation at the review
+                                    date.
+
+Captured by                         Compliance analyst, 2026-09-02. Provision wording to be verified against EUR-
+                                    Lex at S3; the summary above is the sweep note, not the legal text.
+
+Status                              Open. Relevance triage and gap analysis not yet performed.
+
+
+
+
+Mynta AB | Regulatory change register item                                                                     Page 1 of 1
+

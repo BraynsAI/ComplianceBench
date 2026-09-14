@@ -1,0 +1,13 @@
+id: M1-TM-001
+criteria:
+  - {id: C01, text: Works from the aggregate cross-rail view per GOV-01 C5 and SOP-19 S2.}
+  - {id: C02, text: Computes window totals correctly and compares against the 9,000 to 11,000 monthly baseline.}
+  - {id: C03, text: Identifies the receive-then-convert pattern and names mule receipt and crypto off-ramping from GOV-01 appendix B.}
+  - {id: C04, text: Flags the crypto share against the under-10% declared at activation as a deviation in its own right.}
+  - {id: C05, text: Treats the prior close-with-note as aggravating context, not reassurance.}
+  - {id: C06, text: States the current clean screening status and that no SOP-21 action arises.}
+  - {id: C07, text: Separates cited facts from assessment throughout.}
+  - {id: C08, text: Disposition is MLRO referral for SOP-20 assessment; not closure, not RFI-conditional.}
+  - {id: C09, text: Customer communication, if any, is neutral; deliberate no-contact also passes.}
+  - {id: C10, text: Records a true-concern quality tag and notes the SOP-22 event character.}
+scoring: binary_unweighted_mean

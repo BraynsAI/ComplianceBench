@@ -1,0 +1,43 @@
+F RAMEWORK EXTRACTS                                                                                      F OUR EXCERPTS
+
+
+
+Framework extracts assembled for the analysis
+
+Extract 1: GOV-02 section 2 (scope) and section 12 (group)
+"The framework covers all of Mynta's activities: issuance and redemption of e-money, account and
+payment services, card issuing, merchant acquiring, and the distribution of crypto-asset services
+provided by Mynta Digital AB. The distribution activity is within scope in full: Mynta performs its own
+due diligence, monitoring and reporting for the customers it serves, irrespective of the affiliate's parallel
+obligations as a CASP." "Coordination with Mynta Digital AB covers shared customers, the ramp
+interface, travel-rule data flows and mutual escalation, and shall be documented between the entities.
+Each entity's legal obligations remain its own."
+
+
+Extract 2: SOP-17 stub (wave 2), binding points
+"Wallet screening runs on every ramp transaction; sanctioned-wallet signals route to SOP-21
+immediately. Travel-rule data completeness is a data incident when missing, per the SOP-18 section 7
+pattern. For self-hosted wallet transfers above register values, take adequate measures to assess
+whether the address is owned or controlled by the customer, per the register method. Coordination with
+Mynta Digital AB follows the GOV-02 section 12 arrangement." Status line: "Full version in wave 2. The
+points below bind now."
+
+
+Extract 3: REG-C, C-8 crypto allowlist and caps
+Fields present: allowlist (BTC, ETH, USDC, EURC); institutional cap 5%; per-customer monthly caps by
+class; change authority. No field carries a self-hosted transfer value or an ownership and control
+assessment method.
+
+
+Extract 4: SOP-18 section 3.4, crypto ramp rules
+R-CRY-01 ramp share; R-CRY-02 rapid conversion; R-CRY-03 wallet risk, "SOP-17 screening signals on
+counterparty wallets: sanctioned, high-risk cluster, or mixer-adjacent per the vendor taxonomy"; R-
+CRY-04 cap approach.
+The full Mynta pack is available to the analysis; these extracts mark the provisions the assembler judged most relevant.
+The analysis is not limited to them.
+
+
+
+
+Mynta AB | Framework extracts for RCR-2026-041                                                                   Page 1 of 1
+

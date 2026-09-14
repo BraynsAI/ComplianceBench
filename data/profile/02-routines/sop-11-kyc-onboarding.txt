@@ -1,0 +1,211 @@
+SOP-11: KYC onboarding routine
+Company                      Mynta AB
+
+Last approval date           2026-09-10
+
+Approved by                  MLRO
+
+Document type                Work procedure
+
+Document owner               Head of Onboarding
+
+Information class            Open internally, confidential externally
+
+
+
+Versioning
+DATE               VERSION   CHANGES                                                         BY
+
+2026-09-07         1.x       Earlier versions per the change notes in this document          Document owner
+
+2026-09-10         2.0       Rewritten in plain language. No rules changed.                  Document owner
+
+FIELD                        VALUE
+
+Applies to                   Natural persons applying as consumers, and enskilda näringsidkare per SOP-10
+                             section 5.
+
+Implements                   GOV-02 section 7. Rules C-2, C-4, C-6, C-9.
+
+Related documents            SOP-10 (verification standards for representatives and owners), SOP-12, SOP-13,
+                             SOP-14, SOP-18, SOP-22, SOP-23.
+
+
+
+1 · Purpose and scope
+Sole traders (enskild näringsidkare): the business relationship is onboarded under SOP-10 section 5,
+with the proprietor’s identity handled to this document’s standards.
+
+This routine sets out how Mynta identifies, verifies and assesses natural persons before an account is
+opened. It covers consumer applications and sole traders. When natural persons act for a legal-
+person customer (signatories, owners), they are verified to the standards in this routine; SOP-10
+section 7 points here. Steps are mandatory unless marked conditional. No product shall be activated
+before the section 5 procedure has concluded with an approval at the correct authority level.
+
+Mynta offers account-based services only. It does not execute occasional transactions for people
+who are not customers, so the threshold-based due diligence regime for occasional transactions is
+not used. Any request for a one-off service without an account shall be declined.
+
+
+2 · Legal basis
+Penningtvättslagen (2017:630) 3 kap; FFFS 2017:11; the EBA risk factor guidelines. Rule values
+referenced in this routine (C-2, C-4, C-9) are Mynta requirements and apply in addition to law.
+
+
+
+
+Mynta AB | SOP-11 | v2.0                                                                                 Page 1 of 4
+3 · Roles and authority
+The onboarding flow is automated for data capture, verification and screening. Files that pass all
+automated checks and classify as low risk are approved without manual intervention (S6.2). All other
+files route to the onboarding team. Authority follows C-6: low risk, analyst or automated approval;
+medium, senior analyst; high and all PEP files, MLRO. Decline authority in the automated flow is
+limited to the objective grounds in S6.3; all other declines require an analyst.
+
+
+4 · Application data
+S1.1       Capture: full name, personnummer or date of birth and place of birth, citizenship(s), country
+           of residence, residential address, contact details, and the applicant's employment or main
+           occupation.
+
+S1.2       Capture expected use: purpose of the account, expected monthly incoming and outgoing
+           volumes, main counterparty types and countries, source of funds category (salary, business
+           income, savings, benefits, other with free text), and whether crypto Crypto Service access is
+           requested with expected share of activity.
+
+S1.3       Capture the PEP self-declaration: whether the applicant is a PEP, a family member of a PEP
+           or a known close associate, as defined in SOP-10 section 8. The declaration shall not replace
+           screening.
+
+S1.4       Applicants must be 18 or older. Applications from persons under 18 shall be declined. Mynta
+           does not offer guardianship or minor accounts.
+
+
+5 · Identification and verification
+A residence that has not been verified cannot on its own drive an automated decline.
+S2.1       Swedish residents with personnummer: verify identity with BankID. The BankID assertion
+           satisfies identity verification without further documents.
+
+S2.2       Other applicants: verify with a passport or EEA national identity card through the identity
+           vendor's document and liveness flow. The document must be valid, machine-readable and
+           captured live. The liveness check must pass at the vendor's standard assurance level.
+
+S2.3       IF verification fails twice, THEN route to manual review. In manual review, two outcomes are
+           possible. The reviewer may accept a certified copy of the identity document per SOP-10
+           section 7.3, together with a repeated liveness check. Where identity cannot be established,
+           the reviewer shall decline. Look at why verification failed. If the cause is document quality,
+           help the applicant capture a better image. If the cause is a mismatch between the document
+           and the person, treat that as an indicator and record it.
+
+S2.4       Consistency checks: the name on the verified document must match the application name.
+           Transliteration differences are acceptable where the identity vendor confirms the match. A
+           different name is a failed verification, and S2.3 applies.
+
+S2.5       Address is recorded from the application and is not separately verified at onboarding. IF the
+           risk classification is high, THEN address verification per SOP-13 scoping applies.
+
+
+
+
+Mynta AB | SOP-11 | v2.0                                                                         Page 2 of 4
+6 · Screening, classification and decision
+S3.1       Screen the applicant per SOP-12 against sanctions, PEP data and designated adverse media
+           before any approval. The file is not complete until the screening results are on it.
+
+S3.2       IF the PEP self-declaration and screening disagree, THEN the file routes to manual review. A
+           confirmed PEP connection routes per SOP-10 section 8: high risk, SOP-13 measures, MLRO
+           decision. If the applicant denied the connection and screening confirms it, record that as an
+           indicator.
+
+S4.1       Classify per SOP-14. C-9 triggers route to SOP-13 before decision. For consumers the
+           common triggers are the high-risk category residence and requested crypto share at or
+           above 30%.
+
+S5.1       Reasonable: compare the expected volumes with the stated occupation and source of funds
+           category. IF expected activity is materially above what the stated profile supports, THEN the
+           file routes to manual review and the analyst shall request clarification or classify upward
+           with a recorded reason.
+
+S6.1       Manual decisions record rationale to the SOP-10 S7.2 standard.
+
+S6.2       Automated approval applies only where all of the following hold: verification passed at S2.1
+           or S2.2 on the first pass, screening returned no hits requiring the decision on hits, no C-9
+           trigger is present, the SOP-14 class is low, and the reasonableness check at S5.1 passed. All
+           other files require an analyst.
+
+S6.3       Automated decline applies only on objective grounds: age under 18, failed identity
+           verification after S2.3, or prohibited-jurisdiction residence per C-2. Decline communication
+           follows S7.3.
+
+
+7 · Activation and handover
+S7.1       On approval, activate only the products applied for. Crypto Crypto Service access is a
+           separate flag and requires the S1.2 crypto data to be complete.
+
+S7.2       Write the monitoring baseline before activation: expected volumes, counterparty countries,
+           source of funds category, crypto share, risk class and review date. Activation without a
+           complete baseline is prohibited.
+
+S7.3       Declines shall be communicated without disclosing screening results, suspicion or internal
+           assessments. The analyst shall assess whether a declined attempt is reportable per SOP-20.
+
+
+8 · Ongoing data
+At onboarding, the customer is told about the duty to keep their information current. Identity re-
+verification is required on legal name change and on document expiry where the original verification
+relied on that document. Periodic refresh of customer data follows SOP-22 by risk class. A returned
+mail flag, a bounced contact channel or a failed re-verification shall be treated as an SOP-22 event.
+
+
+
+
+Mynta AB | SOP-11 | v2.0                                                                         Page 3 of 4
+9 · Records
+The onboarding record contains: application data, verification evidence and vendor references,
+screening records per SOP-12 section 6, classification inputs per SOP-14, decision and rationale, and
+the monitoring baseline. Retention follows GOV-02 section 10. Declined and abandoned applications
+are retained on the same basis, and abandoned applications follow the SOP-10 section 14.4 handling.
+
+
+10 · Quality control
+Monthly re-review of a random selection: 2% of automated approvals and 10% of manual approvals
+are re-reviewed against this routine, graded per the SOP-10 section 13 scale. All PEP files and all
+overrides receive 100% second review before decision. Findings feed training and, where systematic,
+a routine revision through SOP-25. Vendor verification performance (pass rates, fraud catches, false
+rejects) is reviewed quarterly with the vendor under GOV-08.
+
+
+Appendix A · Accepted identity evidence
+APPLICANT                  PRIMARY                                   FALLBACK
+
+Swedish resident with      BankID                                    Passport or national ID via vendor
+personnummer                                                         flow, then S2.3
+
+EEA citizen without        Passport or EEA national identity card,   Certified copy per SOP-10 7.3 plus
+BankID                     document and liveness                     liveness, manual review
+
+Non-EEA citizen resident Passport, document and liveness             Certified copy per SOP-10 7.3 plus
+in EEA                                                               liveness, manual review
+
+Non-EEA resident           Passport, document and liveness;          Manual review; decline where
+                           Category assessment per C-2 applies       identity cannot be established
+
+
+
+Appendix B · Indicators at consumer onboarding
+  • Applicant data reused across applications: shared device, address or contact details with
+    unrelated applicants.
+  • Document and liveness mismatch, or repeated near-miss verification attempts.
+  • Expected volumes inconsistent with stated occupation.
+  • Immediate crypto-dominant intent combined with a newly issued identity document.
+  • Requests to open multiple accounts in short sequence.
+  • Third party visibly directing the application during liveness capture.
+
+Indicators shall be recorded on the file. Two or more indicators route the file to manual review
+regardless of automated check results.
+
+
+
+
+Mynta AB | SOP-11 | v2.0                                                                          Page 4 of 4
+

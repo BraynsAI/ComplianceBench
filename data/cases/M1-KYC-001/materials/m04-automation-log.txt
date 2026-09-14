@@ -1,0 +1,38 @@
+K OMPASS | AUTOMATION LOG                                                                     C ASE KYC-2026-90233
+
+
+
+Automated onboarding flow log
+CHECK                       RESULT       DETAIL
+
+Data completeness           Pass         All S1 fields present
+
+Age                         Pass         32
+
+Identity verification       Pass         Passport with liveness, second attempt (attempt 1 liveness fail,
+                                         illumination)
+
+Residence check             Pass         Turkiye: not a prohibited jurisdiction per C-2
+
+Sanctions screening         Pass         No hits
+
+PEP screening               FLAG         1 hit pending adjudication (SCR-2026-19602)
+
+Plausibility                Pass         Expected volumes within freelance-segment norm
+
+Pre-score (SOP-14)          26 /         Geography Tier 2 +8; products +8 (crypto access requested); crypto share
+                            MEDIUM       +10 (declared 35%)
+
+Straight-through            NO           Screening adjudication pending; class above low; verification not first-
+eligibility                              pass
+
+Routing                     Manual       Assigned 2026-09-02
+                            queue
+
+System routing is provisional. The analyst decision governs.
+
+
+
+
+Mynta AB | Onboarding automation log                                                                         Page 1 of 1
+

@@ -1,0 +1,171 @@
+PROG-01: Programme of operations
+Company                         Mynta AB
+
+Last approval date              2026-09-10
+
+Approved by                     Board
+
+Document type                   Programme
+
+Document owner                  CEO
+
+Information class               Open internally, confidential externally
+
+
+
+Versioning
+DATE              VERSION       CHANGES                                                             BY
+
+2026-09-07        1.x           Earlier versions per the change notes in this document              Document owner
+
+2026-09-10        2.0           Rewritten in plain language. No rules changed.                      Document owner
+
+FIELD                           VALUE
+
+Document ID                     PROG-01
+
+Purpose in this pack            The institution described in one document: the business model the framework
+                                governs. Published for coherence of the benchmark universe. This is a description of
+                                operations, not an authorisation filing.
+
+Data                            All figures reconcile to the master profile file (mynta-profile.yaml). On any divergence,
+                                that file prevails.
+
+
+
+1 · The institution
+Mynta AB is a Swedish e-money institution, authorised in 2018, supervised by Finansinspektionen,
+headquartered in Stockholm, 118 employees. It serves 152,400 consumers and 7,340 business
+customers, of which 620 are acquiring merchants. 2025 processed volume: SEK 38.2bn. Revenue
+SEK 412m; operating result SEK 31m.
+
+
+2 · Services
+                                                                                                              2025
+SERVICE                         DESCRIPTION
+                                                                                                              VOLUME
+
+E-money accounts and            Consumer and business accounts, SEPA and domestic payments,                   SEK
+payments                        SEK and EUR                                                                   21.4bn
+
+Card issuing                    Consumer and corporate debit cards under a BIN sponsor                        SEK
+                                arrangement; 96,000 active cards                                              3.6bn
+
+Merchant acquiring              E-commerce only, 620 merchants, no point-of-sale                              SEK
+                                                                                                              11.9bn
+
+Crypto distribution                                                                                           SEK 1.3bn
+
+
+
+Mynta AB | PROG-01 Programme of operations | v2.0                                                                Page 1 of 3
+                                On- and off-Crypto Service to approved listed crypto-assets,
+                                provided by Mynta Digital AB (group CASP, authorised 2026) with
+                                Mynta AB as distributor and fiat product area
+
+
+Mynta operates no cash services, no branches, no agents, no correspondent relationships and no
+trade finance. Onboarding is fully remote. Occasional transactions for non-customers are not
+offered.
+
+
+3 · Customers and geography
+Customer base: 68% Sweden, 29% rest of EEA, 3% non-EEA. Merchant ownership chains reach
+approximately 40 jurisdictions; 18,900 consumers and 41 business customers are crypto-active.
+Monthly activity: 3,900 consumer onboardings, 140 business, 18 acquiring; 2,150 monitoring alerts;
+5,400 screening name hits; 610 periodic reviews.
+
+
+4 · Organisation and control
+Governance follows GOV-02 section 5: board, designated executive, and the central function holder
+with a compliance function of eleven. Three lines of defence per GOV-02 section 5.4; independent
+examination per GOV-06. The operational model is procedure-driven: the SOP series defines
+execution, REG-C holds operating values, and Kompass is the system of record for casework.
+
+
+5 · Material third parties and outsourcing
+CardPartner Europe Ltd (BIN sponsor), Norrbank AB (safeguarding of customer funds, average SEK
+1,870m), a screening vendor and an identity vendor, governed under GOV-08. Group services with
+Mynta Digital AB are documented between the entities per GOV-02 section 12. Responsibility for
+regulatory compliance is never outsourced.
+
+
+6 · Group boundary
+Mynta Digital AB holds its own CASP authorisation and maintains its own regulatory documentation,
+including custody, transfer-service and market-conduct frameworks, under MiCA and its technical
+standards. That framework is internal to the group and outside this published pack. The interface
+Mynta AB operates (distribution, fiat product area, travel-rule data flows, coordination) is governed by
+the documents in this pack, principally GOV-02 section 12, SOP-17 and REG-C C-8.
+
+
+7 · Financial and prudential arrangements
+Own funds, capital monitoring, safeguarding arrangements and financial control operate under the
+internal documents listed in REG-D (prudential and capital monitoring policy, accounting and
+financial control policy, GOV-05 safeguarding). Safeguarded customer funds are held at Norrbank
+AB under the segregation method with daily reconciliation.
+
+
+
+
+Mynta AB | PROG-01 Programme of operations | v2.0                                                 Page 2 of 3
+8 · Forward plan
+The operating plan is continuity: the four service lines at current scale, AMLR re-baselining through
+SOP-25 ahead of July 2027, and no new products or markets without GOV-09 assessment. Growth
+assumptions in planning are deliberately modest and carry no dependency in this framework.
+
+
+What the FI application contains
+A licence application to Finansinspektionen is submitted in Swedish. Where the working documents
+are in English, the full pack is translated before filing; practice has tightened on this. The business
+plan for a new institution typically lands at 30 to 40 pages, describing each requirement briefly and
+referring to the full document for the detail. The table maps the application contents to where each
+part lives.
+APPLICATION COMPONENT                                      WHERE IT LIVES
+
+Detailed description of the e-money activities             PROG-01 and GOV documents
+
+Detailed description of each payment service               PROG-01
+
+Process and funds-flow charts for all services             PROG-01, charts on the internal shelf
+
+Organisation chart, responsibilities and reporting lines   PROG-01 and GOV-09
+
+Compliance function                                        GOV documents
+
+Risk management and risk control functions                 GOV-01 and GOV documents
+
+Internal audit arrangements                                GOV-06
+
+AML/CTF procedures and the general risk assessment         GOV-01, GOV-02 and the SOPs
+
+Funds-transfer information controls                        SOP-17 and SOP-18
+
+Safeguarding and reconciliation arrangements               GOV-05 and the internal shelf
+
+Outsourcing, oversight and material agreements             GOV-08
+
+Cross-border services, passporting and distributors        Internal shelf
+
+ICT systems, DORA and data protection                      GOV-07 and GOV-08
+
+Access controls for sensitive payment data                 GOV-07 and SOP-20 access rules
+
+Operational and security risk management                   GOV documents
+
+Incident handling and reporting                            GOV-02 section 14
+
+Critical functions and business continuity                 Internal shelf
+
+Complaints handling                                        OP-01
+
+Fraud monitoring and statistics                            SOP-18 and OP documents
+
+Other group activities and separation from the EMI         GOV-02 section 12
+
+Three-year financial forecasts, capital and own funds      Outside this pack, required in the full application
+
+
+
+
+Mynta AB | PROG-01 Programme of operations | v2.0                                                       Page 3 of 3
+

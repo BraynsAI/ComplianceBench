@@ -1,0 +1,299 @@
+REG-C: Rules and registers
+Company                           Mynta AB
+
+Last approval date                2026-09-10
+
+Approved by                       Board of Directors
+
+Document type                     Register
+
+Document owner                    MLRO
+
+Information class                 Open internally, confidential externally
+
+
+
+Versioning
+DATE              VERSION CHANGES                                                                 BY
+
+2026-09-07 1.x                 Earlier versions per the change notes in this document             Document owner
+
+2026-09-10 2.0                 Rewritten in plain language. No rules changed.                     Document owner
+
+2026-09-11        2.1          Values and structure calibrated per the expert pass: regimes       Head of Legal &
+                               named, freeze rule added, caps direction corrected, interim        Compliance review
+                               EDD controls, decision levels, board approval.
+
+
+This document holds the rule values the framework references and the shell of the monitoring rule
+register. Values here bind the routines that cite them. Changes follow the change authority stated
+per register.
+
+
+C-1 · Registry evidence freshness
+
+Value                             Registry evidence shall be under 6 months old at the time of assessment, per layer.
+                                  At periodic review: under 12 months, refreshed where the review raises questions.
+
+Change authority                  MLRO. Review at least annually.
+
+
+
+C-2 · Jurisdiction categories
+Composition rule: prohibited = (a) jurisdictions and territories that must be treated as prohibited
+under the sanctions regimes binding on Mynta, EU, UN as implemented in EU law, and Swedish
+national measures, per GOV-03 section 2, plus (b) board-decided exclusions beyond the legal
+minimum. Russia and Belarus sit in (b) as board decisions; Cuba reflects designated OFAC exposure
+only, not an EU or UN obligation, and is prohibited only on a separate board decision, per the GOV-03
+three-way split. The high-risk category = EU high-risk third countries plus FATF lists plus board and
+MLRO additions. The elevated category = jurisdictions requiring extra checks based on actual risk.
+The standard category = all others. Snapshot as at 10 September 2026; the live list is maintained in
+the register with a source reference per entry.
+BAND                              ENTRIES (SNAPSHOT)                              CONSEQUENCE
+
+Prohibited
+
+
+
+Mynta AB | REG-C Rules and registers | v2.1                                                                    Page 1 of 5
+                                  North Korea, Iran, Russia and Belarus;             Decline the relationship, at any
+                                  Crimea and Sevastopol; the non-                    layer, whenever discovered.
+                                  government-controlled areas of Donetsk,            Sanctions are checked separately
+                                  Luhansk, Kherson and Zaporizhzhia. Cuba            under GOV-03.
+                                  only on a separate board decision.
+
+High-risk category                Afghanistan, Algeria, Angola, Bolivia, British     EDD per SOP-13 and an MLRO
+                                  Virgin Islands, Cameroon, Côte d’Ivoire,           decision, always.
+                                  Democratic Republic of the Congo, Haiti,
+                                  Kenya, Laos, Lebanon, Monaco, Myanmar,
+                                  Namibia, Nepal, South Sudan, Syria, Trinidad
+                                  and Tobago, Vanuatu, Venezuela, Vietnam,
+                                  Yemen
+
+Elevated category                 Bosnia and Herzegovina, Bulgaria, Iraq,            Extra checks based on the actual
+                                  Kuwait, Papua New Guinea                           risk. FATF grey-listing alone does
+                                                                                     not always require EDD. Countries
+                                                                                     may be added only after a
+                                                                                     documented Mynta risk
+                                                                                     assessment.
+
+Standard category                 All other jurisdictions                            Normal handling per the routines.
+
+
+Change authority                  The MLRO updates the elevated and high-risk categories when official lists change,
+                                  without undue delay and weekends included where a sanctions regime drives the
+                                  change. The board decides changes to the prohibited list. The lists are reviewed at
+                                  least quarterly.
+
+
+
+C-3 · Ownership structure documentation depth
+
+Value                             Standard: ownership structure documented to identify all persons above 25%. High
+                                  risk: ownership structure documented from 10%, all paths.
+
+Change authority                  MLRO. Review at least annually.
+
+
+
+C-4 · Screening the decision on hits
+On a confirmed sanctions match, the relevant funds and assets are frozen immediately per SOP-21
+and the matter is reported to the competent authority without delay. The customer is not notified.
+This applies whoever detects the match and at whatever stage.
+
+Values                            Similarity threshold 85%. First-line dismiss requires two or more mismatched
+                                  secondary identifiers with recorded rationale. Secondary identifier order of weight:
+                                  date of birth, nationality or registration country, personal or organisational number,
+                                  address. Sanctions hits that cannot be dismissed are true matches for handling
+                                  purposes.
+
+Change authority                  MLRO, with vendor test evidence per SOP-12 section 7.
+
+
+
+
+Mynta AB | REG-C Rules and registers | v2.1                                                                        Page 2 of 5
+C-5 · Escalation service levels
+EVENT                      STANDARD
+
+Sanctions-linked,          Immediate. SOP-21 before analysis.
+any source
+
+Urgent: active             First sorting and first action same business day.
+fraud, live risk to
+funds
+
+Standard alert first- Within 3 business days.
+line review
+
+Escalation to senior Reviewed within 24 hours of escalation.
+analyst or MLRO
+
+S4.5 ownership             Senior review within 24 hours of memo.
+discrepancy memo
+
+EDD completion             15 business days single trigger, 25 stacked, from complete referral. While EDD is
+targets                    pending, interim risk-mitigating controls apply per the risk: enhanced transaction
+                           monitoring, restricted services, or suspension until completion, chosen per SOP-13 and
+                           recorded.
+
+
+Change authority                  MLRO. Review annually against queue data.
+
+
+
+C-6 · Decision authority
+CLASS OR EVENT                                DECIDES
+
+Low risk                                      Analyst, or automated approval within SOP-11 S6.2.
+
+Medium risk                                   Senior analyst.
+
+High risk, all PEP files, all EDD-routed MLRO. All PEP files are decided by the designated senior executive
+files                                    per GOV-02.
+
+Prohibited list                               No authority at any level. Changes only by board decision through
+                                              GOV-04.
+
+Downward classification override              MLRO, registered, 12-month review cycle.
+
+
+Change authority                  Board, via GOV-02 or GOV-04.
+
+
+
+C-7 · Acquiring MCC governance
+BAND                              CATEGORIES (SNAPSHOT)                                  CONDITION
+
+Prohibited                        Illegal or unlicensed businesses of any kind;      None. Decline.
+                                  weapons; illegal drugs; sexual services; scams and
+                                  deceptive schemes; crypto-asset sales outside the
+                                  approved arrangement; any GOV-04 section 2
+                                  business line
+
+
+
+
+Mynta AB | REG-C Rules and registers | v2.1                                                                Page 3 of 5
+Conditional                       Licensed gambling (standard-category licence              Licence or programme
+                                  jurisdictions only); financial services; adult content;   conditions verified at
+                                  medicines and pharmaceuticals (licensed distance          underwriting; enhanced
+                                  sellers); tobacco and nicotine; CBD; dating               review per SOP-15;
+                                  services; supplements; travel; marketplaces; high-        monitoring profile flagged.
+                                  value goods
+
+
+The MCC alone is never relied on. The real business, its licences and the card-scheme rules are
+checked against the category.
+
+Change authority                  MLRO with GOV-04 consistency check. Board where a change widens appetite.
+
+
+
+C-8 · Crypto approved list and caps
+
+Approved list                     BTC, ETH, USDC, EURC. Additions only through GOV-09 product approval.
+
+Institutional cap                 Crypto Service volume at or below 5% of institutional processed volume, measured
+                                  monthly.
+
+Per-customer monthly              Low risk SEK 400,000. Medium SEK 150,000. High SEK 50,000, or set individually
+caps                              in EDD.
+
+Change authority                  Board for the institutional cap. MLRO for per-class caps with GOV-01 basis.
+
+
+
+C-9 · EDD triggers and designated adverse media
+
+Triggers                          Any PEP connection. Any the high-risk category connection. Ownership ownership
+                                  structure of three or more layers, or any legal-arrangement layer. Expected or actual
+                                  crypto share at or above 30% of activity. Confirmed designated adverse media.
+                                  GOV-04 restricted categories where conditioned on EDD.
+
+Designated adverse                Money laundering, terrorist financing, fraud, corruption, organised crime, sanctions
+media categories                  evasion.
+
+Change authority                  MLRO with GOV-01 basis. Board where a trigger is removed.
+
+
+
+Monitoring rule register · shell and starter values
+System of record for SOP-18 parameters. Fields per rule: ID, version, description, parameters per risk
+class, window, action, owner, status. Window direction: the window is the period within which related
+transactions are treated as one sequence; higher risk classes use longer windows, catching slower
+patterns. Starter values below are the calibrated set; the live register carries the full set including the
+rules not shown.
+ID            PARAMETER                LOW        MEDIUM       HIGH        WINDOW       ACTION     OWNER         STATUS
+
+R-ACC-01 Volume multiple               4.0x       3.0x         2.0x        7 days       Alert      Monitoring    Active
+              of baseline                                                               per        function
+                                                                                        SOP-18
+
+R-ACC-02 In-out symmetry;              90%; 24h 85%; 48h 80%;              14 days                 Monitoring    Active
+              min holding                                72h                                       function
+
+
+
+Mynta AB | REG-C Rules and registers | v2.1                                                                      Page 4 of 5
+                                                                                   Alert
+                                                                                   per
+                                                                                   SOP-18
+
+R-ACC-03 Cluster level;                SEK       SEK       SEK       10 days       Alert    Monitoring   Active
+              count                    48,000;   48,000;   24,000;                 per      function
+                                       4         3         3                       SOP-18
+
+R-ACC-05 the high-risk                 SEK       SEK       any       single        Alert    Monitoring   Active
+              category cross-          25,000    10,000                            per      function
+              border flow value                                                    SOP-18
+
+R-ACC-06 Dormancy period;              12 mo;    9 mo;     6 mo;     single        Alert    Monitoring   Active
+              reactivation value       SEK       SEK       SEK                     per      function
+                                       40,000    25,000    10,000                  SOP-18
+
+R-CRD-01 ATM share of                  60%; 10   45%; 8    30%; 5    30 days       Alert    Monitoring   Active
+              spend; count                                                         per      function
+                                                                                   SOP-18
+
+R-ACQ-01 Settlement vs                 2.5x      2.0x      1.5x      calendar      Alert    Monitoring   Active
+              underwritten                                           month         per      function
+              volume                                                               SOP-18
+
+R-ACQ-02 Chargeback rate,              0.9%      0.7%      0.5%      rolling 30    Alert    Monitoring   Active
+              count basis                                            days          per      function
+                                                                                   SOP-18
+
+R-ACQ-03 Refund ratio                  8%        6%        4%        rolling 30    Alert    Monitoring   Active
+                                                                     days          per      function
+                                                                                   SOP-18
+
+R-CRY-01 Crypto Service                30%       25%       per EDD   30 days       Alert    Monitoring   Active
+              share of activity                                                    per      function
+                                                                                   SOP-18
+
+R-CRY-02 Convert-out within SEK                  SEK       SEK       single        Alert    Monitoring   Active
+              window                   40,000;   25,000;   10,000;                 per      function
+                                       24h       24h       48h                     SOP-18
+
+R-XR-01       Total level where        SEK       SEK       SEK       10 days       Alert    Monitoring   Active
+              no product area          180,000   120,000   60,000                  per      function
+              alerts                                                               SOP-18
+
+R-XR-02       Sequence                 72h       72h       7 days    sequence      Alert    Monitoring   Active
+              completion time                                                      per      function
+                                                                                   SOP-18
+
+R-XR-03       Combined cross- 4.0x               3.0x      2.0x      trailing 10   Alert    Monitoring   Active
+              product area                                           days          per      function
+              activity vs monthly                                                  SOP-18
+              baseline
+
+
+New-account regime: 90 days; parameters tightened one class step; first the high-risk category
+cross-border flow or Crypto Service use alerts at any value. Suppressions: per SOP-18 section 8,
+maximum duration 6 months, quarterly review.
+
+
+Mynta AB | REG-C Rules and registers | v2.1                                                              Page 5 of 5
+

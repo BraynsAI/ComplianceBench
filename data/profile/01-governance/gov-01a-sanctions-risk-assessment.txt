@@ -1,0 +1,110 @@
+GOV-01A: Sanctions risk assessment
+Exposure paths also include banks, processors, payment schemes and sub-merchants. Payment,
+crypto and sectoral risks remain medium until the missing controls are documented and tested.
+Acceptance conditions: no reliance on the SOP-17 or SOP-21 stubs, crypto limits alone are not
+sufficient, and complete screening, freeze and reject controls are in place across all products.
+
+Company                         Mynta AB
+
+Last approval date              2026-09-10
+
+Approved by                     Board
+
+Document type                   Assessment
+
+Document owner                  MLRO
+
+Information class               Open internally, confidential externally
+
+
+
+Versioning
+DATE               VERSION      CHANGES                                                        BY
+
+2026-09-07         1.x          Earlier versions per the change notes in this document         Document owner
+
+2026-09-10         2.0          Rewritten in plain language. No rules changed.                 Document owner
+
+FIELD                           VALUE
+
+Document ID                     GOV-01A (annex to GOV-01, same methodology)
+
+Relationship                    Assesses sanctions risk specifically, on the GOV-01 section 2 methodology and data
+                                basis. GOV-03 sets the policy; SOP-12 and SOP-21 implement. GOV-01 section 11
+                                summarises this assessment; on divergence this document governs.
+
+
+
+1 · Purpose
+This assessment identifies where Mynta can encounter sanctioned persons, entities and activity,
+rates the exposure before and after controls, and states the conditions under which the residual
+position is accepted. It exists as a distinct assessment because the obligation is strict in character:
+intent is irrelevant, thresholds are absent, and a single missed true match is a breach.
+
+
+2 · Exposure assessment
+EXPOSURE PATH                   DESCRIPTION AND EVIDENCE                                      INHERENT RESIDUAL
+
+Direct customer base            A listed person as customer, signatory or beneficial owner.   MEDIUM     LOW
+                                2025 experience: 2 true matches, both frozen and
+                                reported per SOP-21. Retail-heavy book lowers per-
+                                customer likelihood; volume raises encounter frequency.
+
+Ownership and control           Entities owned or controlled in total by listed persons,      HIGH       MEDIUM
+(50% rule)                      unnamed on any list. Discoverable only through SOP-10
+                                ownership-structure evidence; merchant chains touch
+
+
+Mynta AB | GOV-01A Sanctions risk assessment | v2.0                                                        Page 1 of 2
+                                roughly 40 jurisdictions. The dominant sanctions exposure
+                                of Mynta's shape.
+
+Payment counterparties          Inbound and outbound payment parties within product         MEDIUM   LOW
+                                area data; SEPA reach across the EEA with cross-border
+                                flow exposure per C-2.
+
+Crypto wallets and VASP Listed or blocked addresses, cluster proximity, and                 HIGH     MEDIUM
+counterparties          counterparty VASPs under weaker regimes; speed and
+                        finality compress reaction time.
+
+Circumvention                   Layered ownership, third-country routing and renamed      HIGH       MEDIUM
+structures                      counterparties in the post-2022 environment; overlaps the
+                                complex-structure segment in GOV-01 section 6.
+
+Sectoral and territorial        Restricted goods, sectors and territories reached through   MEDIUM   LOW
+measures                        payments references and merchant trade; kept within
+                                limits by the business model (no trade finance, no
+                                correspondent activity) per GOV-03 section 4.
+
+
+
+3 · Controls relied on
+Screening on identified persons at onboarding, delta and transaction level (SOP-12, C-4); list-update
+service levels per GOV-03 section 10; SOP-10 ownership-structure evidence standards as the
+discovery mechanism for the 50% rule, per GOV-01 conclusion C4; wallet screening and travel-rule
+data (SOP-17); cross-border flow and reference rules (SOP-18); immediate freeze-and-report on true
+matches (SOP-21); C-2 prohibited-band enforcement at any layer; annual screening effectiveness
+testing with seeding.
+
+
+4 · Residual position and acceptance
+The residual position is medium, carried by the ownership-and-control, crypto and circumvention
+paths. It is accepted on three standing conditions. First: ownership-structure evidence quality does
+not degrade. A SOP-10 QC deterioration is a sanctions control failure, not only an onboarding one.
+Second: the list-update and screening-coverage service levels hold, documented in the update log
+and in annual testing. Third: the Crypto Service operates inside its C-8 limits. Breach of a condition
+triggers out-of-cycle review of this assessment and of GOV-01 section 11.
+
+
+5 · Review and triggers
+Reviewed annually with GOV-01. Out-of-cycle triggers: material regime change or new programme; a
+missed true match or a near-miss found in testing; SOP-10 QC findings at critical grade touching
+ownership-structure evidence; C-8 bound breach; and supervisory communication on sanctions
+controls. Changes are recorded in the GOV-01 Appendix D change history with this annex's own
+entries.
+
+
+
+
+Mynta AB | GOV-01A Sanctions risk assessment | v2.0                                                   Page 2 of 2
+

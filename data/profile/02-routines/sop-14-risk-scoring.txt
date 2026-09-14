@@ -1,0 +1,141 @@
+SOP-14: Customer risk scoring methodology
+Validation: the model is validated annually, including back-testing against decided files. Overrides
+are MLRO-approved and entered in the override register, and systematic override pressure on any
+factor triggers a model review through SOP-25.
+
+Company                      Mynta AB
+
+Last approval date           2026-09-10
+
+Approved by                  MLRO
+
+Document type                Methodology
+
+Document owner               MLRO
+
+Information class            Open internally, confidential externally
+
+
+
+Versioning
+DATE               VERSION   CHANGES                                                        BY
+
+2026-09-07         1.x       Earlier versions per the change notes in this document         Document owner
+
+2026-09-10         2.0       Rewritten in plain language. No rules changed.                 Document owner
+
+FIELD                        VALUE
+
+Implements                   GOV-02 §6; must reconcile to GOV-01 per its conclusion C8
+
+Consumed by                  SOP-10 S6, SOP-11, SOP-13 depth, SOP-18 intensity, SOP-22 intervals, C-6 authority
+
+
+
+1 · Purpose and principles
+The score turns GOV-01's institutional risk understanding into a per-customer classification: low,
+medium or high. The classification drives verification depth, decision authority, monitoring intensity
+and review frequency. It must therefore be reproducible: same inputs, same class, no matter who
+computes it. That is why the factors, values and arithmetic are fixed in this document and recorded
+per customer (SOP-10 S6.3). Judgement is applied through the override mechanism in section 5. Ad
+hoc re-weighting of factors at the desk is prohibited.
+
+
+2 · Structure
+The model is an additive factor score, with mandatory-high triggers on top. It works in four steps.
+Each factor takes the points of its highest applicable row. The factor points are added into a raw
+score. The raw score maps to a class through the bands in section 4. The mandatory triggers then
+force high, regardless of the arithmetic. There is no channel factor. Distribution is remote for every
+customer (GOV-01 §8), and a factor that is the same for everyone separates no one.
+
+
+3 · Factors and values
+FACTOR                       VALUES                                                              POINTS
+
+
+
+Mynta AB | SOP-14 | v2.0                                                                                  Page 1 of 3
+Customer type              Consumer · Simple domestic/EEA legal person · Legal person      0 · 4 · 8 · 10
+                           with foreign layer · Regulated FI or licensed MSB/VASP
+                           counterparty-customer
+
+Ownership complexity       Direct natural-person ownership · 2 layers · 3+ layers or any   0 · 6 · 12
+                           legal-arrangement layer
+
+Geography, worst           the standard category · the elevated category · the high-risk   0 · 8 · 16
+applicable connection      category
+(C-2)
+
+Products held              Accounts/cards only · plus acquiring · plus crypto access       0 · 8 · 8
+
+Industry (business         Standard · Elevated-typology sector (cash-intensive trade,      0 · 8
+customers)                 high-value goods, C-7 conditional categories)
+
+Expected activity vs       Within norm · Above norm with support · Above norm              0 · 4 · 10
+segment norm               unsupported (also S3.2 handling)
+
+Crypto share of            None · Under 30% · 30% or more (also C-9 trigger)               0 · 4 · 10
+expected activity
+
+History (at review only)   Clean cycle · TM findings or SOP-22 events in cycle             0 · 8
+
+
+
+4 · Bands and mandatory triggers
+                           RAW
+CLASS                                   CONSEQUENCES
+                           SCORE
+
+Low                        0-11         Analyst authority; 36-month review; standard monitoring
+
+Medium                     12-27        Senior-analyst authority; 24-month review; standard-plus
+                                        monitoring
+
+High                       28+          MLRO authority; 12-month review; enhanced monitoring; SOP-13 as
+                                        scoped
+
+
+Mandatory high regardless of score: any PEP connection per SOP-10 §8; any high-risk-category
+connection; any confirmed designated adverse media; any C-9 trigger not already carried by a
+factor; and any case where GOV-01 rates the customer's defining feature high while the arithmetic
+lands lower. That last rule is the reconciliation that GOV-01 conclusion C8 requires. Every mandatory-
+high entry records which trigger fired.
+
+
+5 · Overrides
+Only downward overrides need this process, and they are rare by design. A downward override
+requires four things: MLRO approval; a written rationale explaining why the triggering factor
+overstates this customer's risk; an entry in the override register; and a 12-month review cycle,
+regardless of the resulting class. Upward judgement is not an override. Any analyst may classify
+above the arithmetic, with the reason recorded. If overrides keep hitting the same factor, that factor
+goes into the section 7 validation, per GOV-01 C8. The model shall be corrected on evidence;
+classifications shall not be adjusted to fit the model.
+
+
+
+
+Mynta AB | SOP-14 | v2.0                                                                           Page 2 of 3
+6 · Worked example
+Halvix-pattern applicant: foreign-layer legal person (8), two-layer ownership structure at declaration
+but three effective layers once recalculated (12), the elevated category connection through the
+Estonian holdco (8), applying for accounts and acquiring (8), standard industry (0), expected activity
+above norm with partial support (4), no crypto (0). Raw score 40: high, before any trigger. The MLRO
+decides. In this pattern, the S4.5 discrepancy handling is already running for its own reasons. The
+score shall be computed on the facts as established under SOP-10 S4, not on the customer's
+declaration.
+
+
+7 · Validation and change control
+Annually, and after material GOV-01 revisions: factor and band performance is validated against
+outcomes, class distribution across the book, escalation and SAR rates per class, override frequency
+and direction, and misclassification found in QC. Bands should separate outcomes; a model whose
+high class contains no more findings than its medium class is recalibrated. Changes to factors,
+values or bands go through recorded change control with a GOV-01 basis stated, apply prospectively,
+and trigger rescoring of affected segments at their next review, or immediately where the change
+closes an identified gap.
+
+
+
+
+Mynta AB | SOP-14 | v2.0                                                                      Page 3 of 3
+

@@ -1,0 +1,103 @@
+Ownership discrepancy memo
+  Company                         Mynta AB
+
+  Last approval date              2026-09-10
+
+  Approved by                     MLRO
+
+  Document type                   Template
+
+  Document owner                  Head of Onboarding
+
+  Information class               Open internally, confidential externally
+
+
+
+Versioning
+
+  DATE               VERSION        CHANGES                                                       BY
+
+  2026-09-07         1.x            Earlier versions per the change notes in this document        Document owner
+
+  2026-09-10         2.0            Rewritten in plain language. No rules changed.                Document owner
+
+
+Raised whenever the customer's declaration, the beneficial-ownership register and registry evidence
+disagree on any ownership fact. The file may not be approved at any level, and may not be declined
+below senior-analyst level, while this memo is open. The customer is informed only that review is
+ongoing.
+
+
+1 · Case
+
+  Case reference                                               Applicant
+
+  Analyst                                                      Date
+
+  Escalated to                                                 SLA per C-5
+
+
+
+2 · Recalculate ownership structure
+Every path, layer by layer, with the arithmetic and one evidence reference per link. The reviewer must be able to
+reproduce the computation without the analyst.
+
+  NATURAL                  PATH (ENTITY OWNERSHIP                                                EVIDENCE PER
+                                                                      COMPUTATION      TOTAL
+  PERSON                   STRUCTURE)                                                            LINK
+
+
+
+
+3 · The discrepancy
+Which documents disagree, on which fact, stated precisely with document references and dates.
+
+
+
+
+Mynta AB | T-2 Ownership discrepancy memo | v2.0                                                              Page 1 of 2
+4 · Evidence required to resolve
+
+  #     ITEM REQUESTED                                      THE GAP IT CLOSES
+
+
+
+
+5 · Registerlagen assessment
+
+  Bolagsverket reporting                Yes        Conclusion and action
+  duty triggered?                  No              taken
+
+
+
+6 · Screening state of identified persons
+Every person the S4 analysis identifies, whether or not declared. Pending is stated as pending, never assumed clean.
+
+  PERSON                           SCREENED                        RESULT / STATUS
+
+
+
+
+7 · Recommended closing decision
+
+
+
+
+   I confirm awareness of SOP-10 S7.1: no approval at any level, and no decline below senior-analyst level, while
+ownership is unresolved.
+
+
+
+8 · Senior analyst decision
+
+  Decision and rationale
+
+
+
+  Name, date, signature
+
+
+
+
+Mynta AB | T-2 Ownership discrepancy memo | v2.0                                                            Page 2 of 2
+

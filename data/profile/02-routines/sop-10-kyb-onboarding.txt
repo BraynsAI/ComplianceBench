@@ -1,0 +1,940 @@
+SOP-10 · WORK PROCEDURE FOR KYB ONBOARDINGSAMPLE, NEW LANGUAGE
+
+Work procedure for KYB onboarding (SOP-10)
+Company                           Mynta AB
+
+Last approval date                2026-09-10
+
+Approved by                       MLRO
+
+Document type                     Work procedure
+
+Document owner                    Head of Onboarding
+
+Information class                 Open internally, confidential externally
+
+
+
+Versioning
+DATE              VERSION SECTION CHANGES                                                   BY
+
+2026-09-07 1.0                 All          Initial version                                 Head of Onboarding
+
+2026-09-09 1.2                 S4.5         Bolagsverket reporting rule added after legal   Head of Legal &
+                                            review                                          Compliance
+
+2026-09-10 2.0                 All          Rewritten in plain language. No rules           Head of Onboarding
+                                            changed.
+
+
+
+1 · Purpose and scope
+Know Your Business ("KYB") means the checks Mynta AB ("Mynta" or "the company") performs on
+companies and other legal persons before they become customers. This work procedure describes
+those checks step by step. It implements the customer due diligence requirements in the AML/CTF
+policy (GOV-02) and the risk decisions in the business-wide risk assessment (GOV-01) and the risk
+appetite (GOV-04).
+
+It applies to every legal person that applies for any Mynta product. This includes merchants applying
+for acquiring and business customers requesting the Crypto Service through Mynta Digital AB. It
+does not cover private individuals (SOP-11), ongoing due diligence (SOP-22) or termination of
+business relationships (SOP-23).
+
+All steps in section 6 are mandatory unless a step states its own trigger. No product may be
+activated before the section 6 procedure is finished and the file is approved at the correct level.
+
+
+2 · Legal and regulatory basis
+This work procedure is based on the following.
+
+  • Lag (2017:630) om åtgärder mot penningtvätt och finansiering av terrorism (the "AML Act"), in
+    particular chapter 3 on customer due diligence.
+  • Lag (2017:631) om registrering av verkliga huvudmän, including the duty to report incorrect
+    register information to Bolagsverket.
+  • Finansinspektionen’s regulations FFFS 2017:11.
+
+
+Mynta AB | SOP-10 | v2.0 sample, plain register                                                               Page 1 of 17
+  • The EBA Guidelines on customer due diligence and ML/TF risk factors (EBA/GL/2021/02).
+  • Regulation (EU) 2023/1113 on information accompanying transfers of funds and certain crypto-
+    assets, where the Crypto Service is requested.
+  • From 10 July 2027, Regulation (EU) 2024/1624 (AMLR). SOP-25 tracks its requirements against
+    this work procedure.
+
+In some places this work procedure is stricter than the law. One example is rule C-1 on how recent
+registry evidence must be. Where that happens, the stricter standard applies. It is a Mynta
+requirement, not a legal requirement.
+
+
+3 · Abbreviations and definitions
+TERM                              MEANING IN THIS WORK PROCEDURE
+
+Beneficial owner ("UBO") A natural person who ultimately owns or controls more than 25% of the
+                         customer, directly or indirectly, or who controls the customer in another way.
+                         Assessed under S4.2.
+
+Senior managing official          The person who may be recorded as beneficial owner when no UBO can be
+                                  identified, but only under the conditions in S4.3.
+
+Ownership structure               Every company and legal arrangement between the customer and the natural
+                                  persons who own it, at every level.
+
+Registry evidence                 An extract from the official company registry of the relevant country. It must
+                                  meet the age rule in C-1.
+
+Discrepancy                       Any disagreement about an ownership fact between the customer’s declaration,
+                                  the beneficial-ownership register and the registry evidence.
+
+Complete file                     All items in Appendix A are present and readable, and the registry evidence
+                                  meets C-1.
+
+PEP                               Politically exposed person under the AML Act, including family members and
+                                  known close associates. A former PEP is treated as a PEP for 18 months after
+                                  leaving the position.
+
+
+
+4 · Roles and responsibilities
+ROLE                              RESPONSIBILITY IN THIS WORK PROCEDURE
+
+Onboarding analyst                Performs steps S1 to S6, writes the assessment, and decides low-risk files per
+                                  C-6.
+
+Senior analyst                    Decides medium-risk files. Receives S4.5 escalations. May decline where this
+                                  work procedure permits it.
+
+MLRO                              Decides high-risk files and all PEP relationships. Owns deviations (section 12).
+                                  Approves this work procedure.
+
+Screening function                Performs SOP-12 screening on referral from S5. Decides on hits per C-4.
+
+Second reviewer                   Performs the second review in section 13. Never the same person as the deciding
+                                  analyst.
+
+
+
+
+Mynta AB | SOP-10 | v2.0 sample, plain register                                                               Page 2 of 17
+Decision levels follow rule C-6. Low risk: the analyst decides. Medium risk: the senior analyst
+decides. High risk and all PEP relationships: the MLRO decides. No one at any level may deviate from
+the prohibited list; only the board can change it, through GOV-04.
+
+Two limits apply at every level. A file with an unresolved S4.5 discrepancy, or an incomplete S4
+ownership structure, cannot be approved by anyone. The same file cannot be declined below senior-
+analyst level (S7.1).
+
+
+5 · Entity types and required documents
+The document set depends on the customer’s legal form and country. The table below is the
+minimum. The risk rating (S6) can require more through SOP-13. "Registry extract" always means
+evidence that meets C-1: under 6 months old at onboarding.
+                                  IDENTIFICATION AND              OWNERSHIP
+ENTITY TYPE                                                                               REPRESENTATIVES
+                                  CONSTITUTION                    EVIDENCE
+
+Swedish aktiebolag (AB)           Bolagsverket                    Aktiebok (share         Registered signatories
+                                  registreringsbevis (e-extract   register);              per extract; ID per
+                                  accepted); bolagsordning on     Bolagsverket            section 7
+                                  request                         beneficial-ownership
+                                                                  register entry
+
+Handelsbolag /                    Bolagsverket extract;           Partner list;           Partners with signing
+kommanditbolag                    bolagsavtal where ownership     beneficial-ownership    rights; ID per section 7
+                                  is unclear from the extract     register entry where
+                                                                  applicable
+
+Enskild näringsidkare             Bolagsverket/Skatteverket       Not applicable; the     The proprietor
+                                  registration                    proprietor is the
+                                                                  customer, identity
+                                                                  handled with SOP-11
+                                                                  standards
+
+Ekonomisk förening                Bolagsverket extract; stadgar   Member structure        Board per extract; ID per
+                                                                  summary; beneficial-    section 7
+                                                                  ownership register
+                                                                  entry; control
+                                                                  assessed on the
+                                                                  voting rules
+
+Stiftelse (foundation)            Länsstyrelsen register extract; Founders, board and     Board or administrator;
+                                  stiftelseförordnande            any beneficiaries       ID per section 7
+                                                                  identified as
+                                                                  controllers; register
+                                                                  entry
+
+EEA company                       Official national registry      Share register or       Signatories shown by
+                                  extract; constitutional         equivalent; national    extract or notarised
+                                  document where ownership        BO register extract     power of attorney; ID per
+                                  rules matter                    where the country       section 7
+                                                                  provides one
+
+Non-EEA company
+
+
+
+Mynta AB | SOP-10 | v2.0 sample, plain register                                                             Page 3 of 17
+                                  Official registry extract;     Share register          Notarised and legalised
+                                  legalisation (apostille or     certified per section   power of attorney where
+                                  consular) applied risk-based   7; structure chart      authority is not on the
+                                  per section 7.2 where issued   signed by a director;   extract; ID per section 7
+                                  as a certified paper copy      BO evidence per the
+                                                                 local rules
+
+Listed company                    Extract plus evidence of the   Simplified: section 9 Signatories per extract
+(regulated market,                listing                        applies; UBO            or power of attorney; ID
+adequate disclosure)                                             identification may rely per section 7
+and its majority-owned                                           on listing disclosures
+subsidiaries
+
+Public body                       Constituting statute or        Simplified per section Authorised officials; ID
+                                  register evidence              9                      per section 7
+
+
+5.1 Guidance per entity type
+Swedish AB. The registreringsbevis proves that the company exists and who signs for it. It says
+nothing about ownership. The ownership evidence is the aktiebok, and the customer produces it.
+Because of that, the analyst shall check it against the beneficial-ownership register entry. Where the
+ownership structure continues upward, the analyst shall also obtain registry evidence for each
+holding company. Watch for one pattern: a newly formed AB (under 12 months) that expects
+immediate high volumes. That is not reasonable on its face, and S3.2 applies.
+
+Handelsbolag and kommanditbolag. Partners are jointly liable. Each general partner is treated as
+having control, regardless of profit share, unless the bolagsavtal shows otherwise. The
+kommanditdelägare’s capital share still counts toward the 25% calculation.
+
+Ekonomisk förening. Ownership rarely concentrates in a förening, but control can. Assess the voting
+rules in the stadgar, any rights to appoint board members, and any dominant member. The senior-
+managing-official option is common here. That is correct when the S4.3 conditions are met.
+
+Stiftelse. A foundation has no owners, so beneficial ownership follows control and benefit. Look at
+board members or administrators with decisive influence, founders who kept rights for themselves,
+and identifiable groups of beneficiaries. Foundations applying for acquiring are rare. When it
+happens, the file goes to SOP-13 on the complex-structure trigger.
+
+EEA companies. Registry quality varies between countries. In many of them the national register
+does not show shareholdings. In that case the share register comes from the customer, and it must
+be checked one level further up against registry evidence. National BO registers are used where they
+exist. They are filings, not proof, exactly as in Sweden.
+
+Non-EEA companies. The legalisation matters as much as the document itself. An apostilled certified
+copy of a share register proves the copy as at its issue date, so the C-1 age rule applies to that issue
+date. Countries in the C-2 high-risk category always add the SOP-13 route.
+
+Listed companies. The simplification covers the ownership evidence only. It applies only while the
+listing is verified as current, on a regulated market with adequate disclosure requirements. An MTF
+listing does not qualify. For a majority-owned subsidiary, the majority link must be documented.
+Group membership stated by the customer is not enough.
+
+
+
+
+Mynta AB | SOP-10 | v2.0 sample, plain register                                                           Page 4 of 17
+Trusts and comparable foreign legal arrangements are outside Mynta’s risk appetite for acquiring,
+per GOV-04. As account customers they require MLRO pre-approval before S1 begins. The trustee,
+settlor, any protector and the beneficiaries must all be identified, and the file always goes to SOP-13.
+
+
+6 · Procedure
+
+S1 · Intake and completeness
+S1.1 Receive the application. It must contain: the onboarding form; the UBO declaration (template
+T-1); an ownership chart drawn by the customer; a registry extract for the applicant meeting C-1; the
+share register or equivalent per section 5; identity documents for the signatories; a description of
+the business and the purpose of the relationship; expected products, volumes and counterparty
+countries; and, for acquiring, the MCC, the transacting website and any processing history.
+
+S1.2 Check completeness against Appendix A within 2 business days of receipt. IF any item is
+missing, unreadable or too old under C-1, THEN request the item, record the request, and pause the
+assessment clock. Do not begin the assessment on an incomplete file. If quality control finds
+conclusions drawn on an incomplete file, that is recorded as a finding.
+
+S1.3 Check the applicant’s stated business against the GOV-04 prohibited industries and structures.
+For acquiring, also check the C-7 list. IF the business is prohibited, THEN decline per S8.3. No one at
+any level may make an exception (C-6).
+
+S1.4 Record the target decision date: 10 business days from a complete file for standard cases.
+Where EDD applies, the SOP-13 timelines apply instead.
+
+S2 · Identification and verification of the customer
+S2.1 Verify that the customer exists: exact registered name, legal form, registered address and
+registration number, against the official registry for the country, using the section 5 table. The extract
+must meet the C-1 age limit. An older extract counts as missing.
+
+S2.2 Identify the natural persons acting for the customer. Verify their identity per section 7. Verify
+their authority against the extract, or against a power of attorney meeting section 7. IF authority
+cannot be established from registry evidence or a valid power of attorney, THEN the file is
+incomplete. Return to S1.2.
+
+S2.3 Record any trading names, group membership and licences relevant to the stated business.
+Example: gambling or MSB licences, where C-7 makes permission conditional on a licence.
+
+S2.4 Establish the actual place of business where it differs from the registered address. Virtual-
+office registrations are common and legitimate, but the operating address feeds the risk rating and,
+for acquiring, the website checks in Appendix D. IF no operating presence can be established
+anywhere, THEN record this as a C-9 complex-structure indicator.
+
+S2.5 Record the extract references and dates, the verification outcome for each person, and any
+authority documents relied on. For S2 as a whole: existence, identity and authority must each rest on
+evidence meeting section 7.
+
+S3 · Purpose and nature of the relationship
+S3.1 Record the business model, the reason for seeking the relationship, the expected products,
+expected monthly volumes and average transaction sizes per product area, counterparty countries,
+
+
+Mynta AB | SOP-10 | v2.0 sample, plain register                                                  Page 5 of 17
+and settlement currencies. For acquiring: open the website and verify that it exists, that it sells what
+the application states, and that it matches the declared MCC. The profile recorded here becomes the
+baseline that transaction monitoring (SOP-18) works against.
+
+S3.2 IF the stated profile is not reasonable against the company’s size, age, sector or evidence (for
+example, expected volumes with no trading history behind them), THEN treat this as a discrepancy.
+Document it and apply S4.5 in the same way: escalate. Do not resolve it by assumption.
+
+S3.3 Record the expected counterparties by type and country: payers, payees, marketplaces, and
+any PSP relationships elsewhere. For the Crypto Service, record the expected split between crypto
+activity and account activity. These fields are mandatory even when the customer’s answer is "none
+yet". An empty expectation is still a monitoring baseline.
+
+S4 · Beneficial ownership
+S4.1 Obtain the customer’s UBO declaration (T-1) and the customer’s entry in the beneficial-
+ownership register. Treat both with the same caution. The declaration is a claim to be verified. The
+register entry is the customer’s own filing, so it is verified too, not relied on.
+
+S4.2 Identify every natural person whose direct and indirect holdings add up to more than 25% of
+ownership or control. The calculation crosses every level: for each intermediate company, attribute
+its holding to that company’s owners in proportion, and add up per natural person across all paths.
+Control in other ways also counts toward beneficial ownership regardless of shareholding: voting
+agreements, the right to appoint or remove a majority of the board, or comparable arrangements. IF
+the customer is high risk, THEN document the ownership structure from 10% instead, per rule C-3.
+
+S4.3 The senior-managing-official option may be recorded as beneficial owner only when two things
+are both true: the ownership structure is fully mapped with registry evidence meeting C-1 at every
+level, and no natural person meets the S4.2 test. An unmapped structure never qualifies. A structure
+supported only by too-old documents, or only by documents the customer produced, never qualifies
+either.
+
+S4.4 Verify the identity of each beneficial owner identified in S4.2, with identity evidence per section
+7. Verify every ownership link with registry evidence per C-1 and section 5. A chart drawn by the
+customer is never enough on its own. It must be checked against registry evidence.
+
+S4.5 IF the declaration, the register entry and the registry evidence disagree on any ownership fact,
+THEN stop. Do not proceed, and do not decline. Escalate to a senior analyst per SOP-19 with a
+discrepancy memo per template T-2. The memo contains: the recalculated ownership structure with
+sources, the specific discrepancy, and the requests needed to resolve it. Where the recalculated,
+documented ownership contradicts the register entry, report this to Bolagsverket without delay
+under 3 kap. 5 § lagen (2017:631) om registrering av verkliga huvudmän. Do not wait for the
+customer’s response. Record the report and its date in the memo. The customer is told only that
+additional review is ongoing (S8.2).
+
+S4.6 Document the final ownership structure: every natural person over the threshold, every
+intermediate company with its country and percentage per path, the evidence for each link, and the
+calculation. The standard is simple: a reviewer must be able to repeat the arithmetic without asking
+the analyst anything.
+
+
+
+
+Mynta AB | SOP-10 | v2.0 sample, plain register                                                Page 6 of 17
+S4 guidance · Calculating total ownership
+The method is proportional calculation through the ownership structure. For each intermediate
+company, multiply the customer’s holding in it by each owner’s holding in the intermediate. Do this
+level by level, and add up per natural person across all paths.
+
+Mynta does not count an intermediate’s holding in full once a person controls that intermediate, for
+the 25% arithmetic. But control in other ways is assessed separately under S4.2, and it can establish
+beneficial ownership on its own. Where the arithmetic lands a person just under 25% while that
+person plainly controls the structure, the control test decides, and the file documents why.
+
+Worked example 1, one indirect path. Customer: 24% held directly by person A; 32% held by Holdco
+H; H is 78% owned by A. A’s total: 24% + (32% × 78%) = 24% + 24.96% = 48.96%. A is a beneficial
+owner. A declaration naming no beneficial owner is false, and S4.5 applies.
+
+Worked example 2, several paths. Customer: 15% direct by person B; 40% by Holdco X, where B
+owns 60% of X; 20% by Holdco Y, where B owns 30% of Y. B’s total: 15% + (40% × 60%) + (20% ×
+30%) = 15% + 24% + 6% = 45%. Every path counts, however small its contribution. A path may be left
+uncalculated only when it mathematically cannot reach a contribution that matters, and that is
+documented.
+
+Worked example 3, the official option correctly used. Customer: four unrelated holders at 24% each,
+plus 26% held by Holdco Z, owned equally by three unrelated persons (8.67% each). The highest total
+is 24%. No person meets the threshold, and no control arrangement exists. The structure is fully
+mapped with C-1 evidence at every level. So S4.3 permits recording the senior managing official, with
+the calculation filed.
+
+Recording standard. File the calculation as a table: person, path, arithmetic, total, and the evidence
+reference per link. Round to two decimals. Thresholds are strict: "more than 25%". Where voting
+rights differ from capital, calculate a parallel table on voting rights, and the higher result governs.
+
+Common failures found in quality control. Stopping at the first registry level. Accepting the
+customer’s chart as the ownership structure. Calculating only the largest path. Treating a too-old
+foreign extract as good enough because the Swedish extract is fresh. Recording the official option
+while the structure is still unmapped, "pending documents". Each of these is recorded as a section 13
+finding.
+
+S5 · Screening
+S5.1 Screen per SOP-12: the customer, every beneficial owner identified under S4, every signatory
+and director, and every intermediate company in the ownership structure. Screening runs on
+identified persons, not declared ones. A person identified by the S4 analysis is screened even if the
+customer never declared them. Screening beyond the required population is personal-data
+processing without an automatic legal ground: it requires control indications or an approved
+deviation, and is never run just to be safe.
+
+S5.2 Decide on matches per SOP-12 and C-4. A near-match may be dismissed at analyst level when
+the identifier evidence is strong enough: one strong mismatch, such as date of birth against a
+verified document, may be sufficient, while two weak mismatches may not be. The assessment is
+recorded. IF a sanctions match is confirmed, THEN SOP-21 applies immediately, this procedure is
+suspended, and the customer is not notified.
+
+
+
+
+Mynta AB | SOP-10 | v2.0 sample, plain register                                                 Page 7 of 17
+S5.3 Run adverse-media screening on the customer and the identified UBOs per SOP-12. Findings in
+the C-9 designated categories trigger SOP-13.
+
+S5.4 File the screening evidence per person: the lists screened, the date, the vendor reference, every
+hit with its decision and reason, and any screenings not yet performed marked as pending. The
+standard: the screening status of every identified person must be readable in one place. A file that
+fails this cannot meet the S7.2 documentation standard.
+
+S6 · Risk rating
+S6.1 Rate the customer per SOP-14. The rating must agree with GOV-01. A factor rated high in
+GOV-01 cannot produce a low customer rating here, unless the MLRO approves a documented
+override and it is logged in the deviation register.
+
+S6.2 IF any C-9 trigger is present, THEN go to SOP-13 before any decision. The C-9 triggers are: any
+PEP; a connection to a high-risk country per C-2; an ownership structure of three or more levels, or
+any foreign legal-arrangement level; expected crypto turnover above 30% of volume; and
+designated adverse media. EDD depth follows the risk rating. Section 8 applies to PEPs.
+
+S6.3 Record the rating inputs and the arithmetic per SOP-14, so the score can be repeated: the
+factor values, the weights applied, the resulting rating, and any override with its MLRO approval
+reference. A rating stated without its inputs is recorded by quality control as a finding.
+
+S7 · Decision
+S7.1 Decide: approve, decline, or escalate, at the level set by C-6. Two limits apply. A file with an
+unresolved S4.5 discrepancy or an incomplete S4 ownership structure cannot be approved at any
+level. The same file cannot be declined below senior-analyst level. Unresolved ownership is
+escalated, not declined, because a decline on a false declaration may itself require SOP-20
+assessment.
+
+S7.2 Record the decision reasons so that a reviewer can follow them from the file alone: the facts
+relied on, their sources, how each open item was resolved, and the rating arithmetic. Plain text is
+acceptable. Conclusions without references are not.
+
+S7.3 Communication standards. Approvals state which products are activated and which information
+duties the customer has accepted. Declines follow S8.3. Escalations follow S8.2. No decision
+communication ever mentions screening outcomes, suspicion, reporting, or the internal steps of this
+work procedure.
+
+S8 · Outcomes and handover
+S8.1 On approval: activate only the products applied for. Set the monitoring baseline from S3.1.
+Schedule the periodic review per SOP-22 by risk rating: high 12 months, medium 24, low 36. File the
+record per section 11.
+
+S8.2 On escalation: SOP-19 owns the case until it is resolved. The customer is told only that review is
+ongoing. Nothing that could reveal suspicion is shared, per SOP-20 and meddelandeförbudet.
+
+S8.3 On decline: communicate the decision without revealing screening results, suspicion or internal
+assessments. Assess whether the attempted relationship must be reported per SOP-20. Record the
+decline and its grounds. Add the entity to the internal declined register, which is checked at S1.
+
+
+
+
+Mynta AB | SOP-10 | v2.0 sample, plain register                                                Page 8 of 17
+7 · Verification standards
+
+7.1 Natural persons
+Swedish residents: BankID. Everyone else: passport or EEA national ID card, through the identity
+vendor’s document-and-liveness flow. Where remote verification fails twice, a certified copy of the
+identity document per 7.3 is required instead. Representatives, signatories and UBOs are all verified
+to this standard. There is no lighter standard for "contact persons" who in fact act for the customer.
+
+7.2 Registry and corporate documents
+Swedish documents: electronic extracts directly from Bolagsverket are preferred, and accepted
+without certification. Foreign documents: official registry extracts in Swedish, English, Danish or
+Norwegian are accepted as issued. Other languages require a certified translation of the operative
+parts. Non-EEA documents issued as paper certified copies must be legalised: apostille, or consular
+legalisation where the issuing country is outside the Hague Rule.
+
+7.3 Certified copies and powers of attorney
+Legalisation of non-EEA documents is applied risk-based: required where document risk or the
+issuing country’s risk category warrants it, and always for high-risk-category countries; the analyst
+records the assessment either way. Certification is accepted from a notary public, a licensed
+attorney, an EEA-licensed credit institution, or a Swedish embassy or consulate. The certifier’s name,
+capacity and date must appear on the document. A power of attorney must be specific to the
+relationship, or clearly cover it. It must be signed by persons whose own authority is documented.
+For non-EEA issuers it must be legalised per 7.2.
+
+7.4 Documentation standards
+Every evidence item is filed with its source, its retrieval or issue date, and the analyst’s note of what
+it proves. Screenshots of registries are acceptable only as working copies, and only where the
+registry provides no export. The URL and timestamp must be captured.
+
+7.5 Registry evidence by common country
+This table is the reference for the countries Mynta sees most in ownership structures. For a country
+not listed, the analyst identifies the official registry and applies 7.2. If no official registry can be
+identified, record that as a C-9 indicator.
+COUNTRY                           REGISTRY               EVIDENCES           NOTES
+
+Sweden                            Bolagsverket           Existence, form,    E-extract accepted uncertified;
+                                                         signatories; BO     the aktiebok remains customer-
+                                                         register entry      produced
+                                                         separately
+
+Denmark                           CVR /                  Existence,          Ownership data usable as
+                                  Erhvervsstyrelsen      management,         support, not as sole proof
+                                                         registered owners
+                                                         over thresholds
+
+Norway                            Brønnøysundregistrene Existence, roles     Shareholder data via
+                                                                             Skatteetaten lists lags; check
+                                                                             against a second source
+
+
+
+Mynta AB | SOP-10 | v2.0 sample, plain register                                                       Page 9 of 17
+Finland                           PRH                   Existence,             BO register access restricted;
+                                                        signatories            customer extract plus a second
+                                                                               source
+
+Estonia                           e-Business Register   Existence,             Shareholder data current and
+                                                        management,            reliable for OÜ; the extract date
+                                                        shareholders for OÜ    still governs C-1
+
+Germany                           Handelsregister       Existence,             The Gesellschafterliste
+                                                        representation         evidences GmbH ownership;
+                                                                               obtain the filed list
+
+Netherlands                       KVK                   Existence, officers    UBO register extract restricted;
+                                                                               customer-obtained extract
+                                                                               accepted with a second source
+
+United Kingdom                    Companies House       Existence, officers,   Filings are not verified at source;
+                                                        PSC register           treat PSC data like a declaration
+                                                                               and verify the level that decides
+                                                                               the outcome
+
+United States                     State registries      Existence, agent       Ownership rarely public; certified
+                                                                               share register per 7.3 plus an
+                                                                               officer certificate
+
+
+7.6 Document authenticity checks
+For customer-supplied documents the analyst checks four things, and records having checked
+them: dates are internally consistent; names and numbers agree with the registry evidence; the
+document looks intact (no mismatched fonts, misaligned stamps or edited fields); and the issuer can
+be verified (registry reference numbers resolve, the certifier is identifiable per 7.3). Suspected
+manipulation is never handled by asking the customer for a better copy first. The document is
+preserved, the file escalates, and SOP-20 relevance is assessed.
+
+
+8 · PEPs within KYB
+The positions in scope follow the AML Act: heads of state and government; ministers and deputy
+ministers; parliamentarians; members of the governing bodies of political parties; supreme and
+constitutional court judges; senior officials of auditing authorities and central banks; ambassadors
+and chargés d’affaires; senior armed-forces officers; and members of the administrative,
+management or supervisory bodies of state-owned enterprises. At international organisations:
+directors, deputy directors and board members. Family members are: spouse or partner, children and
+their partners, and parents. Known close associates are: a person with joint beneficial ownership
+together with a PEP, and a person who is sole beneficial owner of an entity known to exist in practice
+for a PEP’s benefit.
+
+Where any beneficial owner, signatory or director is a PEP, a family member of a PEP, or a known
+close associate, four things follow. The relationship is high risk, without further assessment. SOP-13
+source-of-wealth and source-of-funds measures apply to the PEP’s interest in the customer.
+Approval is given by the authorised senior decision-maker the governance framework designates.
+Enhanced ongoing monitoring is set per SOP-22. A person who stopped being a PEP within the last
+18 months is still treated as a PEP, and longer where the relationship remains high risk. PEP status
+
+
+Mynta AB | SOP-10 | v2.0 sample, plain register                                                          Page 10 of 17
+discovered after onboarding is handled under the SOP-22 event triggers, not under this work
+procedure.
+
+The process. PEP status is established in two ways: through SOP-12 screening at S5, and through
+the direct question on T-1. A "no" on T-1 combined with a screening hit is a discrepancy, handled the
+S4.5 way. On confirmation: the file becomes high risk immediately. SOP-13 opens, with source-of-
+wealth and source-of-funds measures in proportion to the PEP’s interest. The evidence must be
+documents, not a story: employment and mandate history, disclosed asset registers where public,
+and sale or inheritance documents for the capital in question. The decision is recorded in Kompass
+before anything is communicated. Monitoring is set to the enhanced profile in SOP-22. Where the
+PEP connection sits on a minority owner, below every threshold and without control, the analyst
+documents why that person does not drive the relationship’s risk. The decision requirement still
+applies. Removing PEP treatment after the 18-month period is an SOP-22 event. It is assessed. It is
+never automatic.
+
+
+9 · Simplified measures
+Simplified due diligence may be applied only where GOV-01 supports low risk, and only for two
+customer types: a company listed on a regulated market with adequate disclosure requirements, or
+its majority-owned subsidiary documented as such; and a Swedish public body. Simplification means
+two things: reduced ownership evidence per the section 5 table, and standard rather than enhanced
+verification depth. It never means skipping screening (S5). It never means skipping the purpose
+assessment (S3). It never means skipping the risk rating (S6). Simplified files remain in the section 13
+quality control selection.
+
+Qualification is verified, not taken on trust. The listing is checked against the exchange’s own
+register, and the evidence is filed. For non-EEA markets, the analyst assesses whether the market is
+regulated and the disclosure rules adequate, and records the assessment. Majority ownership by the
+listed parent is documented by the parent’s own disclosures or by registry evidence, and refreshed
+at periodic review. Simplification is withdrawn, and the file re-run at standard depth, in four
+situations: delisting; loss of the majority link; any C-9 trigger arising; and monitoring behaviour
+departing from the profile. SDD files carry the same S3 baseline and the same section 16 handover.
+The monitoring system does not know the file was simplified.
+
+
+10 · Reliance and outsourcing
+Mynta does not rely on third parties for the measures in this work procedure, in the sense of the
+AML Act’s reliance provisions. The identity and screening vendors are outsourced tools under
+GOV-08, and the responsibility stays with Mynta. Information from an introducing partner may inform
+S3. It never replaces any step in section 6.
+
+
+11 · Records and retention
+The complete onboarding file is kept for five years after the business relationship ends. This covers
+the application, evidence, screening results, ownership documentation, memos, decisions and
+communications. The period extends to ten years where law requires it or a competent authority
+orders it. Records must be retrievable within the times set in GOV-07, and structured so that
+
+
+
+
+Mynta AB | SOP-10 | v2.0 sample, plain register                                                Page 11 of 17
+compliance with each section 6 step can be shown item by item. Declined and abandoned
+applications are kept on the same basis.
+
+The file is structured in Kompass in six parts: application and correspondence; evidence, indexed by
+section 6 step; screening, per person; ownership documentation and calculation; memos and
+assessments; decision and communications. Retrieval standard: the full file within 2 business days
+of a competent-authority request, any single evidence item the same day. Formats: original digital
+where received digitally, captures per 7.4 otherwise. Nothing is kept only in a mailbox or in local
+storage. The GDPR interface is GOV-07’s: retention under this section is a legal obligation and comes
+before erasure requests for the retention period. Conflicts are handled per GOV-07, never case by
+case by the analyst.
+
+
+12 · Deviations
+No one may deviate from the prohibited list (C-6, GOV-04). Any other deviation from this work
+procedure requires four things before it happens: the MLRO’s written approval, a stated reason, a
+compensating control, and an entry in the deviation register. The register records: date, file, the
+requirement deviated from, the reason, the compensating control, the approver, and the closure. The
+MLRO reviews the register quarterly and reports it to the board in the MLRO report.
+
+A deviation is approved in advance. The same act without prior approval is an incident under
+GOV-02, regardless of how it turned out, and discovering one is itself a section 13 finding. Repeated
+deviation requests against the same requirement mean that either the requirement or the operation
+is wrong. That goes to SOP-25 as a proposed change, not into a growing register.
+
+
+13 · Quality control
+Second review: every high-risk approval, every PEP file and every S4.5 escalation receives a second
+review before the decision is communicated. The second reviewer is never the deciding analyst, and
+records the review in Kompass.
+
+Monthly re-review: every month, 10% of low-risk approvals and 20% of medium-risk approvals are
+re-reviewed against this work procedure. The selection is drawn randomly and the draw is recorded.
+
+Findings are graded in three levels. Observation: the documentation falls short of the standard, but
+the decision is sound. Finding: a step was not performed to standard. Critical: a decision is
+unsupported, or a mandatory step was skipped. A critical reopens the file and reaches the MLRO
+within 24 hours. A finding is corrected within the month. Observations feed the training programme.
+
+The monthly quality-control report shows counts by grade, themes, the distribution per step, and
+correction status. Two consecutive months of the same theme trigger a thematic review of every
+open file touching that step. Repeated findings of the same kind trigger a revision of this work
+procedure through SOP-25.
+
+
+14 · Special situations
+
+14.1 Additions to an existing customer group
+Where an applicant belongs to a group Mynta has already onboarded, group-level evidence may be
+reused, but only under two conditions: it meets C-1 age limits at the time of this application, and the
+
+
+
+Mynta AB | SOP-10 | v2.0 sample, plain register                                               Page 12 of 17
+ownership above the joining company is unchanged. "Unchanged" is verified against current registry
+evidence. It is never assumed from the group file. The scope for the new company is: full S1 to S3
+and S5 to S8, plus S4 from the joining company up to the first level that is already documented fresh
+in the group file. The joining company’s risk rating is at least the group’s, and higher where its own
+factors require it. The group file and the new file refer to each other.
+
+14.2 Re-application after decline, exit or abandonment
+The declined and abandoned registers are checked at S1. A re-application from a declined or risk-
+exited company, or from a company sharing UBOs with one, is owned by a senior analyst from intake.
+The prior file is retrieved and read before any new assessment starts. The new analysis must state,
+specifically, what has changed since the prior outcome. Where the prior outcome was an exit for risk,
+or a decline with SOP-20 relevance, the MLRO must approve before processing begins at all.
+Nothing about the prior assessment is revealed to the applicant at any point.
+
+14.3 Restructuring during onboarding
+Any change to the ownership structure during the process invalidates every S4 conclusion. S4 re-
+runs from S4.1, with fresh evidence for every affected level, and the decision clock resets. A structure
+that changes while under review, particularly toward spreading below the thresholds, is recorded as
+a red flag (Appendix F) and escalated, with the before-and-after structures documented side by side.
+
+14.4 Withdrawal and abandonment
+An applicant may withdraw at any time. The file closes as withdrawn and is kept per section 11. An
+application with an information request unanswered for 30 days closes as abandoned, after one
+recorded reminder. In both cases the analyst assesses whether the attempted relationship must be
+reported per SOP-20, exactly as for a decline, and the company is recorded in the abandoned
+register checked at S1. One pattern deserves attention: withdrawal right after a discrepancy was put
+to the customer. That is itself an indicator, and it is recorded for SOP-20 assessment.
+
+
+15 · Country handling
+A country connection means any of three things: the country of registration of any company in the
+ownership structure; the main place of operations; or the residence of any beneficial owner.
+Citizenship alone is not a connection. Residence is.
+
+The handling follows rule C-2, which places countries in categories. Standard category: normal
+handling. Elevated category: closer document checks, and mandatory verification of the ownership
+level that decides the outcome against a second source. High-risk category: SOP-13 always, and the
+MLRO decides, regardless of the SOP-14 score. Prohibited country, at any level and whenever
+discovered: decline, per the S1.3 handling, and GOV-03 is assessed where the country overlaps a
+sanctions programme. If a prohibited connection is discovered after approval, that is an SOP-22
+event trigger and a candidate for exit under SOP-23.
+
+
+16 · Handover to monitoring: baseline data
+Activation at S8.1 is blocked until every field below is written to the monitoring baseline. "Per product
+area" means separately for accounts and payments, card issuing, acquiring and the Crypto Service,
+as applicable to the products activated.
+
+
+
+Mynta AB | SOP-10 | v2.0 sample, plain register                                                Page 13 of 17
+FIELD                             CONTENT
+
+Expected volume                   Monthly value and count per product area, from S3.1
+
+Transaction size                  Average and maximum expected, per product area
+
+Countries                         Counterparty countries with expected shares, from S3.1 and S3.3
+
+Currencies                        Settlement and transaction currencies
+
+Counterparty types                From S3.3, including marketplaces and other PSPs
+
+Crypto share                      Expected Crypto Service share of total activity, from Appendix E
+
+Acquiring profile                 MCC, expected chargeback rate, seasonality notes
+
+Risk rating and flags             SOP-14 rating, C-9 triggers present, EDD reference where run
+
+Review date                       Per Appendix C intervals
+
+
+
+17 · Systems and recording
+Kompass, Mynta’s case management system, is the system of record for this work procedure. Every
+section 6 step has a Kompass checkpoint. The checkpoint is completed, with its evidence attached,
+before the next step opens. Evidence uploads carry source and date per 7.4. Screening results attach
+through the SOP-12 integration; a manual attachment is logged as an exception to the normal flow.
+Decisions are taken in the Kompass workflow, at the C-6 level. An approval given by email or chat
+message does not exist and is invalid. The audit trail cannot be edited. Corrections are made by
+adding a new entry, never by changing an old one. A registry lookup performed outside Kompass is
+documented by an export or a capture per 7.4, and filed the same day.
+
+
+18 · Training and competence
+An analyst completes the KYB module of the training programme before deciding files alone, and the
+annual refresher after that. The training register documents both. Senior-analyst authority requires at
+least two years of onboarding casework and the MLRO’s sign-off. Section 13 quality-control findings
+feed the training content through the MLRO report. If the same finding repeats for the same person,
+that person’s solo decision authority is paused until re-training is documented.
+
+
+Appendix A · Intake checklist
+#   ITEM                                                             STANDARD
+
+1   Onboarding application, complete and signed                      All fields; signatory verified in S2.2
+
+2   UBO declaration                                                  Template T-1; internally consistent
+
+3   Ownership chart drawn by the customer                            All levels down to natural persons
+
+4   Registry extract, applicant                                      C-1: under 6 months; section 5 source
+
+5   Share register or equivalent                                     Per the section 5 table
+
+6   Registry evidence per ownership level                            C-1 per level; section 7.2 standards
+
+
+
+
+Mynta AB | SOP-10 | v2.0 sample, plain register                                                               Page 14 of 17
+7    ID for signatories and, after S4, all UBOs                       Section 7.1
+
+8    Business description, purpose, expected activity                 S3.1 fields complete, per product area
+
+9    Acquiring only: MCC, website, processing history                 The C-7 check must be possible from the
+                                                                      material
+
+10 Crypto Service only: expected volumes and counterparty             Feeds the C-9 crypto trigger assessment
+   types
+
+
+
+Appendix B · Discrepancy memo, required content (mirrors T-2)
+    • The customer and file reference, and the step where the discrepancy arose.
+    • The recalculated ownership structure, with the evidence reference for every link.
+    • The specific discrepancy: which sources disagree, and on which fact.
+    • The requests needed to resolve it.
+    • The Bolagsverket assessment: is the reporting duty triggered, and what was done.
+    • The analyst’s assessment, kept separate from the facts.
+    • Sign-off fields for the senior analyst and, where applicable, the MLRO.
+
+
+Appendix C · Decision and review quick reference
+                                                                                                  PERIODIC
+RISK RATING                       DECIDES                            SECOND REVIEW
+                                                                                                  REVIEW
+
+Low                               Analyst                            10% monthly re-review        36 months
+
+Medium                            Senior analyst                     20% monthly re-review        24 months
+
+High                              MLRO                               100%, before                 12 months
+                                                                     communication
+
+Any PEP                           Authorised senior decision-        100%, before                 12 months
+                                  maker                              communication
+
+
+
+Appendix D · Acquiring checks within KYB
+These checks run inside S1 to S3 for acquiring applicants. The full underwriting standards live in
+SOP-15. This appendix summarises what the onboarding analyst does.
+#    CHECK                            STANDARD AND ACTION
+
+1 Website exists and                  Load the declared URL. Capture date-stamped evidence of the storefront,
+  trades                              product pages, pricing and checkout. A parked, empty or under-construction
+                                      site fails S1 completeness.
+
+2 Business match                      What the site sells must match the application and the declared MCC. A
+                                      mismatch is handled per S3.2. The analyst never corrects it silently.
+
+3 MCC against C-7                     Check the declared MCC against the prohibited and conditional list.
+                                      Conditional categories (licensed gambling, standard-category countries only)
+                                      require the licence in the file before S7.
+
+
+
+Mynta AB | SOP-10 | v2.0 sample, plain register                                                            Page 15 of 17
+4 Mandatory site content              Legal entity identification, contact details, terms, refund and delivery policies
+                                      must be present, and must name the applicant, not a different company.
+
+5 Transaction-laundering              Watch for: pricing that does not make sense for the goods; a product set
+  signals                             inconsistent with the volumes; checkout redirecting to third parties; site
+                                      content copied from unrelated merchants. Record each, and where present
+                                      treat it as a C-9 adverse indicator.
+
+6 Processing history                  Where the merchant has processed before: obtain statements or termination
+                                      letters. An undisclosed prior termination discovered later is an SOP-22 event
+                                      trigger.
+
+7 Chargeback                          Record the expected chargeback rate against the SOP-15 thresholds. Sectors
+  expectations                        with structurally high rates set the monitoring baseline accordingly.
+
+
+
+Appendix E · Crypto Service assessment within KYB
+For business customers requesting the Crypto Service through Mynta Digital AB, the analyst does
+four things. Record the expected crypto volumes and their share of total expected activity; the C-9
+trigger sits at 30%. Identify the customer’s own crypto touchpoints at declaration level: exchange
+accounts, self-hosted wallets, VASP counterparties. Confirm the requested tokens are on the C-8
+approved list. Note the boundary: wallet screening at transaction level and travel-rule handling are
+SOP-17 controls, not onboarding controls. Access is activated as a separate product flag at S8.1,
+never by default.
+
+
+Appendix F · Red-flag catalogue
+These are indicators the analyst records when observed. A recorded flag routes the file per its action
+column. It does not decide the outcome. "Escalate" means S4.5-style memo handling. "EDD" means
+the C-9 route to SOP-13.
+FLAG                                                           SEEN AT    ACTION
+
+Declaration names no UBO while the ownership                   S4.1       Recalculate first; discrepancy handling if
+structure is shallow and concentrated                                     the arithmetic disagrees
+
+Registry evidence too old only for the level that              S4.4       Request fresh evidence; do not proceed on
+decides the outcome                                                       the outdated level
+
+Ownership restructured shortly before the                      S4         Obtain the prior structure; assess the
+application                                                               purpose; EDD where unexplained
+
+Ownership structure runs through a country with no             S4.4       Alternative evidence per 7.2; C-9 complex-
+accessible registry                                                       structure trigger
+
+Nominee or bearer-share indications                            S4         Escalate; outside appetite unless resolved
+                                                                          with full transparency
+
+Signatory unconnected to the company in any                    S2.2       Authority evidence per 7.3, or the file is
+registry                                                                  incomplete
+
+Virtual office plus no operating address plus                  S2.4,      Memo per S3.2; escalate
+immediate high volumes                                         S3.2
+
+
+
+
+Mynta AB | SOP-10 | v2.0 sample, plain register                                                                  Page 16 of 17
+Expected volumes without history, funding or staff   S3.2    Memo per S3.2; escalate
+to support them
+
+Sector mismatch between the registry purpose         S2.3,   Clarify; an unresolved mismatch escalates
+code and the stated business                         S3.1
+
+Near-match dismissed on the customer’s own word      S5.2    Never accepted; the decision follows the
+only                                                         C-4 evidence rules
+
+Adverse media in designated categories on any        S5.3    EDD
+person in the structure
+
+Reluctance to provide source documents combined      Any     Record; escalate on repetition; never a
+with pressure for fast activation                            reason to skip a step
+
+Requested products do not match the business         S3.1    Clarify; an unresolved mismatch escalates
+(acquiring for a holding company)
+
+Crypto share dominating expected activity for a      S3.3,   EDD vithe C-9 crypto trigger
+non-crypto business                                  App E
+
+Prior acquiring termination discovered rather than   App D   Escalate; assess SOP-20 relevance
+disclosed
+
+Documents professionally prepared but inconsistent Any       Treat as a discrepancy; S4.5 handling
+on dates or names
+
+
+
+Appendix G · Worked example: complete versus defective file
+Applicant: Lagerkrans Interiör AB, a Swedish AB selling furniture online, applying for an account and
+acquiring. A complete file at S1 looks like this. The application is signed by the registered signatory.
+T-1 declares one UBO at 100%. The chart matches. The Bolagsverket e-extract is dated within C-1.
+The aktiebok names the UBO. The signatory-UBO is verified with BankID. The business description
+states expected volumes per product area. The MCC is 5712, with a live website passing Appendix D
+checks 1 to 5. The file proceeds to S2 the same day.
+
+Now the same file with three typical defects, and the required handling. First: the extract is 8 months
+old. The item fails C-1. Request fresh evidence, pause the clock, and do not begin the assessment
+(S1.2). Second: the aktiebok names two holders at 50% each, while T-1 declares one at 100%. That is
+a discrepancy on an ownership fact. S4.5 applies in full: memo per T-2, no proceeding, no declining,
+and no silent correction, even though the fix seems obvious. Third: expected acquiring volume of
+SEK 4m per month, with no trading history and a website created last month. That is not reasonable,
+and S3.2 applies. Document it and escalate with the file. Do not resolve it by taking the customer’s
+word.
+
+Each defect is handled by the step that owns it. Putting the requests into one message to the
+customer is fine. Deciding anything before the defects are resolved is not.
+
+
+
+
+Mynta AB | SOP-10 | v2.0 sample, plain register                                                  Page 17 of 17
+

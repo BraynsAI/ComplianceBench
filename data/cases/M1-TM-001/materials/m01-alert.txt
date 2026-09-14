@@ -1,0 +1,27 @@
+K OMPASS | ALERT                                                                   G ENERATED 2026-09-04 05:10
+
+
+
+Alert: R-XR-03 aggregate baseline deviation
+Alert ID                      ALR-2026-104227
+
+Rule / version                R-XR-03 v4
+
+Customer                      Emil Norrback (19970208-5511), consumer, risk class LOW
+
+Trigger                       Combined activity across rails over the trailing 10 days departs from the recorded
+                              baseline beyond the low-class deviation parameter. Individual rail rules not
+                              triggered in the window.
+
+Window                        2026-08-25 to 2026-09-03
+
+Attached                      Cross-rail ledger for the window; baseline extract; prior alert history; screening
+                              status
+
+Priority                      Standard (C-5)
+
+
+
+
+Mynta AB | Monitoring alert                                                                                Page 1 of 1
+

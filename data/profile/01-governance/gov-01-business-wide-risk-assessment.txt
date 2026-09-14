@@ -1,0 +1,920 @@
+GOV-01: Business-wide risk assessment
+Company                       Mynta AB
+
+Last approval date            2026-09-10
+
+Approved by                   Board
+
+Document type                 Assessment
+
+Document owner                MLRO
+
+Information class             Open internally, confidential externally
+
+
+
+Versioning
+DATE               VERSION    CHANGES                                                       BY
+
+2026-09-07         1.x        Earlier versions per the change notes in this document        Document owner
+
+2026-09-10         2.0        Rewritten in plain language. No rules changed.                Document owner
+
+FIELD                         VALUE
+
+Document ID                   GOV-01 (allmän riskbedömning)
+
+Data basis                    The Mynta master profile (2025 figures), monitoring and screening statistics,
+                              casework outcomes, the Swedish national risk assessment, the supranational risk
+                              assessment, FATF typology reports, the EBA risk factor guidelines
+
+Review                        Annual, board-approved; event triggers per section 15
+
+
+Contents
+#        SECTION
+
+1        Purpose, scope and legal basis
+
+2        Methodology
+
+3        Business and organisational profile
+
+4        Threat environment
+
+5        Product and service risk
+
+6        Customer risk
+
+7        Geographic risk
+
+8        Distribution and channel risk
+
+9        Transaction risk, including cross-product area
+
+10       Terrorist financing assessment
+
+11       Sanctions risk
+
+12       Controls inventory mapped to risks
+
+
+
+Mynta AB | GOV-01 | v2.0                                                                                Page 1 of 17
+13       Residual risk determination
+
+14       Conclusions binding the framework
+
+15       Governance, review and event triggers
+
+A-D      Appendices: scale definitions, typology catalogue, data tables, change history
+
+
+
+1 · Purpose, scope and legal basis
+This document is Mynta AB's business-wide assessment of how its products, services, customers,
+distribution channels, geographic exposure and transaction patterns can be used for money
+laundering and terrorist financing, and of the risks that follow for the institution. It is prepared under
+penningtvättslagen (2017:630) 2 kap 1 § and FFFS 2017:11, having regard to the Swedish national risk
+assessment, the Commission's supranational risk assessment and the EBA risk factor guidelines
+(EBA/GL/2021/02). It covers Mynta AB in its entirety, including the distribution of crypto services
+provided by Mynta Digital AB, whose own CASP obligations are assessed in that entity's parallel
+documentation; the exposure Mynta AB carries as distributor and fiat product area is assessed here.
+
+The assessment binds the rest of the FCP framework: GOV-02 to GOV-09 take their risk premises
+from it, SOP-14 risk scoring must reconcile customer-level classifications to it, and every procedure's
+controls exist to mitigate a risk identified here. Where an operational decision would contradict a
+conclusion in section 14, the conclusion prevails until this document is revised through its own
+governance. Residual risks are accepted through informed decisions recorded in section 13, within
+the risk appetite. Acceptance can cover a business exposure that is effectively managed; it never
+covers regulatory non-compliance, insufficient customer due diligence or ineffective controls. Risks
+shall not be understated to avoid acceptance decisions.
+
+
+2 · Methodology
+
+2.1 Structure
+Risk is assessed as inherent risk, before controls; controls are then identified per risk area with their
+owning documents; residual risk is the rating after controls. The unit of assessment is the risk area
+within each dimension (products, customers, geography, channels, transactions), with terrorist
+financing and sanctions assessed as parallel dimensions in sections 10 and 11 because their drivers
+differ from laundering.
+
+2.2 Rating scale
+RATING                       MEANING AT INHERENT LEVEL      MEANING AT RESIDUAL LEVEL
+
+Low                          Abuse is possible but          Remaining exposure is minor and routine controls
+                             unattractive or difficult;     suffice
+                             realistic scenarios are rare
+                             and of low value
+
+Medium                       Recognised typologies exist; Exposure remains but is detected or kept within
+                             the area offers usable but not limits by standard controls operating normally
+                             preferred infrastructure for
+                             abuse
+
+
+
+
+Mynta AB | GOV-01 | v2.0                                                                            Page 2 of 17
+High                       The area maps onto principal      Material exposure remains after controls;
+                           sector typologies; abuse is       acceptance requires the section 13 statement and
+                           attractive, scalable or hard to   enhanced control operation
+                           observe
+
+Very high                  The area is a primary target      Not operated as such: the activity is restricted,
+                           of current criminal method        kept within limits or exited until the residual can
+                           and offers speed, opacity or      be argued as high with the limiting measures in
+                           reach that controls only          place and verified. Categorical prohibitions are a
+                           partly offset                     separate instrument (GOV-04 and the C-7 list),
+                                                             not a point on this scale
+
+
+2.3 Rating discipline
+Ratings are argued from evidence, not asserted: each area's rating cites the typologies it maps onto,
+the canon data that sizes the exposure, and, where available, Mynta's own outcomes (alerts, reports,
+exits, confirmed fraud). Adding up within a dimension is worst-case: the dimension carries its highest
+residual area. A blended average would obscure the exposure this assessment is required to show.
+Cross-dimension interactions (a high-risk product sold through a high-risk channel to a high-risk
+segment) are assessed in section 9 and in the section 14 conclusions rather than multiplied
+mechanically.
+
+2.4 Data sources and their limits
+Quantitative inputs come from the 2025 figures in the master profile and from monitoring, screening
+and casework statistics; qualitative inputs from the national and supranational risk assessments,
+FATF and Nordic typology reporting, and supervisory communications. Known limits are stated where
+they matter: monitoring statistics measure what current rules detect, not what occurs; confirmed-
+fraud figures understate attempted fraud; and the Crypto Service's short history (distribution began
+2026) makes its internal statistics thin, which the ratings treat as grounds for caution. Because the
+national risk assessment 2024-2025 rates both the threat and the vulnerability of the e-money
+sector as high, and names the fiat-to-crypto bridge as particularly exposed, a low or medium rating
+in this document must rest on documented internal evidence, not on the absence of observed abuse.
+The methodology follows the proportionality the AMLA draft guidelines allow smaller institutions, in
+a more qualitative form, while recording that Mynta’s customer and volume numbers do not make it a
+non-complex institution.
+
+2.5 Governance of this assessment
+The MLRO owns the assessment and the analysis; the board approves it and any change to
+accepted residual risk. Section 15 sets the annual cycle and event triggers. Every revision states
+what changed and why in Appendix D, and material rating changes are traceable to evidence, not to
+convenience.
+
+
+3 · Business and organisational profile
+
+3.1 The institution
+Mynta AB is a Swedish e-money institution, authorised in 2018 and supervised by
+Finansinspektionen, headquartered in Stockholm with 118 employees. It provides e-money accounts
+
+
+
+Mynta AB | GOV-01 | v2.0                                                                                 Page 3 of 17
+with SEPA and domestic payments, consumer and corporate debit cards under a BIN sponsor
+arrangement, e-commerce merchant acquiring, and crypto on- and off-Crypto Service exposure
+through Mynta Digital AB, a MiCA-licensed CASP in the same group authorised in 2026, for which
+Mynta acts as distributor and fiat product area. Mynta handles no cash at any point, operates no
+branches, and onboards entirely remotely.
+
+3.2 Scale and activity
+MEASURE                    2025                                          ASSESSMENT RELEVANCE
+
+Processed volume           SEK 38.2bn total: accounts and payments Acquiring is a third of volume on a
+                           21.4, acquiring 11.9, issuing 3.6, crypto tenth of the customer count:
+                           Crypto Service 1.3                        concentration the product
+                                                                     assessment must reflect
+
+Customers                  152,400 consumers; 7,340 business, of         A retail-heavy book with a small,
+                           which 620 acquiring merchants; 18,900         higher-intensity merchant tail
+                           crypto-active consumers; 41 crypto-
+                           exposed business customers
+
+Onboarding                 Monthly: 3,900 consumer, 140 business,        Volume shapes the realistic depth of
+                           18 acquiring                                  manual review and the reliance on
+                                                                         SOP-driven consistency
+
+Monitoring                 2,150 TM alerts monthly; 5,400 screening      Alert volumes are an operational fact
+                           name hits, 97% dismissed at first line; 610   of the first order. If precision fails,
+                           periodic reviews                              either risk is missed or the analysts
+                                                                         are buried
+
+Outcomes                   118 SARs filed; 204 risk exits; 2 sanctions   The institution's own experience,
+                           true matches; 1,460 confirmed fraud           used throughout as calibration
+                           cases
+
+Safeguarding               Average safeguarded funds SEK 1,870m          Concentration and third-party
+                           at Norrbank AB                                dependence assessed in batch 2 and
+                                                                         GOV-05
+
+
+3.3 Geographic footprint
+Customers: 68% Sweden, 29% rest of EEA, 3% non-EEA. The direct footprint is thus Nordic-and-EEA
+retail; the meaningful non-EEA exposure arrives indirectly, through merchant ownership chains
+touching roughly 40 jurisdictions and through crypto counterparties, and is assessed in sections 7
+and 5.4 accordingly. Settlement is SEK and EUR dominant.
+
+3.4 Organisation and third parties
+The compliance function numbers 11: MLRO and deputy, six analysts, two onboarding specialists, one
+screening specialist, with quarterly MLRO reporting to the board. Material third parties: CardPartner
+Europe Ltd (BIN sponsor), Norrbank AB (safeguarding), a screening vendor and an identity vendor
+(role-described; governed under GOV-08), and the group affiliate Mynta Digital AB. The function's
+size relative to activity (2,150 alerts and 4,000-plus onboardings monthly against six analysts) is
+itself a risk fact. Control designs in this framework rely on procedure-driven consistency; extensive
+manual review is not available at this staffing and is not assumed.
+
+
+
+
+Mynta AB | GOV-01 | v2.0                                                                                Page 4 of 17
+Capacity. The function runs on six analysts plus the MLRO and deputy. The workload basis
+(onboarding volumes, alert rates, review cycles per Appendix C) is reviewed at each annual cycle;
+volumes exceeding the capacity plan are an event trigger under section 15. Responsibility allocation
+between Mynta AB and Mynta Digital AB follows PROG-01 section 6 and GOV-02 section 12,
+including group information sharing and cross-entity escalation.
+
+
+4 · Threat environment
+The threat picture relevant to a Swedish EMI of Mynta's shape, drawn from the national and
+supranational assessments, FATF typology work and Nordic enforcement experience, in the order
+they bear on Mynta:
+
+  • Transaction laundering through merchant acquiring. Miscoded or front merchants processing
+    payments for undisclosed activity, the sector's principal typology and the one supervisory action
+    most often cites against acquirers. Attractiveness scales with onboarding speed and weak
+    website-to-business verification, both of which Mynta's model must control by procedure rather
+    than by human volume.
+  • Mule networks across retail accounts. Recruited or synthetic account holders receiving and
+    forwarding fraud proceeds, increasingly fast under instant payments. The 2025 confirmed-fraud
+    count (1,460, mostly APP and card) shows the fraud pressure next door. Mule activity is the
+    laundering that follows it.
+  • Structuring and smurfing across product areas. Values kept under review thresholds, split across
+    accounts, cards and Crypto Service activity. A customer clean on each product area can structure
+    across them, which is why section 9 treats cross-product area visibility as a named risk area
+    rather than a control detail.
+  • Layering through crypto. Rapid conversion and onward movement through exchanges and self-
+    hosted wallets, with counterparty opacity that fiat product areas do not present. Mynta's
+    exposure is kept within limits by approved listing and volume caps but is structurally the fastest-
+    moving channel it touches.
+  • Ownership concealment in the business book. False or incomplete UBO declarations, layered
+    holdcos, nominee arrangements: the entry-point typology for every downstream abuse, and the
+    reason SOP-10's the adding up of ownership and discrepancy machinery carries the weight it
+    does.
+  • Terrorist financing. Low-value, high-speed flows to risk cross-border flows and crypto off-Crypto
+    Service, with weak pre-indicators; assessed in section 10 on its own drivers.
+
+The environment is dynamic: instant payments raise speed economy-wide, AMLR will reset parts of
+the control baseline in 2027, and criminal method migrates toward institution classes with weaker
+verification. The assessment therefore gives more weight to structural attractiveness than to last
+year's incident counts.
+
+
+5 · Product and service risk
+PRODUCT / SERVICE          ML INHERENT       TF INHERENT        RESIDUAL
+
+Accounts and payments      MEDIUM            MEDIUM             MEDIUM
+
+Card issuing               MEDIUM            LOW                MEDIUM
+
+
+
+
+Mynta AB | GOV-01 | v2.0                                                                       Page 5 of 17
+Merchant acquiring         HIGH             MEDIUM             HIGH
+
+Crypto distribution        VERY HIGH        HIGH               HIGH, kept within limits
+
+
+The inventory above is the complete product set at the granularity the ratings use; the subsections
+argue each rating, and terrorist financing is assessed separately per product here and in section 10.
+
+5.1 E-money accounts and payments
+Exposure. SEK 21.4bn of the 38.2bn processed; the default product for all 159,000-plus customers;
+SEPA reach across the EEA.
+
+Vulnerabilities and typologies. Mule receipt and forwarding; structuring under thresholds; rapid in-
+and-out flows inconsistent with stated profile; business accounts used as pass-throughs for
+undisclosed third-party activity. No cash placement exists anywhere in the product. The classic
+placement stage therefore does not exist here, and abuse concentrates in layering and transfers.
+
+Inherent rating: medium. The product offers usable laundering infrastructure with genuine speed and
+reach, but without the opacity or intensity of acquiring or crypto; recognised typologies exist and
+appear in Mynta's own alert flow at expected rates.
+
+Principal controls. SOP-10/11 onboarding with monitoring baselines per SOP-10 section 16; SOP-18
+rules on velocity, profile deviation and pass-through patterns; SOP-12 ongoing screening; SOP-22
+event-driven review.
+
+5.2 Card issuing
+Exposure. 96,000 active cards; SEK 3.6bn spend; ATM access and cross-border acceptance vithe
+scheme.
+
+Vulnerabilities and typologies. Cash extraction through ATM withdrawal as a quasi-placement route;
+spend layering across borders; corporate cards drawing on business accounts as a secondary
+extraction path; card credentials as the monetisation point of account-takeover fraud.
+
+Inherent rating: medium. The cash-extraction path is the most dangerous part, and it is kept within
+limits by limits. Otherwise the product area carries the same risks as accounts, on a narrower
+surface.
+
+Principal controls. SOP-16 limits by risk class and ATM caps; SOP-18 card-product area rules
+including extraction-pattern detection; issuing activation only per SOP-10/11 outcomes.
+
+5.3 Merchant acquiring
+Exposure. SEK 11.9bn through 620 merchants: a third of institutional volume through 0.4% of
+customers, e-commerce only.
+
+Vulnerabilities and typologies. Transaction laundering by front or miscoded merchants; undisclosed
+the adding up of ownership (a merchant processing for others); sudden-volume merchants with
+fabricated trading history; chargeback-pattern abuse; collusive refund schemes; laundering of a
+merchant's own criminal proceeds through inflated legitimate-looking sales. The concentration of
+value in few counterparties makes each underwriting error material.
+
+
+
+
+Mynta AB | GOV-01 | v2.0                                                                      Page 6 of 17
+Inherent rating: high. This is the sector's principal typology mapped directly onto Mynta's second-
+largest product area, It is attractive to abusers for the same properties that make the product
+commercial: fast onboarding, remote relationships, and volume that scales.
+
+Principal controls. SOP-15 underwriting with C-7 MCC governance and the SOP-10 Appendix D
+checks; chargeback and refund monitoring per SOP-18's acquiring rules; periodic review at the
+section-appropriate intervals; GOV-04 prohibitions with no exception path.
+
+5.4 Crypto exposure via Mynta Digital AB
+Exposure. SEK 1.3bn Crypto Service volume; 18,900 crypto-active consumers and 41 business
+customers; distribution began 2026, so internal statistics are thin.
+
+Vulnerabilities and typologies. Layering speed and finality; counterparty opacity beyond the first
+hop; off-Crypto Service use of proceeds acquired elsewhere; sanctioned-wallet exposure; and the
+structural pattern of fiat product areas being used to cash out abuse that happened entirely on-
+ownership structure. This puts Mynta at the cash-out point, without visibility of what happened
+upstream.
+
+Inherent rating: very high. The product area combines the highest speed, the widest reach and the
+least counterparty transparency of anything Mynta touches. Criminal migration toward crypto off-
+Crypto Service is the clearest current trend in the threat picture. The thin internal history is treated
+as grounds for caution.
+
+Principal controls. C-8 approved listing with GOV-09 gate for additions; SOP-17 wallet screening,
+travel-rule data handling and VASP counterparty due diligence; mandatory EDD per C-9 above the
+30% activity trigger; GOV-04 volume caps; the section 13 requirement that this product area is
+operated only while limited to high, with the limits re-tested at every review and the activity
+restricted or suspended on a breach.
+
+
+6 · Customer risk
+Segments are assessed on who they are, what they can do with the products, and what Mynta can
+actually see of them. Counts are 2025 master-profile figures.
+SEGMENT                    SIZE       INHERENT ASSESSMENT
+
+Consumers, domestic        152,400    LOW        Mass retail, low balances, salary-and-spending profiles.
+and EEA                                          Principal abuse is mule participation, assessed as a
+                                                 transaction-and-monitoring problem (section 9) more
+                                                 than an onboarding one; the segment's scale makes per-
+                                                 customer review impossible and rule quality decisive.
+
+New and rapidly            ~3,900/    MEDIUM     Mule recruitment and synthetic identity concentrate in
+activated accounts         month                 the first weeks of account life; the sub-segment carries
+                                                 elevated risk until behaviour history exists, reflected in
+                                                 SOP-18's new-account rule set rather than a separate
+                                                 onboarding standard.
+
+SME merchants and          6,720      MEDIUM     Simple Swedish and EEA structures, verifiable registries,
+business accounts                                moderate volumes. Risk arrives with cash-intensity of
+                                                 the underlying trade, pass-through use, and undisclosed
+                                                 changes of ownership between reviews.
+
+
+
+Mynta AB | GOV-01 | v2.0                                                                            Page 7 of 17
+Acquiring merchants        620         HIGH     The transaction-laundering counterparties of section 5.3,
+                                                holding a third of institutional volume. Each file is
+                                                individually material; underwriting and review quality
+                                                dominate the risk.
+
+Complex and cross-         subset of   HIGH     Multi-layer chains, foreign holdcos, occasional legal
+border structures          business             arrangements: this is where the ownership-concealment
+                           book                 typology lives. C-3 examination of each level, SOP-10
+                                                the adding up of ownership and C-9 EDD routing exist
+                                                for this segment.
+
+Crypto-active              18,900      MEDIUM   Retail Crypto Service use at modest values; risk is
+consumers                                       behavioural (share of activity, counterparty wallets)
+                                                rather than the person, and routes through the C-9 30%
+                                                trigger and SOP-17.
+
+Crypto-exposed             41          HIGH     Small count, outsized reach: businesses moving
+business customers                              meaningful value through the Crypto Service combine
+                                                section 5.4's product area risk with business-account
+                                                opacity; all sit in EDD by construction.
+
+PEP-linked relationships small         HIGH     High by law and by design: MLRO decisions, source-of-
+                                                wealth measures, enhanced monitoring per SOP-10
+                                                section 8 and SOP-13.
+
+
+No customer segment is assessed very high inherently; the very-high combinations (for example a
+complex-structure acquiring merchant with dominant crypto activity) arise as interactions and are
+governed by the section 14 conclusions: the highest applicable route wins, and GOV-04 prohibits the
+combinations Mynta will not hold.
+
+
+7 · Geographic risk
+Direct footprint. 68% Sweden, 29% rest-of-EEA, 3% non-EEA by customer count; SEK and EUR
+dominant settlement. On its own this is a low-to-medium exposure: strong-registry jurisdictions, EU
+supervisory baseline, no branch or agent presence anywhere.
+
+Indirect exposure, where the real risk sits. Merchant ownership chains touch roughly 40
+jurisdictions, including registry-weak and secrecy-favourable ones; crypto counterparties are
+without geographic limits by construction; and payment cross-border flows reach wherever SEPA
+and card product areas reach. The geographic risk of a Stockholm-registered merchant can therefore
+be materially the high-risk category while formally the standard category. That is why connection
+(SOP-10 section 15) is defined through the ownership structure and the beneficial owners, not
+through the registration line alone.
+
+How it works in practice. Rule C-2 categories govern: the standard category standard handling; the
+elevated category heightened scrutiny and confirmation by a second source; the high-risk category
+mandatory EDD and MLRO decision; prohibited jurisdictions decline at any layer, whenever
+discovered. The category list is maintained under GOV-03 and C-2 from the EU high-risk-third-
+country list, FATF listings and Mynta's own additions, reviewed at least quarterly.
+
+
+
+
+Mynta AB | GOV-01 | v2.0                                                                         Page 8 of 17
+Inherent rating: high, carried by the indirect exposure; the direct footprint alone would rate medium.
+Principal controls: C-2 tiering, SOP-10 ownership-structure evidence standards, SOP-13 EDD on the
+high-risk category connection, GOV-03 screening at transaction and relationship level.
+
+
+8 · Distribution and channel risk
+Mynta has exactly one distribution channel: fully remote digital onboarding, direct, with no branches,
+no agents, no intermediated distribution and no face-to-face fallback. Removed risks: agent
+misconduct, intermediary KYC failure, and the classic distribution-ownership structure opacity the
+EBA guidelines flag. Concentrated risks: impersonation and synthetic identity at scale, document
+forgery against remote verification, and account-opening automation abuse (scripted applications
+probing the funnel).
+
+Verification strength differs by flow, by design: BankID for Swedish residents is a high-assurance
+factor covering the large majority of consumer onboarding; document-plus-liveness for non-
+Swedish applicants is materially weaker against determined forgery, and the assessment treats the
+non-BankID flow as the channel's weakest point, mitigated by SOP-11's escalation of repeated
+verification failure and SOP-18's new-account rules. The crypto Crypto Service adds no separate
+channel: access is a product flag on an already-onboarded relationship (SOP-10 Appendix E).
+
+Inherent rating: high (non-face-to-face at full scale is a listed enhanced-risk factor and the fraud
+pressure is real: 1,460 confirmed cases in 2025). Residual: medium, resting on e-ID strength in the
+dominant flow, layered verification standards in SOP-10/11 section 7, and monitoring designed around
+account age.
+
+
+9 · Transaction risk, including cross-product area
+Transaction risk is assessed as its own dimension because Mynta's four product areas multiply
+paths: value can enter on one product area, move on a second and exit on a third, and each product
+area's rules, viewed alone, can read the pattern as normal. Named risk areas:
+
+  • Velocity and pass-through. Rapid in-and-out flows inconsistent with the S3 baseline; the
+    instant-payments environment shortens reaction time economy-wide and raises the value of pre-
+    set rules over manual review.
+  • Structuring. Values held under review thresholds, split across accounts, cards and Crypto
+    Service; twin behaviour across related customers.
+  • Cross-product area structuring. The principal exposure of Mynta's shape: card loads feeding
+    Crypto Service purchases, acquiring settlements funding onward transfers, each leg
+    unremarkable per product area. The control requirement is architectural: SOP-18 must total a
+    customer's activity across every product area in one view, and rules must run on the total; per-
+    product area-only monitoring is treated in this assessment as a control failure, not a design
+    choice.
+  • Baseline deviation. Activity departing from the recorded S3 profile in volume, geography,
+    counterparty type or crypto share; the SOP-10 section 16 handover exists so this comparison is
+    always possible.
+
+Inherent rating: high. Residual: high, accepted per section 13: monitoring limits and detects this
+exposure, but cannot remove what four fast product areas create, and section 13 accepts that
+plainly. Principal controls: SOP-18 cross-product arethe adding up of ownership and rule sets per
+
+
+Mynta AB | GOV-01 | v2.0                                                                      Page 9 of 17
+product area and per account age, SOP-19 escalation with C-5 SLAs, SOP-22 event-driven review,
+C-9 routing on crypto share.
+
+
+10 · Terrorist financing
+Assessed separately because the drivers are different: values are small, speed matters more than
+concealment, and warning signs before the fact are weak. Detection therefore leans on screening,
+cross-border flows and behavioural anomaly, not on value thresholds.
+
+Exposure by product. Accounts and cards: rapid low-value transfers and spend in or toward risk
+cross-border flows; the card product area's cross-border acceptance is the most exposed part.
+Acquiring: low relevance, with the residual scenario being a front merchant generating funds. Crypto
+Crypto Service: the highest-attention path, off-ramping or acquiring value with speed and reach;
+approved listing limits but does not remove it. Mynta's NPO segment is negligible in count and is
+handled at onboarding rather than carrying a standing segment assessment.
+
+Controls. GOV-03 list screening at customer and transaction level with no value-threshold
+exemptions; SOP-18 cross-border flow rules maintained against the C-2 categories and current
+threat reporting; SOP-17 wallet screening on the Crypto Service; SOP-20 recognising TF indicators
+as reportable in their own right, with the same tipping prohibition.
+
+Inherent rating: medium (Mynta's profile offers usable but not preferred TF infrastructure; no cash,
+no informal-value channels, thin cross-border flow presence). Residual: medium, with one caveat
+stated openly: a TF detection failure is rare but severe. Section 15 reflects this by making relevant
+external events an out-of-cycle review trigger.
+
+
+11 · Sanctions risk
+Assessed as its own dimension because the obligation is absolute and strict-liability in character: a
+single missed true match is a breach regardless of intent, and the 2025 experience (2 true matches,
+both frozen and reported per SOP-21) shows the exposure is present in the book.
+
+Exposure paths. Direct: a listed person as customer, signatory or beneficial owner. Indirect, the
+harder problem: ownership and control by listed persons under the 50% rule, reachable only through
+the SOP-10 ownership structure work, since a clean front with a sanctioned total owner passes
+name screening alone. Transactional: counterparties of payments and, on the Crypto Service, wallet
+exposure to listed or blocked addresses. Circumvention: the post-2022 environment's
+professionalised evasion through layered structures and third countries, This raises the value of the
+elevated category confirmation by a second source, and lowers the weight given to chains that are
+documented but not confirmed by a second source.
+
+List regime. EU and UN lists are binding baseline; the OFAC position is risk-based per GOV-03:
+limited direct USD business narrows the connection, but scheme, sponsor and correspondent
+expectations mean OFAC cannot simply be ignored. Designated OFAC programmes are therefore
+screened with the decision on hits per C-4 and the stance is documented in GOV-03 rather than
+improvised per case.
+
+Inherent rating: high (environment-driven). Residual: medium: screening coverage on identified
+persons per SOP-10 S5.1's identified-not-declared rule, C-4 the decision on hits discipline, immediate
+SOP-21 freeze-and-report, and ownership-structure evidence standards that make 50%-rule
+
+
+
+Mynta AB | GOV-01 | v2.0                                                                      Page 10 of 17
+exposure discoverable. The residual acceptance notes its dependency: it holds only while S4
+ownership structure quality holds, which section 14 turns into a binding conclusion.
+
+
+12 · Controls inventory mapped to risks
+The controls this assessment relies on, each traceable to its owning document. Type: P preventive, D
+detective. Operating evidence names where proof of operation lives, because a control without
+evidence is an assertion.
+CONTROL                     RISK AREAS SERVED           OWNER DOC      TYPE OPERATING EVIDENCE
+
+KYB ownership-              Ownership concealment;      SOP-10         P     Kompass files; S4
+structure evidence and      sanctions 50% rule;                              computation tables; QC re-
+the adding up of            complex structures                               review of a random selection
+ownership
+
+KYC identity verification   Synthetic identity; mule    SOP-11         P     Vendor logs; verification
+                            onboarding                                       records
+
+Screening on identified     Sanctions; PEP; adverse     SOP-12, C-4    P/D   Screening records per
+persons                     media                                            person; the decision on hits
+                                                                             rationales
+
+Risk classification         All customer risk           SOP-14         P     S6.3 arithmetic records;
+reconciled to this                                                           override register
+document
+
+EDD on C-9 triggers         PEP; the high-risk          SOP-13, C-9    P     EDD reports; MLRO decisions
+                            category; complex; crypto
+                            share
+
+Acquiring underwriting      Transaction laundering      SOP-15, C-7    P     Underwriting files; App D
+and C-7 governance                                                           evidence captures
+
+Cross-product area          Structuring; velocity;      SOP-18         D     Rule inventory; alert logs;
+transaction monitoring      baseline deviation; TF                           tuning records
+                            cross-border flows
+
+Alert investigation with    All detective outputs       SOP-19, C-5    D     Case timestamps; SLA
+SLAs                                                                         reporting
+
+SAR drafting and filing     Reporting obligation;       SOP-20         D     goAML receipts; internal SAR
+                            tipping prohibition                              register
+
+Freeze and report on        Sanctions                   SOP-21         P/D   Freeze records; FI and
+true matches                                                                 Finanspolisen filings
+
+Periodic and event-         Profile drift; ownership    SOP-22         D     Review schedule adherence;
+driven review               change                                           event log
+
+Wallet screening and        Crypto layering;            SOP-17         P/D   Screening logs; TFR data
+travel-rule handling        sanctioned wallets                               records
+
+Approved list and           Crypto product area         C-8, GOV-04,   P     Approved list register; cap
+volume caps on the          limiting                    GOV-09               monitoring
+Crypto Service
+
+
+
+Mynta AB | GOV-01 | v2.0                                                                            Page 11 of 17
+Prohibitions without       Appetite enforcement            GOV-04, C-6      P     Declined register; absence of
+exception path                                                                    exception records
+
+Deviation register and     Control integrity itself        SOP-10 §12-13 D        Deviation register; monthly
+QC programme                                               pattern,               QC reports
+                                                           GOV-02
+
+
+Assurance results relied on. 2025 compliance testing: all planned tests executed; two findings
+(alert-aging documentation, delta-screening evidence retention), both closed. Internal audit 2025:
+one medium finding on override documentation, closed through the C-5 register change. FIU
+reporting statistics per Appendix C. No open supervisory findings. These results are inputs to the
+residual ratings, not substitutes for the controls evidence in this section.
+
+
+13 · Residual risk determination
+Residual ratings after the section 12 controls, with acceptance stated explicitly. Dimension ratings
+are worst-case per section 2.3. Acceptance in this table means an informed decision on a managed
+business exposure within the risk appetite; it does not and cannot mean acceptance of non-
+compliance, insufficient due diligence or controls known to be ineffective. Overall rating: inherent
+HIGH, residual HIGH, driven by the four high-residual areas below.
+AREA                       INHERENT     RESIDUAL ACCEPTANCE
+
+Accounts and payments      MEDIUM       MEDIUM        Accepted; standard operation
+
+Card issuing               MEDIUM       MEDIUM        Accepted; standard operation
+
+Merchant acquiring         HIGH         HIGH          Accepted by informed decision: underwriting and review
+                                                      bound but cannot remove the sector typology; no way
+                                                      around it below SOP-15 standards
+
+Crypto exposure            VERY HIGH HIGH             Operated as high only while kept within limits: approved
+                                                      list, caps, mandatory EDD; a limiting failure returns the
+                                                      product area to very high, restricts or suspends the
+                                                      affected activity, and section 2.2 applies
+
+Customers: complex         HIGH         HIGH          Accepted by informed decision; C-3, EDD and decision
+structures                                            authority per C1 as compensating depth
+
+Customers: other           MEDIUM       MEDIUM        Accepted; new-account sub-segment carried by SOP-18
+segments                                              rule sets
+
+Geography                  HIGH         MEDIUM        Accepted; depends on ownership-structure evidence
+                                                      quality per section 11's dependency note
+
+Channel                    HIGH         MEDIUM        Accepted; non-BankID flow named as the soft edge and
+                                                      monitored accordingly
+
+Transactions, cross-       HIGH         HIGH          Accepted by informed decision; the adding up of
+product area                                          ownership architecture is a standing condition of
+                                                      acceptance
+
+Terrorist financing        MEDIUM       MEDIUM        Accepted with the low-frequency, high-severity caveat
+                                                      and its review trigger
+
+
+
+
+Mynta AB | GOV-01 | v2.0                                                                                  Page 12 of 17
+Sanctions                  HIGH       MEDIUM    Accepted; conditional on S4 ownership structure quality,
+                                                per conclusion 4
+
+
+Accepted high-residual areas, restated for the record: merchant acquiring, crypto exposure as kept
+within limits, complex-structure customers, cross-product area transaction risk. Nothing operates at
+very-high residual; the Crypto Service's status is high only while its limits hold.
+
+The acceptance decisions above operate inside the risk appetite, metrics and thresholds set in
+GOV-04 and the values in REG-C; the full scoring, weighting, the adding up of ownership and
+override design is SOP-14, which reconciles to this document.
+
+
+14 · Conclusions binding the framework
+These conclusions bind every procedure and every individual decision until this document is revised
+through section 15. Contradicting them operationally is a deviation requiring the GOV-02 incident
+treatment.
+
+  • C1. Complex structures and any high-risk-category connection always route through SOP-13 EDD
+    and are decided at MLRO level or, where the governance framework so designates, by a risk
+    committee; no score, workload or commercial reason overrides the route.
+  • C2. Acquiring underwriting standards admit no deviation: SOP-15 and C-7, with the underwriting
+    requirements and the prohibited list clearly defined, apply in full and consistently to every
+    merchant, and the prohibited list has no exception path at any level.
+  • C3. Crypto exposure operates only inside its limits: C-8 approved list, GOV-04 caps, mandatory
+    EDD above the C-9 trigger; a limit breached restricts or suspends the affected activity until
+    restored; growth does not resume before that.
+  • C4. Sanctions residual is conditional on the quality of ownership and control data: S4 evidence
+    standards are a sanctions control, not only a KYB control, and degrade together. A material
+    weakness triggers correction and reassessment of the residual rating.
+  • C5. Monitoring assesses activity across product areas as a whole; product area-specific
+    monitoring is acceptable only where the interactions between product areas are also assessed.
+    Activation without the section 16 baseline is prohibited.
+  • C6. Screening runs on the defined population: the customer, beneficial owners identified under
+    SOP-10 S4, representatives, directors and the other persons the routines designate. Identified
+    persons, not declared ones, at onboarding and ongoing.
+  • C7. Combinations of risk factors are assessed jointly, not by inheriting the highest individual
+    rating. A relationship whose joint residual lands at very high is onboarded or retained only where
+    the section 13 limiting requirements are met; categorical prohibitions follow GOV-04 and C-7, not
+    this scale.
+  • C8. Risk classifications reconcile to this document; overrides are MLRO-approved and registered,
+    and systematic override pressure triggers reassessment of this document, not quiet drift in the
+    scoring model.
+  • C9. The data limits in 2.4 are a standing constraint: monitoring statistics are treated as partial
+    evidence, and typology change routes through SOP-25 into rules and, where material, into this
+    assessment out of cycle.
+
+
+
+
+Mynta AB | GOV-01 | v2.0                                                                        Page 13 of 17
+  • C10. Board approval is required for this assessment and its revisions, for the risk appetite, and for
+    material changes to the overall risk profile. Product and product area approvals follow GOV-09;
+    changes to these conclusions follow section 15.
+
+
+15 · Governance, review and event triggers
+Cycle. Annual review owned by the MLRO: data refresh from the canon sources, rating re-argument,
+controls-evidence check against section 12, board approval of the result. The review calendar places
+data cut-off, drafting, challenge and approval so the approved version is never older than 15 months
+at any point.
+
+Event triggers for out-of-cycle review, in whole or per section: a new product, product area, token or
+cross-border flow (GOV-09); a supervisory finding or communicated expectation; a material change
+in the national or supranational assessment, the EU high-risk list or FATF listings; a sanctions-regime
+shift material to the book; an internally observed typology not reflected here; a control found
+inoperative in QC or audit; and the AMLR application date, which triggers a full re-baselining through
+SOP-25 ahead of July 2027.
+
+Versioning and dissemination. Versions and changes per Appendix D; superseded versions retained.
+The approved document is read-and-attested by the compliance function and the accountable
+product owners; procedures citing it reference the version they were aligned to, and SOP-25 tracks
+realignment when this document moves.
+
+
+
+
+Mynta AB | GOV-01 | v2.0                                                                        Page 14 of 17
+Appendix A · Rating scale, extended criteria
+RATING                     LIKELIHOOD ANCHOR              IMPACT ANCHOR             WORKED MEANING
+
+Low                        Scenario reasonable but        Contained value;       Abuse requires effort
+                           rarely observed in sector      single-customer scope; disproportionate to yield
+                           reporting or own data          routine correction
+
+Medium                     Recognised typologies;         Meaningful value or       The area works for
+                           periodic appearance in own     multi-customer scope;     abuse but better
+                           alerts and casework            managed correction        options exist elsewhere
+
+High                       Principal sector typologies;   Material value,           The area is a realistic
+                           persistent presence in own     supervisory relevance,    first choice for capable
+                           outcomes or clear structural   potential reporting       actors
+                           attractiveness                 failures
+
+Very high                  Primary current criminal       Severe: large value,      Operating without limits
+                           method; speed or opacity       systemic control          could not be defended
+                           outpacing controls             bypass, licence-level
+                                                          consequence
+
+
+
+Appendix B · Typology catalogue
+The recurring patterns this assessment rates against, with the indicators Mynta's controls watch. The
+catalogue calibrates rules and training; it is illustrative, not exhaustive.
+                           PRODUCT
+TYPOLOGY                                  MECHANICS               PRIMARY INDICATORS         CONTROLS
+                           AREAS
+
+Transaction laundering     Acquiring      Front or miscoded       Product-price           SOP-15; App D
+                                          merchant processes      imreasonable; traffic-  checks; SOP-18
+                                          payments for            sales mismatch;         acquiring rules
+                                          undisclosed activity    checkout redirects; MCC
+                                                                  drift
+
+Undisclosed the adding     Acquiring      Merchant processes Descriptor variety;             SOP-15; SOP-18;
+up of ownership                           for third parties as if settlement fan-out;        SOP-22
+                                          own sales               refund asymmetries
+
+Mule networks              Accounts,      Recruited or            New-account inbound        SOP-11; SOP-18
+                           cards          synthetic holders       bursts; immediate          new-account
+                                          receive and forward     onward transfer; shared    rules; fraud loop
+                                          fraud proceeds          devices or
+                                                                  counterparties
+
+Structuring                All            Values kept under       Clustering under limits;   SOP-18 total
+                                          thresholds, split       round-amount cadence;      rules
+                                          across time and         twin behaviour across
+                                          product areas           customers
+
+Cross-product area         All four       Entry, movement         Total-view anomalies       SOP-18 cross-
+layering                                  and exit on different   invisible per product      product arethe
+                                          product areas to                                   adding up of
+
+
+
+Mynta AB | GOV-01 | v2.0                                                                             Page 15 of 17
+                                           defeat per-product      area; Crypto Service        ownership; C-9
+                                           area views              share spikes                routing
+
+Pass-through accounts      Accounts        Business account     In-out symmetry;               S3 baseline;
+                                           forwards third-party counterparty breadth;          SOP-18; SOP-22
+                                           flows unrelated to   margin absence
+                                           stated trade
+
+Ownership concealment      Onboarding      False declarations,     Declaration-registry        SOP-10 S4; C-3;
+                                           layered holdcos,        mismatch; restructures      T-2 machinery
+                                           nominees hide the       under review; secrecy-
+                                           controller              jurisdiction layers
+
+Crypto off-ramping         Crypto          Proceeds acquired       Wallet-screening hits;       SOP-17; C-8;
+                           Service         on-ownership            cluster proximity to illicit C-9; SOP-13
+                                           structure converted     sources; Crypto Service-
+                                           to fiat vian approved   dominant profiles
+                                           listed tokens
+
+ATM extraction             Cards           Layered funds           Limit-riding withdrawals; SOP-16 caps;
+                                           cashed out through      geographic dispersion;    SOP-18 card
+                                           withdrawal patterns     night-hour cadence        rules
+
+Refund and chargeback      Acquiring,      Collusive refunds       Refund ratios;              SOP-15
+abuse                      cards           move value;             counterparty overlap;       thresholds;
+                                           chargeback              chargeback reason           SOP-18
+                                           patterns mask sales     codes
+                                           quality
+
+TF micro-flows             Accounts,       Small, fast transfers Cross-border flow hits;       GOV-03; SOP-18
+                           cards, Crypto   toward risk cross-    velocity at low value; list   cross-border
+                           Service         border flows or off- adjacency                      flow rules;
+                                           Crypto Service                                      SOP-17
+
+Sanctions circumvention Onboarding,        Layered ownership       50%-rule adds up; the       SOP-10 S4;
+                        payments           and third-country       elevated category           SOP-12;
+                                           routing evade list      chains without              GOV-03;
+                                           matching                confirmation by a           SOP-21
+                                                                   second source; renamed
+                                                                   counterparties
+
+
+
+Appendix C · Data tables
+2025 master-profile figures relied on above; the source of record is mynta-profile.yaml, which
+prevails on any divergence.
+SERIES                     VALUES
+
+Volumes (SEK bn)           Total 38.2 · accounts and payments 21.4 · acquiring 11.9 · issuing 3.6 · Crypto
+                           Service 1.3
+
+Customers                  Consumers 152,400 · business 7,340 · acquiring merchants 620 · crypto-active
+                           consumers 18,900 · crypto-exposed business 41
+
+Monthly activity
+
+
+
+Mynta AB | GOV-01 | v2.0                                                                               Page 16 of 17
+                             Onboardings: consumer 3,900, business 140, acquiring 18 · TM alerts 2,150 ·
+                             screening hits 5,400 (97% L1-dismissed) · periodic reviews 610
+
+Outcomes 2025                SARs 118 · risk exits 204 · sanctions true matches 2 · confirmed fraud 1,460
+
+Structure reach              UBO-ownership structure jurisdictions touched ~40 · customer geography
+                             68/29/3 SE/EEA/non-EEA
+
+Safeguarding                 Average safeguarded funds SEK 1,870m at Norrbank AB
+
+
+
+Appendix D · Source register
+SOURCE                       VERSION / DATE                          REFLECTED IN
+
+National risk          2024-2025                                     Sections 2.3, 4, 5; rating caution rule
+assessment
+(Polismyndigheten /
+samordningsfunktionen)
+
+EU supranational risk        Latest published                        Sections 4, 7
+assessment
+
+FFFS 2017:11 and             In force                                Sections 1, 12; GOV-02 duties
+penningtvättslagen
+
+FATF and Nordic              Rolling                                 Section 4, Appendix B
+typology reporting
+
+Internal MI: monitoring,     2025 full year, per master profile      Appendix C; sections 5, 9
+screening, casework
+
+Assurance results            2025                                    Section 12
+(testing, audit, FIU
+statistics)
+
+
+
+Appendix E · Change history
+v1.2, 2026-09-09: acceptance wording revised to informed-decision standard; very-high handling
+aligned to practice; conclusions C1 to C10 revised per legal and compliance review; product ML/TF
+split, capacity note, assurance results and source register added. Board approval of this revision
+recorded in the board minutes per the section 15 cycle. Earlier: v1.1 section renumbering; v1.0 initial
+approval, board minutes 2026-02.
+VERSION DATE               CHANGE                                                        APPROVED
+
+0.1         2026-09-06 Skeleton for structural ruling                                    Structure approved
+                                                                                         (Anilla)
+
+1.0         2026-09-07 Complete assessment: sections 1 to 15, appendices A to D,         Board
+                       canon-based data
+
+
+
+
+Mynta AB | GOV-01 | v2.0                                                                                Page 17 of 17
+

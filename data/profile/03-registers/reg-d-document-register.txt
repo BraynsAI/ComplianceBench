@@ -1,0 +1,159 @@
+REG-D: Document register (styrdokumentförteckning)
+Internal shelf additions: e-money and payment operations procedures; safeguarding and
+reconciliation procedure; customer terms, disclosures and redemption rules; and the cross-border,
+passporting, agent and distributor framework.
+
+Company                          Mynta AB
+
+Last approval date               2026-09-10
+
+Approved by                      MLRO
+
+Document type                    Register
+
+Document owner                   MLRO
+
+Information class                Open internally, confidential externally
+
+
+
+Versioning
+DATE               VERSION       CHANGES                                                      BY
+
+2026-09-07         1.x           Earlier versions per the change notes in this document       Document owner
+
+2026-09-10         2.0           Rewritten in plain language. No rules changed.               Document owner
+
+
+The institution's governing-document shelf. Status PUBLISHED means the document is included in
+the open benchmark pack; INTERNAL means it exists in the institution's universe, is referenced by
+published documents, and is not part of the open pack. Internal documents are maintained in the
+institution's document system with the same version discipline. Legal bases are recorded at
+instrument level in this register; provision-level mapping lives in the internal legal register.
+
+Language: English is governing for the published pack. Swedish originals of governing documents
+are maintained in-universe per Swedish supervisory practice; where a case supplies Swedish source
+material, the English framework governs interpretation.
+
+
+Financial crime prevention framework (published)
+ID                       TITLE                                              CATEGORY      OWNER      STATUS
+
+PROG-01                  Programme of operations                            Foundation CEO / board PUBLISHED
+
+GOV-01                   Business-wide risk assessment                      1             MLRO /     PUBLISHED
+                                                                                          board
+
+GOV-01A                  Sanctions risk assessment                          1             MLRO /     PUBLISHED
+                                                                                          board
+
+GOV-02                   AML/CTF policy                                     1             Board      PUBLISHED
+
+GOV-03                   Sanctions policy                                   1             Board      PUBLISHED
+
+GOV-04                   Customer risk appetite                             1             Board      PUBLISHED
+
+SOP-10 to SOP-25                                                            2                        PUBLISHED
+
+
+
+
+Mynta AB | REG-D Document register | v2.0                                                               Page 1 of 3
+                        Operational routines and instructions (KYB, KYC,                     MLRO /
+                        screening, EDD, scoring, monitoring, alerts,                         named
+                        reporting, regulatory change)                                        owners
+
+REG-C                   Rules and registers                                     Register     MLRO        PUBLISHED
+
+REG-D                   This register                                           Register     MLRO        PUBLISHED
+
+T-1 to T-6              Templates                                               Template     MLRO        PUBLISHED
+
+Wave 2 stubs            Binding points for SOP-15, 16, 17, 21, 22, 23 and       2            Named       PUBLISHED
+                        GOV-05 to GOV-09                                                     owners
+
+
+
+Corporate and prudential governance (internal, referenced)
+ID       TITLE                                                              CATEGORY OWNER                STATUS
+
+CG-01 Corporate governance and organisation policy                          1              Board          INTERNAL
+
+CG-02 Enterprise risk management policy                                     1              Board          INTERNAL
+
+CG-03 Compliance policy and compliance monitoring plan                      1              Board /        INTERNAL
+                                                                                           compliance
+
+CG-04 Fit and proper policy and assessment framework                        1              Board          INTERNAL
+
+CG-05 Conflict of interest policy and register                              1              Board          INTERNAL
+
+CG-06 Prudential safeguards and capital monitoring policy                   1              CFO / board    INTERNAL
+
+CG-07 Accounting and financial control policy                               1              CFO            INTERNAL
+
+CG-08 ICT risk and information security policy (DORA framework)             1              CTO / board    INTERNAL
+
+CG-09 ICT incident response and recovery plan; business                     2              CTO            INTERNAL
+         continuity (BIA, tolerances, testing)
+
+CG-10 Client communications and marketing policy                            1              CEO            INTERNAL
+
+CG-11 Internal audit charter and risk-based audit plan                      1              Board / GOV-06 INTERNAL
+
+CG-12 Remuneration policy                                                   1              Board          INTERNAL
+
+
+
+Conduct and operations (internal, referenced)
+ID       TITLE                                                                      CATEGORY OWNER        STATUS
+
+OP-01 Complaints handling policy, register and root-cause reporting                 2            COO      INTERNAL
+
+OP-02 Whistleblowing procedure and protected channel                                2            Board    INTERNAL
+
+OP-03 Training programme and competence register                                    2            HR /     INTERNAL
+                                                                                                 MLRO
+
+OP-04 Record retention schedule and information ownership                           2            DPO /    INTERNAL
+                                                                                                 MLRO
+
+OP-05                                                                               2            CEO      INTERNAL
+
+
+
+
+Mynta AB | REG-D Document register | v2.0                                                                  Page 2 of 3
+         Board and management reporting procedure (risk, compliance,
+         safeguarding, ICT, complaints, capital)
+
+OP-06 Orderly wind-down plan (institution level)                         1      Board      INTERNAL
+
+OP-07 HR suitability and background verification procedure (framework-   2      HR /       INTERNAL
+         relevant roles)                                                        MLRO
+
+OP-08 Fraud handling procedure and fraud-to-AML referral loop            2      COO /      INTERNAL
+                                                                                MLRO
+
+
+
+Mynta Digital AB, CASP framework (separate entity, internal)
+The affiliate maintains its own governing-document shelf under MiCA and Regulation (EU)
+2025/305, including its programme of operations, custody and administration framework, transfer-
+services policy, market-abuse prevention, pricing and communications policies, sustainability
+disclosure procedure, and its own wind-down plan. That shelf is governed, versioned and supervised
+on the affiliate's side of the group boundary described in PROG-01 section 6, and is not part of this
+pack. The published interface documents are GOV-02 section 12, SOP-17 and REG-C C-8.
+
+
+Register governance
+The MLRO maintains this register. A published document is added, amended or retired only with a
+register entry; an internal document's existence claim is itself version-controlled here. On any
+conflict between a published document and an internal one on financial-crime matters, the published
+FCP framework governs.
+
+
+
+
+Mynta AB | REG-D Document register | v2.0                                                    Page 3 of 3
+

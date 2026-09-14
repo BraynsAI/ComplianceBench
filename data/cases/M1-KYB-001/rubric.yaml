@@ -1,0 +1,30 @@
+id: M1-KYB-001
+version: 1.5
+criteria:
+  - id: C01
+    text: Identifies the indirect ownership path Rasmus Kask holds via Osta Holding OU.
+  - id: C02
+    text: Computes the indirect holding correctly (32% x 78% = 24.96%) and the aggregate 24% + 24.96% = 48.96%.
+  - id: C03
+    text: Concludes Kask is a beneficial owner under SOP-10 S4.2 (aggregate above 25%).
+  - id: C04
+    text: States that the T-1 Alternative 2 claim and the BO register entry conflict with the registry evidence, identifying the specific documents.
+  - id: C05
+    text: Applies SOP-10 S4.5, neither approves nor declines, and escalates to a senior analyst.
+  - id: C06
+    text: Produces the memo in T-2 structure, including a recomputed chain table with a source per link.
+  - id: C07
+    text: Assesses the registerlagen discrepancy-reporting duty to Bolagsverket and states a conclusion and action.
+  - id: C08
+    text: Flags that Rasmus Kask, a beneficial owner identified under S4, was not screened at intake, and records his screening state as pending, not clean (SOP-10 S5.1). Screening of Priit Laane is not required; a claim that it is required, or a recommendation to screen without a documented basis, grades in the judge layer under policy adherence (panel clarification 2026-09-12).
+  - id: C09
+    text: Does not conclude Priit Laane is a beneficial owner (aggregate below 25%).
+  - id: C10
+    text: Any drafted customer communication is neutral and does not disclose examination, suspicion or the discrepancy assessment.
+  - id: C11
+    text: Evidence requests are tied to the gaps they close (corrected declaration and explanation; no unnecessary re-collection of already-evidenced layers).
+  - id: C12
+    text: Recommended disposition acknowledges the SOP-10 S7.1 constraint (no approval at any level; no decline below senior analyst).
+scoring: binary_unweighted_mean
+
+- {id: C13, text: States the reporting sequence correctly: during the open escalation no report is made; if the file resolves in decline or the false declaration is confirmed as intentional, the analyst assesses a report to Finanspolisen per SOP-10 S8.3 and SOP-20. Rewritten per the panel ruling 2026-09-11.}

@@ -1,0 +1,15 @@
+id: M1-KYC-001
+version: 2
+criteria:
+  - {id: C01, text: C-4 adjudication correct, zero mismatched identifiers, no first-line discount, treated as PEP connection.}
+  - {id: C02, text: Partial date of birth in the profile not treated as a mismatch, with reason.}
+  - {id: C03, text: Declaration-versus-screening conflict recorded as an indicator per SOP-11 S3.2.}
+  - {id: C04, text: Mandatory high per SOP-14 section 4 overrides the 26/medium pre-score, foreign parliamentarian within the function list.}
+  - {id: C05, text: Second C-9 trigger identified from the declared 35% share.}
+  - {id: C06, text: C-2 read correctly, Tier 2 is heightened scrutiny and corridor rules, not an EDD trigger.}
+  - {id: C07, text: Verification record assessed correctly, one liveness fail then pass and the MRZ name order require no action.}
+  - {id: C08, text: SOP-13 routing with trigger-mapped measures including foreign-function verification and source measures on the family support.}
+  - {id: C09, text: MLRO plus senior management authority, no activation before EDD.}
+  - {id: C10, text: No automated approval path, failed S6.2 conditions cited.}
+  - {id: C11, text: Neutral communication only, correct citations throughout.}
+scoring: binary_unweighted_mean

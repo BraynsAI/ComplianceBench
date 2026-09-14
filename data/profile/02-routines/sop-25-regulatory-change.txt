@@ -1,0 +1,142 @@
+SOP-25: Regulatory change management instruction
+Company                     Mynta AB
+
+Last approval date          2026-09-10
+
+Approved by                 MLRO
+
+Document type               Instruction
+
+Document owner              Head of Legal & Compliance
+
+Information class           Open internally, confidential externally
+
+
+
+Versioning
+DATE              VERSION   CHANGES                                                       BY
+
+2026-09-07        1.x       Earlier versions per the change notes in this document        Document owner
+
+2026-09-10        2.0       Rewritten in plain language. No rules changed.                Document owner
+
+FIELD                       VALUE
+
+Implements                  GOV-02 §16 currency of the framework; GOV-01 §15 event triggers
+
+Primary surface             The GOV-02 §15 implementation map and the full document inventory
+
+
+
+1 · Purpose
+The framework shall be kept current with regulation, deliberately and on record. This instruction sets
+the loop: capture what changed, decide whether it touches Mynta, find the gaps precisely, correct
+with owners and dates, and verify the change actually happened. Quality is judged against two
+failure modes. A missed gap leaves the institution non-compliant. A false gap consumes change
+capacity for nothing. The relevance and gap analyses are therefore held to the same evidence
+discipline as casework.
+
+
+2 · Sources and cadence
+Monitored sources include the EU Official Journal, EBA and ESMA guidelines and Q&As,
+Finansinspektionen’s regulations and communications, FATF publications, and the industry guidance
+the function designates. The source list is reviewed at least annually.
+SOURCE                      WATCHED FOR                                                 CADENCE
+
+EU Official Journal /       Regulations and directives in the AML/CTF, payments, e-     Weekly sweep; alerts
+EUR-Lex                     money, crypto and data perimeter (AMLR, AMLD                on tracked
+                            packages, TFR, MiCA and their amendments)                   instruments
+
+EBA                         Guidelines, RTS and ITS drafts and finals, opinions, Q&As   Weekly
+                            touching Mynta's activities
+
+Finansinspektionen                                                                      Weekly
+
+
+
+
+Mynta AB | SOP-25 | v2.0                                                                             Page 1 of 3
+                           FFFS changes and consultations, supervisory
+                           communications, sanction decisions against peers (read
+                           as expectations), reporting-requirement changes
+
+Finanspolisen and          Typology publications; SOU and propositioner amending    Monthly, plus event
+national sources           penningtvättslagen or adjacent law                       alerts
+
+FATF and supranational     List changes (feeding C-2 via GOV-03), typologies,       On publication
+                           mutual evaluations of relevant jurisdictions
+
+
+Every sweep is logged even when empty; an unlogged week indicates a missed sweep.
+
+
+3 · Procedure
+S1        Capture. Each item enters the regulatory change register with: source, instrument and
+          provision, publication date, entry-into-force and application dates, and a one-line subject.
+          Transitional structures (a regulation in force but applying later, an RTS pending under a
+          level-1 text) are captured with both dates, because the gap analysis in S3 depends on
+          knowing which regime governs when.
+
+S2        Relevance first sorting. In scope or not, with a recorded reason either way. The test is
+          Mynta's activities and perimeter, not the instrument's headline: a banking-specific rule can
+          still touch the safeguarding bank relationship, and a headline AML change can be out of
+          scope where it addresses activities Mynta does not perform. Out-of-scope calls are drawn at
+          random in the annual look-back because first sorting errors are the least visible failure point.
+
+S3        Gap analysis. For in-scope items, map the provision against the framework through the
+          GOV-02 §15 implementation map and then the affected documents themselves, clause by
+          clause where the provision is specific. Each finding is classified: compliant (covered), partly
+          compliant (covered with gaps), missing (obligation with no implementing text), conflicting
+          (framework says otherwise), not applicable (documented, with the reason), future
+          requirement (not yet applying, tracked to its date), or superseded (framework implements
+          the old regime), or compliant (covered, with the covering reference cited). The analysis
+          records the legal-hierarchy reading where sources stack: what is directly applicable, what is
+          binding national implementation, what is comply-or-explain, and which provision governs
+          during transition. A gap list without the compliant findings shall not be accepted; coverage
+          shall be documented, not assumed.
+
+S4        Correction plan. Per gap: the change (document text, control, system configuration,
+          training), the owner from the document-ownership register, the date, and any interim
+          measure where the application date arrives before the fix. Interim measures are themselves
+          logged as deviations where they fall short of a live obligation.
+
+S5        Approval. Policy-category and appetite changes route to the board; routine-category to the
+          MLRO; GOV-01 impacts trigger its §15 event review. Approvals reference the register item so
+          the record links the legal source to the implemented change.
+
+S6        Implement and verify. The owner delivers; the compliance function verifies the delivered
+          text or control against the gap it closes, and only verification closes the register item.
+          Training content is updated where the change touches operating roles.
+
+
+
+
+Mynta AB | SOP-25 | v2.0                                                                          Page 2 of 3
+4 · The AMLR programme
+Regulation (EU) 2024/1624 applies from 10 July 2027 and is run as a standing workstream, not as
+individual sweep items. The workstream maintains four things: an article-by-article inventory
+mapped to the framework; the tracked RTS and guideline dependencies, each with its own dates; a
+re-baselining of GOV-01 ahead of application, per its trigger; and a transition calendar, so that
+documents citing penningtvättslagen provisions that the AMLR displaces are re-anchored before the
+date, not after it. Progress is a standing item in the quarterly MLRO report until closure.
+
+
+5 · Register and reporting
+The regulatory change register carries every item from capture to verified closure with its
+classification history. Quarterly reporting to the board vithe MLRO report: new in-scope items, open
+gaps by age and severity, overdue corrections by owner, and AMLR programme status. An open gap
+past its application date is reported as a compliance incident under GOV-02 §14, whatever the
+correction status.
+
+
+6 · Quality and review
+Annual look-back: sample of out-of-scope first sorting calls re-reviewed; closed gaps re-verified on
+a sample; timeliness measured from publication to first sorting and from application date to closure.
+This instruction is reviewed annually and immediately when the sources themselves change shape,
+as they will when AMLA guidance begins issuing.
+
+
+
+
+Mynta AB | SOP-25 | v2.0                                                                     Page 3 of 3
+

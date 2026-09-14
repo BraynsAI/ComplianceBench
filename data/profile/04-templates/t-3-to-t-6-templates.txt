@@ -1,0 +1,233 @@
+T-3: Enhanced due diligence report
+  Company                           Mynta AB
+
+  Last approval date                2026-09-10
+
+  Approved by                       MLRO
+
+  Document type                     Template
+
+  Document owner                    Head of Onboarding
+
+  Information class                 Open internally, confidential externally
+
+
+
+Versioning
+
+  DATE                 VERSION           CHANGES                                                  BY
+
+  2026-09-07           1.x               Earlier versions per the change notes in this document   Document owner
+
+  2026-09-10           2.0               Rewritten in plain language. No rules changed.           Document owner
+
+
+One report per EDD case. Sections follow SOP-13. The report shall let the decision-maker act on this
+document and its attachments alone.
+
+
+1 · Case
+
+  Case reference                                                  Customer
+
+  EDD owner                                                       Referral source and date
+
+
+
+2 · Triggers
+
+
+
+
+3 · Scope
+Measures selected per SOP-13 section 3, and any scoped-out item with its reason.
+
+
+
+
+4 · Evidence obtained
+
+  ITEM       SOURCE           HIERARCHY RUNG (SOP-13 §5)              CONFIRMATION BY A SECOND SOURCED BY
+
+
+
+
+Mynta AB | T-3 to T-6 Templates | v2.0                                                                     Page 1 of 6
+5 · Analysis
+
+
+
+
+6 · Source of funds and wealth (where scoped)
+
+
+
+
+7 · Conclusion and recommended conditions
+
+
+
+
+8 · Decision (MLRO; senior management sign-off for PEP files)
+
+  Decision and rationale
+
+
+
+
+  Name, date, signature
+
+  Senior management
+  (PEP files)
+
+
+
+
+Mynta AB | T-3 to T-6 Templates | v2.0                          Page 2 of 6
+T-4: Periodic and event review record
+One record per review. Event reviews state the event and confine scope accordingly.
+
+
+1 · Review
+
+  Customer                                                                     Risk class at start
+
+  Type                                   Periodic   Event:                     Reviewer
+
+
+
+2 · Changes since last review
+Ownership, representatives, business, products, geography. State "none identified" only after
+checking each.
+
+
+
+
+3 · Screening refresh
+
+  Persons screened and
+  results
+
+
+
+4 · Activity against baseline
+
+  Volumes, counterparties,
+  geographies, crypto
+  share vs recorded
+  baseline
+
+
+
+5 · Classification re-run
+
+  SOP-14 inputs and score                                    Resulting class
+
+
+
+
+6 · Outcome
+
+      Continue          Update baseline        Route to SOP-13    Route to SOP-19     Route to SOP-23
+
+
+  Rationale, name, date:
+
+
+
+
+Mynta AB | T-3 to T-6 Templates | v2.0                                                               Page 3 of 6
+T-5: Internal suspicion report
+For any employee reporting a suspicion or concern. Submit to the MLRO function directly or through
+SOP-19 intake. Reports are protected; reprisal is prohibited. Do not discuss the matter with the
+customer or colleagues outside the MLRO function.
+
+
+1 · Reporter
+
+  Name and role (may be                            Date
+  left blank)
+
+
+
+2 · What was observed
+Facts in your own words: who, what, when. Attach references where you have them (customer,
+transaction, case).
+
+
+
+
+3 · References
+
+  Customer / account /
+  transaction references
+
+
+
+4 · MLRO function use
+
+  Received, logged as,
+  routed to
+
+
+
+
+Mynta AB | T-3 to T-6 Templates | v2.0                                                    Page 4 of 6
+T-6: Exit memo
+One memo per risk-driven termination. Commercial closures do not use this template.
+
+
+1 · Relationship
+
+  Customer                                             Products held
+
+  Risk class                                           Memo owner
+
+
+
+2 · Grounds
+The findings that make exit the outcome, with references to the underlying cases and reviews.
+
+
+
+
+3 · SOP-20 assessment
+
+    Referred to MLRO for reporting assessment, date:      Already reported, register reference held by
+  MLRO function
+
+
+
+4 · Timing and coordination
+Exit timing shall not disclose examination or reporting. State the coordination applied.
+
+
+
+
+5 · Customer communication
+
+  Notice period and
+  wording basis
+
+
+
+6 · Funds and closure mechanics
+
+  Balance closing decision,
+  pending items, card and
+  access revocation
+
+
+
+
+Mynta AB | T-3 to T-6 Templates | v2.0                                                             Page 5 of 6
+7 · Approval
+
+  MLRO decision, name,
+  date, signature
+
+
+
+
+Mynta AB | T-3 to T-6 Templates | v2.0   Page 6 of 6
+

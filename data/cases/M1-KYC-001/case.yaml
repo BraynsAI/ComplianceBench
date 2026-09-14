@@ -1,0 +1,28 @@
+id: M1-KYC-001
+version: 2
+module: 1
+workflow: kyc_onboarding
+title: Aylin Kaya, non-BankID verification and foreign PEP adjudication
+benchmark_version: 1.0
+status: active
+authored_by: brayns_internal
+authoring_method: ai_drafted_expert_adjudicated
+transformation_checklist: not_applicable_original_fiction
+pack_version: mynta-pack 1.0
+sop_refs: [SOP-11, SOP-13, SOP-14 section 4, SOP-10 section 8, REG-C C-2, REG-C C-4, REG-C C-9]
+difficulty: pilot_baseline
+friction_features: [non_bankid_verification, non_eea_residence, foreign_pep_regime, partial_identifier_profile, tier2_jurisdiction, transliteration_name_order]
+materials: [m01-application, m02-id-verification, m03-screening-report, m04-automation-log, m05-c2-extract]
+never_stated:
+  - "cannot be discounted" as a conclusion
+  - "mandatory high"
+  - "Tier 3"
+  - any statement that the declaration is false
+expected_disposition: pep_cannot_discount_high_route_sop13_mlro
+judge: Augustinas (outcome), Anilla (language and Swedish practice)
+panel_2026_09_11_expected_refs:
+  - match_stands_88_vs_C4_85
+  - crypto_trigger_at_30_percent
+  - risk_set_high_at_trigger_confirmation
+  - decision_by_authorised_senior_decision_maker
+  - t3_report_distinguishes_second_source_vs_documentation_alone

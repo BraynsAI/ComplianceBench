@@ -1,0 +1,168 @@
+SOP-12: PEP and sanctions screening routine
+Company                      Mynta AB
+
+Last approval date           2026-09-10
+
+Approved by                  MLRO
+
+Document type                Work procedure
+
+Document owner               Screening function
+
+Information class            Open internally, confidential externally
+
+
+
+Versioning
+DATE               VERSION   CHANGES                                                           BY
+
+2026-09-07         1.x       Earlier versions per the change notes in this document            Document owner
+
+2026-09-10         2.0       Rewritten in plain language. No rules changed.                    Document owner
+
+FIELD                        VALUE
+
+Implements                   GOV-02 §7, GOV-03; rules C-4, C-5
+
+Interfaces                   SOP-10/11 (referrals in), SOP-13 (EDD out), SOP-19 (escalation), SOP-21 (freeze),
+                             SOP-17 (wallets), SOP-18 (transaction-level)
+
+
+
+1 · Purpose and scope
+This routine sets how persons and entities connected to Mynta are screened against sanctions lists,
+PEP data and adverse media, and how matches are decided. The designated adverse-media
+categories cover money laundering, terrorist financing, sanctions evasion, corruption, tax crime,
+fraud, cybercrime, trafficking and other serious predicate offences; the set may be expanded risk-
+based, with the expansion recorded. It covers three things. Name screening at onboarding. Ongoing
+and event-driven screening of the existing customer base. And the standard for deciding on hits
+used everywhere, including for transaction-level hits routed from SOP-18 and wallet hits routed from
+SOP-17. Two things are out of scope. Who must be screened in a given case is set by the referring
+routine, on the identified-not-declared rule. Screening beyond the required population is personal-
+data processing without an automatic legal ground: it requires control indications or an approved
+deviation, and is never run just to be safe. The freeze itself is governed by SOP-21.
+
+
+2 · Lists and data in scope
+CATEGORY                     CONTENT                                 GOVERNANCE
+
+Sanctions                    EU consolidated list, UN as             Updates applied without undue delay from
+                             implemented in EU law, Swedish          the moment they take legal effect,
+                             national measures, plus the OFAC        weekends included: same-day loading,
+                             programmes designated in the C-         blocking on too-old lists, and re-screening
+                             registers per GOV-03 §2                 of the full customer base after every
+
+
+
+Mynta AB | SOP-12 | v2.0                                                                                     Page 1 of 3
+                                                                   update; confirmed sanctions matches are
+                                                                   reviewed without delay, weekends included,
+                                                                   and other update hits within one business
+                                                                   day; application documented in the update
+                                                                   log
+
+PEP                        Vendor PEP database covering the Vendor coverage reviewed annually against
+                           penningtvättslagen function list,  the SOP-10 §8 function list
+                           family members and known close
+                           associates, run against the entire
+                           customer base daily, with 18-month
+                           post-function retention treated as
+                           in scope
+
+Adverse media              Designated categories only: money       Category set is rule-registered; screening
+                           laundering, terrorist financing,        outside the designated set shall not be
+                           fraud, corruption, organised crime,     performed
+                           sanctions evasion
+
+
+
+3 · Definitions
+
+Hit                        Any vendor-generated potential match at or above the C-4 similarity threshold
+                           (85%).
+
+Secondary identifiers      Date of birth, nationality or country of registration, identifiers such as
+                           personnummer or org.nr, and address, in that order of weight.
+
+Dismiss                    A recorded determination that a hit is not the listed person, on the C-4 evidence
+                           standard.
+
+True match                 A hit confirmed as the listed person or entity, or one that cannot be dismissed on
+                           evidence.
+
+Delta screening            Re-screening the full active base against list changes upon every update.
+
+
+
+4 · When screening runs
+S1.1       Onboarding: every person and entity referred by SOP-10 S5.1 or SOP-11, before any product
+           activation. The file is not complete until the screening results are on it.
+
+S1.2       Ongoing: delta screening of the full active base on every list update, within the GOV-03
+           SLA; results first sortingd the same day for sanctions deltas.
+
+S1.3       Event-driven: whenever a routine identifies a new person in a relationship (ownership
+           change, new signatory, SOP-22 findings), that person is screened before the event
+           assessment closes.
+
+S1.4       Transaction-level: payment counterparty hits from SOP-18 and wallet hits from SOP-17 arrive
+           as the decision on hits referrals and follow sections 5 and 6 with sanctions timing.
+
+
+
+
+Mynta AB | SOP-12 | v2.0                                                                                Page 2 of 3
+5 · Decision on hits
+S2.1       Every hit is decided individually; batch dismissing by pattern is prohibited. The person
+           deciding works from the hit record, the person's file data and, where needed, registry
+           evidence, never from customer assurances.
+
+S2.2       Dismiss at first line IF the identifier evidence is strong enough: one strong mismatch, such
+           as date of birth against a verified document, may be sufficient, while two weak mismatches
+           may not be. The strength assessment and the rationale are recorded per hit. One weak
+           mismatched identifier alone never suffices; name-only similarity with no secondary data
+           shall be escalated, not dismissed.
+
+S2.3       IF a sanctions hit cannot be dismissed on S2.2's standard, THEN treat it as a true match
+           immediately. SOP-21 applies at once. The relationship is suspended, and the customer is not
+           notified. Analysis continues after the freeze. That ordering comes from GOV-03 §8.
+
+S2.4       IF a PEP hit is confirmed or cannot be dismissed, THEN the referring file re-routes per
+           SOP-10 §8: high risk, SOP-13 measures, MLRO authority. A customer's denial of PEP status
+           against a confirmed function match is a discrepancy, not a dismiss.
+
+S2.5       IF an adverse-media hit in a designated category is confirmed as the person, THEN route to
+           SOP-13 per C-9; record the credibility of the source and how specific the allegation is. That
+           assessment belongs to the EDD scoping. It is not a reason to drop the hit at screening.
+
+S2.6       Escalation: any decision on hits the first line cannot close on evidence goes to the screening
+           specialist; sanctions doubt goes to the MLRO with SOP-21 already applied. Timelines per
+           C-5: sanctions immediate, PEP and adverse media within 3 business days.
+
+
+6 · Recording
+Keep one record per screened person. It contains: the lists and list versions screened against, the
+date and vendor reference, every hit with its decision, reason and decision-maker, and the person's
+current net status. This record is what SOP-10 S5.4 files and what QC samples. If a person's
+screening status cannot be read in one place, that person counts as unscreened for decision
+purposes.
+
+
+7 · System governance
+Threshold and fuzzy-matching configuration implements C-4 and changes only through recorded
+change control with before-and-after test evidence. Annual effectiveness testing covers list
+coverage, update latency, known-entity seeding (planted test names must hit), and dismiss-quality
+re-review of a random selection: 5% of first-line dismiss re-reviewed monthly by the screening
+specialist, findings graded per the SOP-10 §13 scale. Before any tuning that reduces hit volume is
+approved, its effect on recall shall be tested and recorded.
+
+
+8 · Records and review
+Records per GOV-02 §10. This routine is reviewed annually, on vendor or configuration change, and
+on GOV-03 revisions.
+
+
+
+
+Mynta AB | SOP-12 | v2.0                                                                          Page 3 of 3
+

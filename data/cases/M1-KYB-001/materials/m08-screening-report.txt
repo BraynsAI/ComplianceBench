@@ -1,0 +1,24 @@
+S CREENING REPORT                                                                R UN 2026-08-28 06:12 UTC
+
+
+
+Name screening report: Halvix Teknik AB intake
+Lists screened: EU consolidated, UN, SE national, designated OFAC programmes, PEP database, adverse
+media (designated categories). List versions as at run date.
+SUBJECT                                          ROLE AT INTAKE                              RESULT
+
+Halvix Teknik AB                                 Applicant entity                            No hits
+
+Osta Holding OU                                  Corporate shareholder                       No hits
+
+Jonas Ehrnberg (1981-03-17)                      CEO, signatory, declared SMO                No hits
+
+Lena Vidmark (1985-09-02)                        Board member                                No hits
+
+Subjects screened per intake referral of 2026-08-27. Reference SCR-2026-18244.
+
+
+
+
+Screening vendor | Intake screening report                                                        Page 1 of 1
+

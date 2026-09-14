@@ -1,0 +1,146 @@
+SOP-20: Reporting to Finanspolisen, drafting and goAML
+filing
+Company                     Mynta AB
+
+Last approval date          2026-09-10
+
+Approved by                 MLRO approves the submission of every report; a second review is good practice,
+                            not a legal requirement. The MLRO
+
+Document type               Work procedure
+
+Document owner              MLRO
+
+Information class           Open internally, confidential externally
+
+
+
+Versioning
+DATE              VERSION   CHANGES                                                      BY
+
+2026-09-07        1.x       Earlier versions per the change notes in this document       Document owner
+
+2026-09-10        2.0       Rewritten in plain language. No rules changed.               Document owner
+
+FIELD                       VALUE
+
+Implements                  GOV-02 §9 reporting duty; penningtvättslagen 4 kap
+
+Intake from                 SOP-19 escalations; SOP-13 analyses; SOP-10/11 attempted relationships; SOP-21
+                            sanctions cases; SOP-23 exits
+
+
+
+1 · Purpose and principles
+This routine turns examined suspicion into a report Finanspolisen can use, and governs everything
+around that act: the decision, the drafting standard, the filing, the aftermath, and the register. The
+following principles govern. The decision is the MLRO's alone: no business approval is sought and
+none may be demanded. The threshold is reasonable grounds to suspect. That means a basis the
+MLRO can put into words after examination. It is well below proof, and it does not depend on the
+amount: no minimum value exists. Attempts are reportable: a declined or abandoned relationship, or
+a refused transaction, is assessed the same way. Meddelandeförbudet governs every action this
+routine touches.
+
+
+2 · The decision
+S1        Referral arrives with the SOP-19 case record or equivalent context. The MLRO reads the
+          case to the examination standard. Further work is requested only where a specific gap
+          blocks the decision, because the statutory clock, without undue delay, is already running.
+
+S2        Decide: report, or do not report. Both outcomes are recorded with reasons in the register; a
+          non-report rationale states why the grounds examined do not reach the threshold. IF new
+
+
+
+
+Mynta AB | SOP-20 | v2.0                                                                              Page 1 of 3
+          facts later arrive on a non-reported case, THEN the decision shall be retaken on the new
+          facts.
+
+S3        Pending transactions. IF a suspicious transaction has not been executed, THEN it is not
+          executed until the report is made, unless stopping it is impossible or would probably make
+          the investigation harder, and never merely because stopping would reveal the examination,
+          in which case it may be executed and the report made immediately after, with the reasoning
+          recorded. This ordering is law, not preference.
+
+
+3 · Drafting standard
+The report also states the current balances, whether funds are still held, whether the transaction
+was stopped, the intended recipient, and where the money went.
+
+The report is written for a reader with no prior context, and its quality is measured by whether that
+reader can act on it. Required content:
+
+  • Subjects: every relevant person and entity with identifiers, roles and relationships, including those
+    Mynta identified but the customer never declared.
+  • The relationship: products, opening date, stated purpose, the S3 baseline, risk class and any EDD
+    history.
+  • The activity: chronological narrative with amounts, dates, counterparties, accounts and product
+    areas; totals and patterns stated, not left for the reader to compute.
+  • The suspicion: what makes this activity suspicious against this customer's profile and which
+    typologies it resembles, with the indicators listed; facts and assessment kept visibly separate.
+  • Attachments: the documents that let the reader verify the narrative: statements, due-diligence
+    extracts, the examination record where useful.
+
+Style rules: plain language, no internal jargon or system names without explanation, no speculation
+presented as fact, and no copy-paste of alert text in place of narrative. The deputy MLRO reviews
+every draft before filing except where absence makes the MLRO and drafter the same person, which
+is recorded.
+
+
+4 · Filing
+S4        File through goAML under Mynta's registration, using the report type the situation calls for;
+          capture the acknowledgment and reference into the register. Technical filing failure is
+          escalated the same day and the report is delivered by the fallback channel Finanspolisen
+          designates, with the failure documented.
+
+S5        After filing. The relationship decision is taken deliberately: continue with enhanced
+          monitoring per SOP-18/22, restrict products, or exit via SOP-23. Exit timing is coordinated so
+          that the action itself does not disclose the report. Nothing in customer-facing handling
+          changes in tone or content because a report exists.
+
+S6        FIU follow-up. Questions and disclosure orders from Finanspolisen are answered by the
+          MLRO function within the demanded time, completely and only through this routine;
+          business teams receiving any authority contact route it here untouched.
+
+
+
+
+Mynta AB | SOP-20 | v2.0                                                                        Page 2 of 3
+5 · The register and access
+Access to reports is named and least-privilege, logged, and checked on a set cycle. Staff outside the
+function see only the actions they must take, never the report itself.
+
+The internal reporting register records referrals, decisions with reasons, drafts, filings with
+references, FIU correspondence and relationship decisions. Access is restricted to the MLRO
+function; existence of a report on a customer is visible to other systems only as the enhanced-
+handling flags it produces, never as the fact itself. Register extracts appear in the MLRO report as
+counts and themes, not names.
+
+
+6 · Tipping
+Prohibited disclosure includes telling the customer or any third party that examination has occurred,
+that a report has been or may be made, or anything from which that could be inferred, including
+through decline wording, exit letters, or unusual handling. Lawful exceptions (disclosure to the
+supervisor, and the narrow statutory group and inter-institution cases) are exercised only by the
+MLRO after checking the conditions. Breach is a criminal exposure for the individual and gross
+misconduct at Mynta.
+
+
+6b · After the report
+A report does not automatically end the relationship. Continue, restrict or exit is decided separately,
+considering any police instructions, frozen funds and the tipping-off risk.
+
+
+7 · Records, timeliness and quality
+SAR files follow GOV-02 §10 retention in the restricted store. Timeliness is tracked referral-to-
+decision and decision-to-filing, with medians and outliers in the MLRO report. Annually, the MLRO
+and deputy run a look-back on a sample of filings and non-report decisions for consistency of
+threshold application and drafting quality, The conclusions feed training. Where the threshold has
+drifted, it is recalibrated, on record.
+
+
+
+
+Mynta AB | SOP-20 | v2.0                                                                        Page 3 of 3
+

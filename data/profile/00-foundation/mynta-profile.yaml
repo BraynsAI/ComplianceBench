@@ -1,0 +1,83 @@
+# mynta-profile.yaml
+# The quantitative canon for Mynta AB. Every document in the pack and every case
+# must reconcile to these numbers. Deliberately boring and slightly uneven, the
+# way a real arsredovisning reads. Corrections by Augustinas and Anilla bind.
+# Version 0.1, 7 September 2026. Placeholder-free except BENCHMARK_NAME.
+
+institution:
+  legal_name: Mynta AB
+  orgnr: "559287-6612"          # valid format, verified non-existent before publication
+  founded: 2016
+  emi_licence: 2018             # e-money institution, Finansinspektionen
+  hq: Stockholm
+  staff_total: 118
+  supervision: Finansinspektionen
+
+affiliate:
+  legal_name: Mynta Digital AB
+  orgnr: "559468-2101"
+  role: MiCA-licensed CASP, same group; Mynta AB acts as distributor and fiat rail
+  casp_licence: 2026
+
+products:
+  emoney_accounts: consumer and business accounts, SEPA and domestic payments
+  card_issuing: consumer and corporate debit cards, BIN sponsor arrangement
+  merchant_acquiring: e-commerce only, no POS
+  crypto_exposure: on and off ramp via the affiliate, allowlisted tokens only
+  cash_handling: none
+  onboarding: fully remote, no branches
+
+customers:                       # as of 2025-12-31
+  consumers: 152400
+  business_total: 7340
+  acquiring_merchants: 620
+  crypto_active_consumers: 18900
+  crypto_exposed_business: 41
+  geography_customers:
+    sweden: 0.68
+    rest_eea: 0.29
+    non_eea: 0.03
+  ubo_chain_jurisdictions_touched: 40   # approx, through merchant ownership chains
+
+volumes_2025:                    # SEK billions processed
+  total: 38.2
+  accounts_payments: 21.4
+  acquiring: 11.9
+  card_issuing: 3.6
+  crypto_ramp: 1.3
+
+activity_monthly_avg:
+  consumer_onboardings: 3900
+  business_onboardings: 140
+  acquiring_onboardings: 18
+  tm_alerts: 2150
+  screening_name_hits: 5400
+  screening_discounted_l1: 0.97
+  periodic_reviews: 610
+
+fcp_outcomes_2025:
+  sars_filed: 118
+  customers_exited_for_risk: 204
+  sanctions_true_matches: 2
+  fraud_cases_confirmed: 1460      # mostly APP and card, feeds module 3 later
+
+compliance_function:
+  headcount: 11
+  roles: MLRO, deputy MLRO, 6 analysts, 2 onboarding KYB/KYC, 1 screening
+  board_reporting: quarterly, MLRO report
+
+third_parties:
+  bin_sponsor: CardPartner Europe Ltd          # fabricated
+  safeguarding_bank: Norrbank AB               # fabricated Swedish credit institution
+  screening_vendor: role-described, unnamed
+  identity_vendor: role-described, unnamed; BankID plus document-and-liveness for non-Swedish
+
+financials_2025:                 # SEK millions, unremarkable on purpose
+  revenue: 412
+  operating_result: 31
+  safeguarded_funds_avg: 1870
+
+risk_profile_anchors:            # BWRA must derive from and reconcile to these
+  accepted_high_residual: [complex_structures, merchant_acquiring, crypto_exposure, cross_rail_transactions]
+  prohibited: per GOV-04 and convention C-7
+  no_cash_note: absence of cash handling lowers placement risk; documented in GOV-01

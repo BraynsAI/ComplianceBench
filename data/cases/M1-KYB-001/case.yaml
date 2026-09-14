@@ -1,0 +1,52 @@
+id: M1-KYB-001
+module: 1
+workflow: kyb_onboarding
+title: Halvix Teknik AB, beneficial ownership assessment
+benchmark_version: 1.0
+status: active
+pack_version: mynta-pack 1.0
+sop_refs:
+- SOP-10 S4
+- SOP-10 S5
+- SOP-10 S7
+- SOP-12
+- T-1
+- T-2
+- REG-C C-1
+- REG-C C-6
+difficulty: pilot_baseline
+friction_features:
+- foreign_layer_eea_weak_ownership_registry_no
+- control_arithmetic_multipath
+- conflicting_documents
+- screening_omission
+materials:
+- m01-application
+- m02-t1-declaration
+- m03-ownership-chart
+- m04-bolagsverket-extract
+- m05-aktiebok
+- m06-estonia-extract
+- m07-bo-register-entry
+- m08-screening-report
+- m09-id-verification
+- m10-business-profile
+expected_disposition: escalate
+expected_disposition_basis: SOP-10 S4.5
+additional_expected:
+- no_tipping_off
+- reporting_assessed_at_resolution_per_S8_3
+- senior_analyst_review_within_24h_per_C5
+leak_phrases:
+- '48.96'
+finding_patterns:
+  kask_is_ubo_48_96: 48\.96
+  indirect_path_computed: 32.{0,4}(x|×|\*).{0,4}78|24\.96
+  declaration_false: (declaration|T-1).{0,120}(false|incorrect|contradict)
+  register_entry_wrong: (register|m07|huvudman saknas).{0,120}(contradict|wrong|incorrect|false)
+  bolagsverket_report_immediate: Bolagsverket.{0,160}(without delay|immediate|do not
+    wait)
+  t2_memo: T-2|discrepancy memo
+  escalate_senior: escalat.{0,80}senior
+  kask_screening_missed: (Kask).{0,120}(not screened|screening|pending)
+  customer_told_neutral: (review is ongoing|additional review|not reveal|neutral)

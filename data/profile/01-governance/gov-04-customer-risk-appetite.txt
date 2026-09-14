@@ -1,0 +1,182 @@
+GOV-04: Customer risk appetite statement
+Company                     Mynta AB
+
+Last approval date          2026-09-10
+
+Approved by                 Board
+
+Document type               Policy
+
+Document owner              MLRO
+
+Information class           Open internally, confidential externally
+
+
+
+Versioning
+DATE              VERSION   CHANGES                                                  BY
+
+2026-09-07        1.x       Earlier versions per the change notes in this document   Document owner
+
+2026-09-10        2.0       Rewritten in plain language. No rules changed.           Document owner
+
+FIELD                       VALUE
+
+Document ID                 GOV-04
+
+Enforced through            SOP-10 S1.3, SOP-15, C-6, C-7, C-8; declined register
+
+
+
+1 · Purpose
+This statement says which customers and activities Mynta accepts and which it does not, decided in
+advance, so that the answer never depends on commercial pressure in an individual customer case.
+Onboarding, product decisions and periodic review shall all follow it. Prohibited means the customer
+is declined, at whatever stage the ground is discovered, and no one at any level can grant an
+exception. Restricted means the customer can be accepted only when the stated conditions are met.
+The lists derive from GOV-01's assessment and the board's tolerance; changing them is a board
+decision through this document, never a file-level judgement.
+
+
+2 · Prohibited
+Mynta does not onboard, and exits on discovery:
+
+  • Shell banks, and institutions permitting their accounts to be used by shell banks.
+  • Unlicensed money-service businesses and unlicensed crypto-asset service providers, in any
+    jurisdiction where their activity requires a licence.
+  • Companies that have issued bearer shares. Exception: the shares are deposited with a regulated
+    custodian so ownership can be verified, and this is documented to SOP-10 standards.
+  • Companies using nominee shareholders or nominee directors, where the real principals are not
+    fully disclosed and documented to SOP-10 standards. Where this means due diligence cannot be
+    completed, the law itself already prohibits the relationship; this line restates it as appetite.
+
+
+
+
+Mynta AB | GOV-04 | v2.0                                                                      Page 1 of 4
+  • Companies whose ownership or control cannot be established. Where due diligence cannot be
+    completed, the relationship may not be entered or maintained, per the statutory prohibition
+    restated in GOV-02 section 7.7.
+  • Any person or company connected to a prohibited jurisdiction per C-2, at any level of the
+    ownership structure.
+  • Trusts and comparable foreign legal arrangements as acquiring customers. As account customers
+    they are not prohibited but restricted: see section 3, MLRO pre-approval per SOP-10 section 5.
+  • Business lines: unlicensed gambling; weapons and ammunition; trade in dual-use goods without
+    the required export licences; adult live-streaming services. Other adult-industry business is not
+    prohibited but restricted, see section 3. Sanctions prohibitions are not restated here: they apply
+    directly by law, per GOV-03.
+  • Products used without a completed identity check. No product is activated before due diligence is
+    completed.
+
+
+3 · Restricted, held only under conditions
+CATEGORY                   CONDITION
+
+Licensed gambling          the standard category licence jurisdictions only per C-7; licence verified and
+                           monitored; acquiring only with SOP-15 enhanced review
+
+Licensed PSPs, EMIs and Licence verified; purpose of the relationship stated; EDD; the institution’s own
+MSBs                    customers must be identified, no anonymous end users
+
+Adult-industry business    Licensed and lawful only; enhanced monitoring; MLRO approval; scheme rules
+(other than live-          complied with. An appetite choice, not a legal requirement
+streaming)
+
+Crypto-sector              Licensed only; EDD always; access to the crypto on-Crypto Service is a separate
+businesses                 decision per SOP-10 Appendix E; volume caps per section 4
+
+Non-profit organisations Case-by-case, MLRO decision; purpose, funding and cross-border flow
+                         transparency required
+
+Complex or cross-border Held only with full evidence for every level of the ownership structure; where risk
+structures              is high, each layer is examined per C-3; EDD per C-9; decision authority per C-6
+
+PEP relationships          Per SOP-10 section 8: approval by the authorised senior decision-maker the
+                           governance framework designates, source of wealth and funds measures,
+                           enhanced monitoring
+
+the high-risk category     EDD and MLRO decision always; cross-border flow monitoring per SOP-18
+connection
+
+
+
+4 · Product and concentration appetite
+  • No cash. Mynta offers no cash services. The only cash touchpoint is ATM withdrawals with issued
+    cards, inside SOP-16 limits.
+  • Crypto limits. Crypto Service volume is capped at 5% of institutional processed volume and per-
+    customer per risk class per C-8's register values; tokens are approved listed per C-8 with
+
+
+
+
+Mynta AB | GOV-04 | v2.0                                                                               Page 2 of 4
+   additions only through GOV-09. Breaching a bound suspends Crypto Service growth per GOV-01
+   conclusion C3.
+  • Acquiring concentration. No single merchant above 4% of institutional processed volume without
+    board notification; no MCC category above 20% of acquiring volume without MLRO review of the
+    concentration.
+  • Cross-border flow concentration. Sustained cross-border flow patterns inconsistent with the
+    customer base's profile trigger review under SOP-18 and, where structural, a GOV-01 event
+    review.
+  • Combinations. Where several risk factors combine, they are assessed jointly, not by simply taking
+    the strictest single rule; the joint assessment can land stricter than any single factor. One
+    combination is outside appetite entirely: a complex structure, plus the high-risk category
+    connection, plus crypto-dominant expected activity.
+
+
+5 · Appetite metrics
+The limits below quantify the statement and are monitored quarterly. Breach of a metric is reported
+in the MLRO report with a correction path; sustained breach routes to the board.
+METRIC                     BOUND                                 MEASURED
+
+High-risk share of active At or below 6%                         Quarterly, per SOP-14 class data
+customers
+
+the high-risk category     At or below 1.5%                      Quarterly, per C-2 connection data
+connection share of
+active customers
+
+Crypto Service share of    At or below 5% (C-8)                  Monthly
+institutional volume
+
+Single merchant share      Below 4% without board notification   Monthly
+of institutional volume
+
+Single MCC share of        At or below 20% without MLRO review   Monthly
+acquiring volume
+
+Overdue periodic           Below 3% of due reviews               Monthly, per SOP-22 data
+reviews
+
+
+
+6 · Application and attestation
+Enforcement points: SOP-10 S1.3 at intake, SOP-15 at underwriting, SOP-22 at review, SOP-23 at
+exit. The declined, abandoned and exited registers make prohibitions durable across re-applications.
+Product owners attest annually that their products operate within this statement, as part of the
+section 13 control plan in GOV-02. Exceptions to section 2 do not exist at any level; a case for
+holding something prohibited is a case for the board to change this document, prospectively and on
+record. Restricted-category conditions are not negotiable per file; failing the condition means
+declining.
+
+
+
+
+Mynta AB | GOV-04 | v2.0                                                                       Page 3 of 4
+7 · Review
+Reviewed with GOV-01 annually and on its event triggers. Metric performance is reported quarterly.
+Changes state their GOV-01 basis. Appetite shall not be widened ahead of the assessment that
+justifies it.
+
+Change history
+VERSION        DATE         CHANGE                                                   APPROVED
+
+1.0            2026-09-07   First complete                                           Superseded
+
+1.1            2026-09-07   Quantified metrics, attestation, review consolidation    Approved
+
+
+
+
+Mynta AB | GOV-04 | v2.0                                                                    Page 4 of 4
+

@@ -1,0 +1,27 @@
+id: M2-GAP-001
+module: 2
+workflow: regulatory_gap_analysis
+title: RCR-2026-041, self-hosted transfer obligations under Regulation (EU) 2023/1113
+benchmark_version: 1.0
+status: active
+authored_by: brayns_internal
+authoring_method: ai_drafted_expert_adjudicated
+transformation_checklist: not_applicable_original_fiction
+pack_version: mynta-pack 1.0
+sop_refs: [SOP-25, GOV-02 sections 2 and 12, SOP-17 stub, REG-C C-8, SOP-18 section 3.4]
+difficulty: pilot_baseline
+friction_features: [entity_scope_reading, directly_applicable_hierarchy, live_obligation_lookback]
+hierarchy_points: [entity_scope_casp_vs_distributor, directly_applicable_regulation, live_obligation_lookback]
+materials: [m01-change-item, m02-framework-extracts]
+never_stated:
+  - any classification label applied to a finding (framework quotations inside extracts excluded)
+  - "incident" as a conclusion
+  - any article number of the regulation
+expected_output: classified_gap_list_with_compliant_findings_plus_remediation_and_incident_flag
+judge: Anilla and Tara
+legal_text_verification: required before lock (ruling 1)
+panel_2026_09_11_expected_refs:
+  - corrected_wording_art_14_5_16_2_is_answer_key
+  - both_gaps_missing_confirmed
+  - incident_chain_sop25_s5_gov02_s14
+  - supervisory_notification_decided_by_mlro_with_designated_executive_per_gov02_s14

@@ -1,0 +1,359 @@
+GOV-02: Anti-money-laundering and counter-terrorist-
+financing policy
+Company                      Mynta AB
+
+Last approval date           2026-09-10
+
+Approved by                  CEO
+
+Document type                Policy
+
+Document owner               MLRO
+
+Information class            Open internally, confidential externally
+
+
+
+Versioning
+DATE              VERSION    CHANGES                                                               BY
+
+2026-09-07        1.x        Earlier versions per the change notes in this document                Document owner
+
+2026-09-10        2.0        Rewritten in plain language. No rules changed.                        Document owner
+
+FIELD                        VALUE
+
+Document ID                  GOV-02
+
+Applies to                   Mynta AB in its entirety: all staff, all contractors, all products, all governing bodies.
+                             Group application per section 12.
+
+Implements                   Penningtvattslagen (2017:630), FFFS 2017:11. Risk premises from GOV-01.
+
+
+Change history
+VERSION DATE               CHANGE                                                                           APPROVED
+
+1.0          2026-09-07 First complete                                                                      Superseded
+
+1.1          2026-09-07 Policy weight: definitions, obliged-activity scope, governance duties               Approved
+                        enumerated, PEP and high-risk-country statements, employee suitability,
+                        group application, control plan
+
+
+
+1 · Purpose
+This policy states how Mynta AB prevents its products from being used for money laundering and
+terrorist financing, and assigns accountability for each obligation. It is the parent document of the
+financial crime prevention framework. the elevated category routines (SOP-10 to SOP-25) implement
+it. The registers (REG-C) hold its operating values. Where a routine and this policy diverge, this policy
+prevails and the divergence shall be corrected through SOP-25.
+
+
+
+
+Mynta AB | GOV-02 | v2.0                                                                                          Page 1 of 7
+2 · Scope of obliged activities
+Mynta AB is an obliged entity under penningtvattslagen as an e-money institution. The framework
+covers all of Mynta's activities: issuance and redemption of e-money, account and payment services,
+card issuing, merchant acquiring, and the distribution of crypto-asset services provided by Mynta
+Digital AB. The distribution activity is within scope in full: Mynta performs its own due diligence,
+monitoring and reporting for the customers it serves, irrespective of the affiliate's parallel obligations
+as a CASP.
+
+Mynta offers no cash services, no correspondent relationships, no trade finance, and no occasional
+transactions to non-customers. Should any such activity be proposed, GOV-09 requires assessment
+against this framework before launch.
+
+
+3 · Definitions
+
+Money laundering           As defined in penningtvattslagen 1 kap 6 §, including self-laundering and the
+                           handling of property derived from crime.
+
+Terrorist financing        As defined in penningtvattslagen 1 kap 7 §, irrespective of the origin of the funds.
+
+Business relationship      A relationship with an element of duration, established when an application is
+                           approved under SOP-10 or SOP-11.
+
+Beneficial owner           Per SOP-10 section 3. The identified-not-declared rule applies throughout the
+                           framework.
+
+Framework                  This policy, GOV-01 and GOV-03 to GOV-09, the SOP series, REG-C and the
+                           templates.
+
+Incident                   A breach of this framework, a control failure, or a near miss, per section 14.
+
+
+
+4 · Policy statements
+  • Mynta shall not be used for money laundering or terrorist financing. The measures in this
+    framework exist to prevent, detect and report abuse.
+  • The approach is risk-based on the foundation of GOV-01. Higher assessed risk shall always result
+    in more extensive measures.
+  • No commercial objective overrides an obligation in this framework. Conflicts shall be escalated to
+    the MLRO.
+  • Known control limitations are documented in GOV-01 and shall be taken into account in decisions
+    that rely on the affected controls.
+  • Every decision under this framework shall be reconstructable from records alone.
+
+
+5 · Governance and accountability
+
+5.1 The board
+The board shall: approve GOV-01 and its revisions, the risk appetite in GOV-04, and material changes
+to the overall risk profile; appoint the sarskilt utsedd befattningshavare; receive the MLRO report
+quarterly and the annual control-plan results; and, together with the CEO, ensure the function is
+
+
+Mynta AB | GOV-02 | v2.0                                                                                Page 2 of 7
+resourced for its task. This policy is adopted by the CEO and presented to the board; annual approval
+of the policy itself is an internal Mynta standard, not an FFFS requirement, and is recorded as such.
+Board minutes shall evidence each decision.
+
+5.2 Sarskilt utsedd befattningshavare
+A member of executive management is designated under FFFS 2017:11 as responsible for
+penningtvattslagen compliance. The designated executive shall: ensure the measures the law
+requires are carried out, and that the framework is implemented and maintained; and ensure
+deficiencies and material incidents reach the board without filtering. Resourcing is decided by the
+CEO and the board. The annual control-plan report is issued by the central function; the designated
+executive receives it and answers to the board for the actions it triggers.
+
+5.3 Centralt funktionsansvarig
+The central function holder (MLRO) is appointed by the board on the designated executive’s
+proposal. The function monitors compliance with this framework, assesses whether the controls
+work, advises the business, makes recommendations, and issues an annual independent report to
+the board. It does not own the framework or the controls it reviews: ownership sits with the first line
+and the designated executive, so the review stays independent. The mandate includes:
+independence from business lines and from revenue targets; unrestricted access to all information,
+systems and personnel; direct access to the board; authority to decide reporting to Finanspolisen
+without any business approval; ownership of GOV-01, this framework's documents, the registers and
+the deviation and incident registers; and the quarterly MLRO report. A deputy is appointed with full
+authority in the MLRO's absence. The MLRO's removal or a material reduction of the mandate
+requires a board decision with the reasons minuted.
+
+5.4 Three lines
+First line: business and operational teams own their risks and execute the routines. Second line: the
+compliance function under the MLRO sets the framework, advises, monitors and challenges. Third
+line: independent examination per section 13. A person shall not review their own decisions in any
+line.
+
+5.5 All staff
+Every employee shall know the parts of the framework their role touches, complete the training in
+section 11, raise suspicion per SOP-19 or T-5 rather than assessing it away, and observe the
+prohibition in section 9.4. These duties are terms of employment.
+
+
+6 · Risk assessment and classification
+GOV-01 is the institution's risk assessment under penningtvattslagen 2 kap. It shall be revised
+annually and on its event triggers, and board-approved. Customers shall be classified per SOP-14
+into low, medium and high risk. Classification consequences are set in C-6 (authority), SOP-22
+(review intervals), SOP-18 (monitoring intensity) and the routines' verification standards.
+Classifications shall reconcile to GOV-01 per its conclusion C8. New products, services, technologies
+and channels shall be risk-assessed under GOV-09 before launch, and GOV-01 shall be updated
+where the assessment changes the institution's risk picture.
+
+
+
+
+Mynta AB | GOV-02 | v2.0                                                                       Page 3 of 7
+7 · Customer due diligence
+
+7.1 When due diligence is required
+Before a business relationship is established; when doubts arise about the veracity or adequacy of
+previously obtained information; and whenever money laundering or terrorist financing is suspected,
+irrespective of any exemption or threshold. Mynta’s products are built so that transactions are
+executed for customers only, and requests for occasional transactions from non-customers shall be
+declined. This position does not set aside the law: should an occasional transaction nonetheless
+occur or be attempted, the statutory due diligence, monitoring and reporting requirements apply to it
+in full.
+
+7.2 Content
+Due diligence comprises: identification and verification of the customer; identification of beneficial
+owners and risk-proportionate verification, including understanding of ownership and control
+structure; assessment and, as warranted, documentation of the purpose and nature of the
+relationship; and ongoing monitoring per section 9. The measures are set operationally in SOP-10,
+SOP-11 and their rules.
+
+7.3 Enhanced measures
+Enhanced due diligence per SOP-13 shall be applied: where penningtvattslagen requires it, including
+PEP connections and establishment or transactions involving high-risk third countries identified by
+the Commission; and in the situations C-9 designates. The C-9 triggers are Mynta requirements in
+addition to law.
+
+7.4 Simplified measures
+Simplified due diligence may be applied only where the law permits and GOV-01 supports low risk,
+per SOP-10 section 9 and SOP-11. Simplification shall never omit screening, purpose assessment or
+risk classification.
+
+7.5 Politically exposed persons
+Mynta shall determine whether customers, beneficial owners and their associates are PEPs, family
+members or known close associates. Confirmed connections require enhanced measures, source of
+wealth and funds assessment, approval by the authorised senior decision-maker the governance
+framework designates, and enhanced monitoring, per SOP-10 section 8 and SOP-13. A person shall
+be treated as a PEP for at least 18 months after leaving the function, and longer where the
+relationship remains high risk.
+
+7.6 High-risk third countries
+Relationships and transactions involving high-risk third countries per the EU list shall receive
+enhanced measures. The statutory trigger is that the customer is established in a third country the
+European Commission has identified as high risk; those relationships receive the enhanced
+measures the law requires. C-2 the high-risk category is broader than the EU list; the additional the
+high-risk category countries are a Mynta risk-appetite requirement and are handled as such, distinct
+from the statutory high-risk-third-country treatment.
+
+
+
+
+Mynta AB | GOV-02 | v2.0                                                                        Page 4 of 7
+7.7 The prohibition
+Where due diligence cannot be completed, the relationship shall not be established. Where it exists,
+it shall not continue, and transactions shall not be executed, subject to the statutory carve-outs.
+Termination on these grounds follows SOP-23, and the attempted or terminated relationship shall be
+assessed under SOP-20. No level of the organisation may waive this prohibition.
+
+7.8 Reliance
+Mynta does not apply the penningtvattslagen reliance provisions. Vendors are outsourced tools
+under GOV-08, and responsibility remains Mynta's. Information from introducers may inform
+assessment; it shall not substitute for any measure.
+
+
+8 · Sanctions
+Sanctions obligations are governed by GOV-03 on their own legal base. Screening under SOP-12
+serves both regimes. On any confirmed or non-dismissable sanctions match, SOP-21 applies
+immediately and this policy's monitoring and reporting provisions run in parallel where suspicion
+exists.
+
+
+9 · Monitoring, examination and reporting
+
+9.1 Monitoring
+Customer activity shall be monitored against the recorded baseline, the risk class and known
+typologies, across all product areas in total, per SOP-18. Monitoring baselines are mandatory at
+activation; activation without a baseline is prohibited.
+
+9.2 Examination
+Deviations and indicators shall be examined per SOP-19 with the depth the circumstances require.
+Examination shall be recorded to the reconstruction standard. Closing an alert without genuine
+examination is a breach of this policy.
+
+9.3 Reporting
+Where reasonable grounds to suspect remain after examination, the MLRO function shall report to
+Finanspolisen without undue delay per SOP-20. The decision is the MLRO's alone. There is no de
+minimis. Attempted relationships and refused transactions are assessed on the same standard. A
+suspicious transaction not yet executed shall be refrained from until reported, unless refraining is
+impossible or would reveal the examination, in which case it may be executed and reported
+immediately after, with reasons recorded.
+
+9.4 Prohibited disclosure
+No employee shall inform the customer or any third party that examination, reporting or a freeze
+consideration has occurred or may occur, or act in a way from which this can be inferred. The
+statutory exceptions are exercised only by the MLRO. Breach is a criminal exposure for the individual
+and gross misconduct at Mynta.
+
+
+
+
+Mynta AB | GOV-02 | v2.0                                                                      Page 5 of 7
+9.5 Authority cooperation
+Inquiries and orders from Finanspolisen, Finansinspektionen and other competent authorities shall
+be answered completely and within the demanded time, through the MLRO function. Business
+teams shall route any authority contact to the MLRO function unanswered.
+
+
+10 · Records
+Due diligence records, transaction records, examinations, reports and decision rationales shall be
+retained five years from relationship end or transaction execution, ten where law requires or an
+authority orders. Records shall be retrievable per the routines' standards and structured so
+compliance with each obligation is demonstrable. Retention under this framework is a legal
+obligation and prevails over erasure requests for its duration; the interface is governed by GOV-07.
+SAR material is segregated with restricted access per SOP-20 section 5.
+
+
+11 · Training and suitability
+All staff shall complete AML/CTF training on joining and annually. Depth is role-based: onboarding,
+monitoring and screening roles train on their routines and current typologies; management trains on
+governance and accountability; the board receives an annual briefing. Completion shall be registered
+and attested. Training content shall be maintained against GOV-01's typology picture and QC
+findings. Persons in framework-relevant roles shall be suitability-checked at hiring per the HR
+procedure, including relevant background verification permitted by law.
+
+
+12 · Group application and outsourcing
+Mynta applies its standards in the group context where they are the stronger standard. Coordination
+with Mynta Digital AB covers shared customers, the Crypto Service interface, travel-rule data flows
+and mutual escalation, and shall be documented between the entities. Each entity's legal obligations
+remain its own. Outsourced services are governed by GOV-08: material arrangements require
+contracts covering audit and data access, performance review, and exit planning. Responsibility for
+compliance is never outsourced.
+
+
+13 · Internal control and independent review
+Three lines, plainly: the first line does the operational work and its own quality control; the second
+line, the central function, monitors compliance and reports annually; the third line is independent
+review. Within that, the second line shall operate an annual control plan over the framework: the QC
+programmes in the routines, register reviews, effectiveness monitoring, and thematic checks
+selected from GOV-01's risk picture. Results are reported quarterly in the MLRO report and annually
+as a consolidated self-assessment signed by the designated executive. Independent examination
+proportionate to Mynta's size shall review the framework's design and operation on a board-
+approved cycle, per GOV-06, with findings tracked to closure in board reporting.
+
+
+14 · Incidents, breaches and discipline
+Framework breaches, control failures and near misses are incidents. Incidents shall be recorded,
+root-caused, corrected and reported upward proportionate to severity. The MLRO assesses whether
+
+
+Mynta AB | GOV-02 | v2.0                                                                       Page 6 of 7
+an incident requires notifying Finansinspektionen; the decision is taken together with the designated
+executive, and the board is informed. An undocumented deviation from a routine is an incident
+regardless of outcome. Breaches attributable to individuals are handled through the disciplinary
+process. Prohibited disclosure and wilful non-reporting constitute gross misconduct. Reports
+through the whistleblowing channel are protected, and reprisal is itself an incident.
+
+
+15 · Implementation map
+POLICY SECTION             IMPLEMENTING DOCUMENTS
+
+6 Risk assessment and      GOV-01; SOP-14; C-6; SOP-22; GOV-09
+classification
+
+7 Due diligence            SOP-10, SOP-11, SOP-13; C-1, C-2, C-3, C-9; T-1, T-2, T-3; GOV-04
+
+7 Screening within due     SOP-12; C-4; GOV-03
+diligence
+
+8 Sanctions                GOV-03; SOP-12; SOP-21
+
+9 Monitoring and           SOP-18; SOP-19; C-5; REG-C rule register
+examination
+
+9 Reporting and            SOP-20; T-5
+disclosure prohibition
+
+7.7 / 9 Termination        SOP-23; T-6
+
+10 Records                 Routine record sections; GOV-07; retention schedule (wave 2)
+
+11 Training and suitability Training programme and register (wave 2); HR procedure
+
+12 Group and               GOV-08; affiliate coordination records; SOP-17
+outsourcing
+
+13 Internal control        QC sections; annual control plan; GOV-06; MLRO report
+
+14 Incidents               Incident register; deviation registers; whistleblowing procedure
+
+
+
+16 · Review
+Annual board approval. Out-of-cycle revision on SOP-25 triggers, GOV-01 revisions, supervisory
+findings and material incidents. Versions and changes are recorded above; superseded versions are
+retained. Each routine cites the policy version it aligns to. When this policy changes, SOP-25 tracks
+the realignment.
+
+
+
+
+Mynta AB | GOV-02 | v2.0                                                                       Page 7 of 7
+

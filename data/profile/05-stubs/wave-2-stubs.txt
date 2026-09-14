@@ -1,0 +1,281 @@
+SOP-15: Merchant acquiring underwriting (stub)
+Company                           Mynta AB
+
+Last approval date                2026-09-10
+
+Approved by                       MLRO
+
+Document type                     Stub collection
+
+Document owner                    MLRO
+
+Information class                 Open internally, confidential externally
+
+
+
+Versioning
+DATE               VERSION        CHANGES                                                  BY
+
+2026-09-07         1.x            Earlier versions per the change notes in this document   Document owner
+
+2026-09-10         2.0            Rewritten in plain language. No rules changed.           Document owner
+
+Full version in wave 2. The points below bind now; other documents cite them.
+
+
+
+Purpose
+Underwriting standards for acquiring merchants: business verification beyond KYB, MCC assignment
+and C-7 enforcement, processing-history assessment, chargeback and refund expectations, and
+settlement configuration.
+
+
+Binding points
+  • Every merchant passes SOP-10 in full before underwriting concludes. Underwriting adds to KYB; it
+    never substitutes.
+  • MCC assignment follows C-7. Conditional categories require the condition documented before
+    activation.
+  • The SOP-10 Appendix D checks are the onboarding-analyst subset of this document's standards.
+  • Underwritten volume, ticket profile and chargeback expectation are written to the monitoring
+    baseline and drive R-ACQ parameters.
+  • Undisclosed prior terminations discovered later are SOP-22 events.
+  • MCCs follow the card-scheme rules and the merchant’s actual activity, not the application alone.
+
+
+
+
+Mynta AB | Wave 2 and internal-shelf stubs | v2.0                                                   Page 1 of 11
+SOP-16: Card programme limits and controls (stub)
+Full version in wave 2. The points below bind now.
+
+
+
+Purpose
+Card limits by risk class, ATM caps, geographic controls, and the card-specific fraud interface.
+
+
+Binding points
+  • Limits and ATM caps per risk class live in the card limit register; values shall not be written into
+    routines.
+  • High-risk customers receive reduced ATM caps; changes route through the SOP-18 change-
+    control pattern.
+  • Card activation follows SOP-10/11 outcomes only; no card ships before the monitoring baseline
+    exists.
+  • KYC approval alone does not activate a card: fraud, security and authentication checks are
+    completed first.
+
+
+
+
+Mynta AB | Wave 2 and internal-shelf stubs | v2.0                                                 Page 2 of 11
+SOP-17: Crypto operations, wallet screening and travel rule
+(stub)
+Full version in wave 2. The points below bind now.
+
+
+
+Purpose
+Operational controls on the Crypto Service: counterparty wallet screening, travel-rule data handling
+under Regulation (EU) 2023/1113, VASP counterparty due diligence, and the signal interface into R-
+CRY rules.
+
+
+Binding points
+  • Wallet screening runs on every Crypto Service transaction; sanctioned-wallet signals route to
+    SOP-21 immediately.
+  • Travel-rule data completeness is a data incident when missing, per the SOP-18 section 7 pattern.
+  • For self-hosted wallet transfers above register values, take adequate measures to assess
+    whether the address is owned or controlled by the customer, per the register method.
+  • Coordination with Mynta Digital AB follows the GOV-02 section 10 arrangement; each entity's
+    obligations remain its own.
+
+
+
+
+Mynta AB | Wave 2 and internal-shelf stubs | v2.0                                              Page 3 of 11
+SOP-21: Sanctions freeze and reporting (stub)
+Full version in wave 2. The points below bind now.
+
+
+
+Purpose
+Execution of asset freezes on true matches and non-dismissable hits: immediate actions, reporting,
+and ongoing administration.
+
+
+Binding points
+  • Freeze first, analyse second. No customer notification. No execution of pending transactions.
+  • Freeze covers funds and services: accounts, cards, acquiring settlement and Crypto Service
+    access simultaneously.
+  • Reports to the competent authorities without delay; MLRO owns all handling thereafter.
+  • Release only under GOV-03 section 9 licence handling.
+  • Every freeze is logged with timestamps; SOP-19 and SOP-20 assessments run in parallel where
+    suspicion exists.
+  • A temporary operational block is kept separate from a legal asset freeze, and Finansinspektionen
+    is the reporting authority for freezing actions.
+
+
+
+
+Mynta AB | Wave 2 and internal-shelf stubs | v2.0                                            Page 4 of 11
+SOP-22: Ongoing due diligence and review (stub)
+Full version in wave 2. The points below bind now.
+
+
+
+Purpose
+Periodic reviews by risk class, event-driven reviews, and maintenance of customer information and
+baselines.
+
+
+Binding points
+  • Intervals: high 12 months, medium 24, low 36; PEP files 12 regardless of class.
+  • Event triggers include: ownership change, screening deltas, SOP-19 close-with-note closing
+    decisions, returned contact channels, discovered prior terminations, and post-approval PEP or the
+    high-risk category discoveries.
+  • Reviews use T-4 and re-run SOP-14; outcomes route per the T-4 outcome set.
+  • Overdue reviews appear by name in the MLRO report at 30 days past due.
+  • Fixed review cycles never replace continuous and event-driven review, and an overdue review
+    escalates from its due date.
+
+
+
+
+Mynta AB | Wave 2 and internal-shelf stubs | v2.0                                            Page 5 of 11
+SOP-23: Exit and termination (stub)
+Full version in wave 2. The points below bind now.
+
+
+
+Purpose
+Risk-driven termination of relationships: grounds, decision, timing coordination with reporting,
+customer communication, and funds handling.
+
+
+Binding points
+  • Risk exits use T-6 and decide at MLRO level.
+  • Exit timing and wording shall not disclose examination or reporting, per SOP-20 section 6.
+  • The GOV-02 section 6 prohibition cases (due diligence cannot be completed) route here and are
+    mandatory exits.
+  • Exited entities enter the declined and exited registers consulted at SOP-10/11 intake.
+  • Exit handling covers remaining balances, frozen funds, notice periods, chargebacks, and retention
+    of the exit-register data.
+
+
+
+
+Mynta AB | Wave 2 and internal-shelf stubs | v2.0                                             Page 6 of 11
+Governance stubs: GOV-05 to GOV-09
+Full versions in wave 2. The points below bind now.
+
+
+
+GOV-05 Safeguarding
+Customer funds are safeguarded at Norrbank AB under the segregation method; reconciliation daily;
+safeguarding is out of AML scope but its counterparty risk appears in GOV-01 batch data. The
+safeguarding scope is stated: which funds, which accounts, which reconciliation.
+
+
+GOV-06 Internal audit charter
+Independent examination per GOV-02 section 11; plan approved by the board; findings tracked to
+closure. Internal audit is independent, works to a risk-based plan, and reports directly to the board.
+
+
+GOV-07 Data protection interface
+AML retention is a legal obligation prevailing over erasure for its period; conflicts route to the DPO
+and MLRO jointly; access to SAR material is restricted per SOP-20 section 5. The erasure exception
+is limited to data legally required for the applicable retention period, nothing wider.
+
+
+GOV-08 Outsourcing and vendor governance
+Screening, identity and infrastructure vendors are material arrangements: contracts, performance
+review, exit plans; responsibility never transfers; vendor performance reviews feed the QC cycle.
+DORA ICT arrangements are handled separately from other outsourcing, with classification, FI
+notification where required, audit rights, subcontracting terms, and tested exit plans.
+
+
+GOV-09 Product and change approval
+New products, product areas, tokens and material feature changes require documented risk
+assessment against GOV-01, MLRO sign-off, and board approval where appetite moves; C-8
+approved list additions route here. Reviews cover Legal, Compliance, Risk, the DPO, the CTO, Finance
+and safeguarding, and the FI is notified where a change affects the business model.
+
+
+
+
+Mynta AB | Wave 2 and internal-shelf stubs | v2.0                                               Page 7 of 11
+OP-01: Complaints handling (stub)
+Full version internal per REG-D. The points below bind the FCP framework now.
+
+
+
+Binding points
+  • Complaints are received free of charge, registered, acknowledged and answered within the
+    published time limits, with a register and root-cause reporting to management.
+  • A complaint that reveals a possible framework breach is also an incident under GOV-02 section
+    14.
+  • A complaint touching examination, reporting or a freeze is answered without disclosing any of
+    them; wording routes through the MLRO function per SOP-20 section 6.
+  • If no answer can be given within 14 business days, the complainant is told when one is expected.
+
+
+
+
+Mynta AB | Wave 2 and internal-shelf stubs | v2.0                                           Page 8 of 11
+OP-02: Whistleblowing (stub)
+Full version internal per REG-D. The points below bind now.
+
+
+
+Binding points
+  • An independent, confidential channel exists for reporting suspected breaches, open to all staff;
+    reports may be made anonymously.
+  • Reprisal against a reporter is prohibited and is itself an incident; investigations report to the
+    board.
+  • Suspicion of money laundering or terrorist financing may always be raised directly per SOP-19
+    and T-5; the channels coexist and neither replaces the other.
+  • The channel covers employees, contractors, trainees, management and active shareholders, with
+    acknowledgement within 7 days and feedback within 3 months.
+
+
+
+
+Mynta AB | Wave 2 and internal-shelf stubs | v2.0                                                  Page 9 of 11
+OP-03: Training programme and register (stub)
+Full version internal per REG-D. The points below bind now.
+
+
+
+Binding points
+  • Role-based training per GOV-02 section 11: all staff annually; onboarding, monitoring and
+    screening roles on their routines and current typologies; management on governance; the board
+    briefed annually.
+  • Completion is registered and attested; the register evidences competence for authority levels,
+    including SOP-10 section 18.
+  • QC findings and typology changes feed content through the MLRO report.
+  • Training covers new starters and change-driven training when the BWRA updates or new
+    products or markets launch, with effectiveness tested: attendance alone does not prove
+    competence.
+
+
+
+
+Mynta AB | Wave 2 and internal-shelf stubs | v2.0                                            Page 10 of 11
+OP-04: Record retention schedule (stub)
+Full version internal per REG-D. The points below bind now.
+
+
+
+Binding points
+  • FCP records retain five years from relationship end or transaction execution, ten where law
+    requires or an authority orders, per GOV-02 section 10.
+  • Every record class has an information owner, a retrieval standard and a deletion path; legal hold
+    suspends deletion.
+  • Retention under the FCP framework prevails over erasure requests for its duration, with conflicts
+    handled per GOV-07 jointly by the DPO and the MLRO.
+
+
+
+
+Mynta AB | Wave 2 and internal-shelf stubs | v2.0                                             Page 11 of 11
+

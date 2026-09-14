@@ -1,0 +1,183 @@
+GOV-03: Sanctions policy
+Company                      Mynta AB
+
+Last approval date           2026-09-10
+
+Approved by                  CEO
+
+Document type                Policy
+
+Document owner               MLRO
+
+Information class            Open internally, confidential externally
+
+
+
+Versioning
+DATE              VERSION    CHANGES                                                         BY
+
+2026-09-07        1.x        Earlier versions per the change notes in this document          Document owner
+
+2026-09-10        2.0        Rewritten in plain language. No rules changed.                  Document owner
+
+FIELD                        VALUE
+
+Document ID                  GOV-03
+
+Interfaces                   SOP-10 (chains), SOP-12 (screening), SOP-21 (freeze), C-2, C-4; GOV-01 section 11
+
+
+Change history
+VERSION         DATE             CHANGE                                                           APPROVED
+
+1.0             2026-09-07       First complete                                                   Superseded
+
+1.1             2026-09-07       Definitions, sectoral measures, testing cadence                  Approved
+
+
+
+1 · Purpose and position
+Sanctions compliance is absolute in character: obligations apply regardless of intent, knowledge
+thresholds are low, and a single missed listed party is a breach. This policy states which regimes
+bind Mynta, how exposure is found, and what happens on a match. It is deliberately short; the
+operational weight lives in SOP-12 and SOP-21, and the ownership structure-quality dependency
+lives in SOP-10, per GOV-01 conclusion C4.
+
+
+2 · Legal basis and list regime
+Binding: EU restrictive measures, directly applicable as regulations, including asset freezes and
+sectoral prohibitions; UN measures as implemented in EU law; Swedish national measures under lag
+(1996:95) om vissa internationella sanktioner. Supervision and enforcement sit with
+Finansinspektionen and prosecuting authorities.
+
+Risk-based additional screening: designated OFAC programmes. Three different things are kept apart
+here. What binds Mynta as law is the EU and Swedish framework above; US sanctions do not apply
+to Mynta directly absent a US connection. What exists nonetheless is secondary-sanctions
+
+
+Mynta AB | GOV-03 | v2.0                                                                                  Page 1 of 4
+exposure: US measures can reach non-US institutions commercially, through loss of counterparties
+and dollar access. And what applies contractually is the schemes’ and the BIN sponsor’s expectation
+that designated OFAC programmes are screened. On that basis, and as a documented risk decision
+of this policy, the designated programme set is screened; it is recorded in the C-registers and
+reviewed with the vendor configuration.
+
+
+3 · Definitions
+
+Listed person              A natural or legal person designated under a regime in section 2, or treated as
+                           designated under section 5.
+
+Freeze                     Prevention of any move, transfer, alteration, use of, access to or dealing with
+                           funds and economic resources.
+
+Making available           Any provision of funds, services or economic resources, direct or indirect,
+                           including through intermediaries.
+
+Circumvention              Participation in activities whose object or effect is to defeat a measure, including
+                           knowingly enabling structures used for that purpose.
+
+True match                 Per C-4: a confirmed match, or a hit that cannot be dismissed on evidence.
+
+
+
+4 · Sectoral and territorial measures
+Beyond list-based freezes, regimes in force impose sectoral prohibitions (finance, energy, defence,
+dual-use and listed goods) and territorial restrictions. Mynta's exposure to these is limited by its
+business model: no trade finance, no correspondent activity, no cash. The residual exposure paths
+are: acquiring merchants whose trade touches restricted sectors or dual-use goods; cross-border
+payments referencing restricted goods, services or territories; and the crypto Crypto Service’s
+counterparty exposure. The relevant prohibitions include the territorial restrictions in force (occupied
+and embargoed territories) and the sectoral measures on finance, energy, defence and dual-use
+items. Controls per channel: SOP-15 underwriting and C-7 category governance ask the sectoral
+questions before a merchant is signed, not after; C-2 prohibited-band enforcement applies at any
+level of the ownership structure; SOP-18 cross-border flow and reference screening runs per the
+register, and payment-reference screening alone is not treated as a reliable dual-use control; every
+restricted-sector indication escalates to the MLRO before execution, and permit questions follow
+section 9. Where a sectoral question cannot be resolved from the regime text, external counsel shall
+be engaged before the transaction proceeds.
+
+
+5 · Prohibitions
+  • No funds or economic resources are made available, directly or indirectly, to or for the benefit of a
+    listed person or an entity owned or controlled by one.
+  • Frozen assets are not dealt with, moved or released except under a licence or exemption lawfully
+    obtained.
+  • No participation in, and no facilitation of, circumvention: structures, routings or renamings whose
+    purpose or effect is to defeat measures are treated as the measure applying.
+
+
+
+
+Mynta AB | GOV-03 | v2.0                                                                                 Page 2 of 4
+  • No customer relationship is maintained with a listed person; discovery triggers SOP-21
+    immediately.
+
+
+6 · Ownership and control: the 50% rule
+The EU and US rules differ and are applied separately. Under the EU framework, ownership and
+control are two separate tests: an entity owned 50% or more, in total, by listed persons is treated as
+listed, and so is an entity a listed person controls, and control can exist below 50%. Under OFAC's 50
+Percent Rule, total ownership of 50% or more is what makes an entity blocked; control alone does
+not automatically block it, but it is a risk factor handled through this policy’s escalation route. Total
+ownership is discoverable only through the SOP-10 ownership structure work; this policy therefore
+adopts GOV-01 conclusion C4 as its own: ownership-structure evidence standards are a sanctions
+control, and an ownership structure that would not support the 50% computation does not support
+onboarding. Control is assessed on the SOP-10 S4.2 criteria. Where an alert is unresolved, the
+affected funds and transactions are put on immediate hold and the investigation is urgent; the
+formal freeze follows as soon as the legal threshold is met, per SOP-21.
+
+
+7 · Screening obligations
+Who: customers, beneficial owners as identified (not as declared), directors and signatories,
+intermediate ownership structure entities, payment counterparties within product area data, and, on
+the Crypto Service, wallet addresses per SOP-17. When: at onboarding before activation; ongoing,
+with delta-screening on every list update against the full base; at transaction level for payments and
+Crypto Service activity; and on any event that changes the persons in a relationship. How: per
+SOP-12, with match the decision on hits per C-4; near-match dismissing requires recorded rationale
+on mismatched secondary identifiers and is never based on the customer's own assurance.
+
+
+8 · On a match
+A confirmed match triggers SOP-21 without customer notification: freeze of funds and suspension of
+services, no execution of pending transactions, reporting to the competent authorities without delay,
+and MLRO ownership of everything thereafter. A match that cannot yet be dismissed triggers an
+immediate hold on the affected funds and transactions and an urgent investigation, and converts to
+a freeze the moment the legal threshold is met. Suspicion arising with the match is assessed under
+SOP-20 in parallel. Deciding to "monitor while clarifying" instead of freezing is not an available
+option and would be a breach of this policy.
+
+
+9 · Licences and exemptions
+Frozen funds may in some situations lawfully be released or used, but only with a permit from the
+competent authority. The typical grounds are set out in the regimes themselves: basic living costs,
+legal fees, or payments under contracts that predate the listing. Where such a ground may exist,
+Mynta applies to the authority; nothing moves before the permit is in hand and its conditions are met
+exactly. Permit handling is MLRO-owned, documented, and reported to the board.
+
+
+
+
+Mynta AB | GOV-03 | v2.0                                                                        Page 3 of 4
+10 · Governance
+The MLRO owns this policy's operation: list updates applied without undue delay from the moment
+they take legal effect, weekends included: same-day ingestion as the operating standard,
+emergency manual controls while an update propagates, blocking on too old lists, and full-base
+delta screening after every update. Vendor SLAs support this but do not transfer Mynta’s
+responsibility, configuration and tuning of the screening system with test evidence retained, the C-2
+category list's sanctions-driven entries, and breach and incident handling with supervisory
+notification where required. Screening effectiveness (coverage, match quality, dismiss discipline) is
+tested at least annually and after material configuration change, with results in the MLRO report.
+Training per GOV-02 section 9 includes sanctions modules for relevant roles.
+
+
+11 · Records and review
+Screening records, decisions on hits, freezes, reports and licence files follow GOV-02 section 8
+retention. This policy is reviewed annually and immediately upon material regime change, with the
+change history maintained alongside.
+
+
+
+
+Mynta AB | GOV-03 | v2.0                                                                     Page 4 of 4
+

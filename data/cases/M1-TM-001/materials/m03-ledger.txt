@@ -1,0 +1,61 @@
+K OMPASS | LEDGER                                                                W INDOW 2026-08-25 TO 2026-09-03
+
+
+
+Cross-rail ledger, trailing 10 days
+DATE            RAIL                   DIRECTION    COUNTERPARTY / DETAIL                                 SEK
+
+08-25           Account                In           M. Sandelin, "tack"                                          4,200
+
+08-25           Account                In           J. Ekstrom, "betalning"                                      5,600
+
+08-26           Account                In           A. Holm, no message                                          3,800
+
+08-26           Ramp                   Purchase     BTC purchase, in-app                                         9,700
+
+08-27           Account                In           K. Lindqvist, "faktura"                                      5,900
+
+08-27           Account                In           S. Berg, no message                                          4,700
+
+08-27           Card                   Spend        Grocery, Uppsala                                             1,240
+
+08-28           Ramp                   Purchase     ETH purchase, in-app                                        11,300
+
+08-28           Account                In           R. Nyberg, "lan aterbetalning"                               5,100
+
+08-29           Account                In           M. Sandelin, no message                                      4,900
+
+08-29           Account                Out          Transfer, P. Ohlsson                                        10,800
+
+08-30           Account                In           T. Wall, "betalning"                                         4,400
+
+08-30           Card                   Spend        Electronics, online                                          6,180
+
+08-31           Account                In           E. Dahl, no message                                          5,300
+
+08-31           Ramp                   Purchase     BTC purchase, in-app                                        12,400
+
+09-01           Account                In           J. Ekstrom, "del 2"                                          4,600
+
+09-01           Card                   Spend        Fuel, Uppsala                                                   920
+
+09-02           Account                In           L. Ahmadi, no message                                        4,200
+
+09-02           Account                Out          Transfer, P. Ohlsson                                        10,900
+
+09-02           Card                   Spend        Restaurant, Uppsala                                             640
+
+09-03           Ramp                   Purchase     BTC purchase, in-app                                        11,100
+
+09-03           Card                   Spend        Grocery, Uppsala                                             1,020
+
+09-03           Card                   Spend        Pharmacy, Uppsala                                            2,900
+
+
+Extract complete for the window across all rails. Card loads occur automatically from the account at spend.
+
+
+
+
+Mynta AB | Cross-rail ledger extract                                                                            Page 1 of 1
+

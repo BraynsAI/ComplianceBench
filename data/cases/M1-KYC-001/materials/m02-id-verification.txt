@@ -1,0 +1,27 @@
+I DENTITY VERIFICATION                                                                                              R ECORD
+
+
+
+Identity verification record
+Subject                                 Aylin Kaya, application KYC-2026-90233
+
+Method                                  Passport document capture with liveness
+
+Attempt 1                               2026-09-01 21:52. Document capture pass. Liveness fail: insufficient illumination,
+                                        glare on face capture.
+
+Attempt 2                               2026-09-01 21:58. Document capture pass. Liveness pass. Face match to
+                                        document portrait: 0.97.
+
+Document checks                         MRZ consistent and checksum valid. Security features consistent with reference
+                                        template. MRZ name: KAYA AYLIN. Document valid to 2031-05-02.
+
+Name comparison                         Application name matches MRZ. Vendor match confidence: high.
+
+Overall result                          Verified on second attempt.
+
+
+
+
+Identity vendor | Verification record                                                                              Page 1 of 1
+

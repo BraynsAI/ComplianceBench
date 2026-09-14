@@ -1,0 +1,41 @@
+Reviewer notes, addendum after the shelf review
+Raised by the Head of Legal & Compliance review of the build list; resolved as follows, corrections
+welcome on each.
+
+
+GOV-01A · Sanctions risk assessment
+New annex closing the flagged gap. Wanted: exposure-path completeness for an EMI of this shape,
+the inherent and residual ratings, and the three acceptance conditions in section 4.
+
+
+PROG-01 · Programme of operations
+New canon-level document; FI-reads-this-first logic adopted. Wanted: whether the eight sections
+cover what a verksamhetsplan must, at reference depth, and anything materially missing for
+coherence.
+
+
+REG-D · Document register
+The full internal shelf from the review is now referenced: corporate governance, ERM, compliance
+policy and monitoring plan, fit and proper, conflicts, capital, accounting, ICT and DORA set,
+communications, audit, remuneration, complaints, whistleblowing, training, retention, reporting, wind-
+down, and the affiliate's CASP shelf as a separate entity boundary. Wanted: anything a Swedish EMI
+shelf carries that the register still lacks, and whether instrument-level legal references (kept
+deliberately without article numbers in the published register) are the right disclosure level.
+
+
+Stubs v1.1
+Four referenced-but-absent stubs added: complaints, whistleblowing, training, retention. Wanted:
+binding-point accuracy.
+
+
+Positions taken
+English is canonical for publication; Swedish originals exist in-universe, and Swedish source material
+becomes a difficulty feature in cases. The MiCA operating system is asserted by register reference,
+not authored; the affiliate boundary is stated in PROG-01 section 6. Page-count is explicitly
+subordinated to coherence, per the review's own principle.
+
+
+
+
+Mynta pack | Reviewer notes addendum | v1.1                                                   Page 1 of 1
+

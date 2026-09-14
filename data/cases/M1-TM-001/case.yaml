@@ -1,0 +1,27 @@
+id: M1-TM-001
+module: 1
+workflow: tm_alert_investigation
+title: Emil Norrback, cross-rail aggregate deviation
+benchmark_version: 1.0
+status: active
+authored_by: brayns_internal
+authoring_method: ai_drafted_expert_adjudicated
+transformation_checklist: not_applicable_original_fiction
+pack_version: mynta-pack 1.0
+sop_refs: [SOP-19, SOP-18, SOP-20, GOV-01 conclusion C5, GOV-01 appendix B, REG-C C-5]
+difficulty: pilot_baseline
+friction_features: [crypto_offramp, structuring_pattern, cross_rail_aggregate, prior_disposition_bias]
+materials: [m01-alert, m02-customer-file, m03-ledger, m04-prior-alert, m05-screening-status]
+never_stated:
+  - any window total (the ledger sums are left to the solver)
+  - "mule" or any typology label
+  - any disposition recommendation
+expected_disposition: escalate_mlro_sop20
+judge: Augustinas (outcome and ledger realism)
+panel_2026_09_11_expected_refs:
+  - customer_contact_not_mandatory_after_prior_contact_same_pattern
+  - structuring_similar_amounts_different_senders
+  - narrative_mismatch_stated_purpose_vs_flows
+  - occupation_vs_message_texts
+  - prior_alert_risk_increasing
+  - mlro_owns_end_decision_sop20

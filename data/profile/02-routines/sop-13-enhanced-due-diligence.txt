@@ -1,0 +1,148 @@
+SOP-13: Enhanced due diligence routine
+Company                      Mynta AB
+
+Last approval date           2026-09-10
+
+Approved by                  MLRO
+
+Document type                Work procedure
+
+Document owner               Senior analysts
+
+Information class            Open internally, confidential externally
+
+
+
+Versioning
+DATE               VERSION   CHANGES                                                    BY
+
+2026-09-07         1.x       Earlier versions per the change notes in this document     Document owner
+
+2026-09-10         2.0       Rewritten in plain language. No rules changed.             Document owner
+
+FIELD                        VALUE
+
+Implements                   GOV-02 §7 enhanced measures; C-9; GOV-01 conclusion C1
+
+Referrals in                 SOP-10 S6.2, SOP-11, SOP-12 S2.4/S2.5, SOP-22 events, SOP-19 outcomes
+
+Output                       EDD report per template T-3; decision routing per C-6
+
+
+
+1 · Purpose and principle
+Enhanced due diligence deepens the understanding of a relationship where the risk concentrates:
+more evidence, stronger confirmation by a second source, senior decisions, tighter monitoring. The
+principle is proportional depth: the measures fit the trigger. A the high-risk category connection calls
+for geographic and counterparty depth. A PEP calls for wealth-and-funds depth. There is no single
+maximal checklist applied to everything. The report shall state whether the risk is acceptable, kept
+within limits and monitorable, on what basis, or conclude that it is not.
+
+
+2 · Triggers
+Mandatory, per C-9 and law: any PEP connection; any high-risk-category or EU high-risk third-
+country connection; ownership chains of three or more layers or any legal-arrangement layer;
+expected or actual crypto share at or above 30%; confirmed designated adverse media. By referral:
+SOP-19 investigation outcomes that keep the relationship, SOP-22 event findings, GOV-04 restricted
+categories that condition holding on EDD (licensed PSPs and MSBs, crypto-sector businesses,
+NPOs), and any file a decision-maker chooses to route here, with the reason recorded. Where several
+triggers apply at once, the scope covers the measures for all of them, without doing the same
+measure twice.
+
+
+
+
+Mynta AB | SOP-13 | v2.0                                                                             Page 1 of 3
+3 · Measures by trigger
+A first payment from an account in the customer’s own name may be used as a supporting control
+for high-risk-category customers. It is applied risk-based and never replaces the enhanced
+measures.
+TRIGGER                     CORE MEASURES
+
+PEP connection              Source of wealth and source of funds for the PEP's interest; mandate and career
+                            mapping; approval by the authorised senior decision-maker the governance
+                            framework designates; enhanced monitoring profile; 12-month review, with PEP
+                            treatment continuing for at least 18 months after the function ends and for as
+                            long as the risk warrants
+
+the high-risk category /    Confirmation by a second sourced ownership-structure evidence for every layer
+high-risk third country     touching the jurisdiction; purpose-of-relationship deep-dive; counterparty and
+                            cross-border flow expectations documented; first-activity scrutiny window in
+                            SOP-18
+
+Complex structure           C-3 examination of each level to 10%; second-source confirmation by a second
+                            source of the decisive layer; rationale for the structure obtained and assessed for
+                            economic sense; any nominee or arrangement resolved to principals or declined
+                            per GOV-04
+
+Crypto share ≥ 30%          Wallet and counterparty picture at declaration level; SOP-17 screening results
+                            reviewed; Crypto Service caps set per class; Crypto Service-specific monitoring
+                            profile
+
+Adverse media               Source credibility and specificity assessment; underlying-conduct analysis
+                            against Mynta's exposure; outcome documented even where dismissed
+
+Restricted categories       Licence verification and scope; business-model mapping; downstream-
+                            anonymity check; condition compliance per GOV-04 §3
+
+
+
+4 · Procedure
+S1         Intake: the referral states its triggers and attaches the file. The EDD owner (a senior analyst)
+           confirms that the triggers are read correctly, and logs the case with target dates aligned to
+           C-5.
+
+S2         Scoping: select the measures from section 3 for every trigger present, and record them as
+           the EDD plan. If a measure is deliberately left out, write down that it was left out, and why.
+
+S3         Collection: evidence to section 5 standards; requests to the customer are consolidated
+           where possible and logged; IF the customer cannot or will not evidence a scoped item,
+           THEN the report says so plainly and treats it as a finding. Scoped items shall not be omitted
+           from the report.
+
+S4         Analysis: the report (T-3) answers the scoped questions, states what was confirmed by a
+           second source versus taken on documentation alone, and concludes with a risk view and
+           recommended conditions (caps, monitoring profile, review cycle). The T-3 report covers the
+           triggers, the scope, the evidence, source of funds and wealth, red flags, unresolved issues,
+           the risk conclusion, any conditions, the monitoring set, and the approvals.
+
+
+
+Mynta AB | SOP-13 | v2.0                                                                               Page 2 of 3
+S5         Decision: per C-6 the MLRO decides all EDD-routed files; for PEP files the decision is taken
+           by the authorised senior decision-maker the governance framework designates. Possible
+           outcomes: approve with conditions, approve, decline, or route to SOP-19/20 where the
+           analysis itself raises suspicion.
+
+S6         Implementation: conditions written into the monitoring baseline and SOP-22 schedule
+           before activation or continuation; SOP-18 profile set per the report.
+
+S7         Records: plan, evidence, report and decision filed per GOV-02 §10; the file must let a
+           reviewer see what was asked, what was answered, and why the conclusion followed.
+
+
+5 · Evidence standards for source of funds and wealth
+Source of funds explains the money in the relationship; source of wealth explains how the person
+came to have wealth at all. Both are documented on a hierarchy: independent and verifiable first
+(audited accounts, registry filings, completed-transaction documents, tax records), institutional
+second (bank statements, employer confirmations), self-produced last and never alone (declarations,
+CVs). Evidence is selected for the fact it must prove; the order above states preference, not
+exclusion. Confirmation by a second source means two independent sources agreeing on the
+material fact. Reasonable is assessed against scale: the wealth shall be explainable by something
+documented, such as a career, a business history or completed transactions. A thick pile of
+documents does not replace that explanation. The report states which level of the hierarchy each
+material fact rests on.
+
+
+6 · Timelines and quality
+EDD suspends the referring routine's decision clock; target completion is 15 business days from
+complete referral for single-trigger cases and 25 for stacked triggers, with delays logged and visible
+in the MLRO report. Quality: 100% second review before decision per the SOP-10 §13 second review
+standard; EDD reports are drawn at random in the monthly QC alongside onboarding files, graded on
+the same scale.
+
+
+
+
+Mynta AB | SOP-13 | v2.0                                                                        Page 3 of 3
+

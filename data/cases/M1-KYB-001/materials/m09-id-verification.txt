@@ -1,0 +1,16 @@
+I DENTITY VERIFICATION                                                                                 S UMMARY
+
+
+
+Identity verification summary
+PERSON                                     METHOD                  RESULT                 DATE
+
+Jonas Ehrnberg                             BankID                  Verified               2026-08-25
+
+Verification performed for the signatory at application. No other persons verified at this stage.
+
+
+
+
+Identity vendor | Verification summary                                                                 Page 1 of 1
+

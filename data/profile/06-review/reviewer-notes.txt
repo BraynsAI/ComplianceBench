@@ -1,0 +1,105 @@
+Reviewer notes: open questions per document
+Collected from the working drafts. These do not appear in the pack documents. Rule on each;
+corrections propagate to the affected document and, where marked, to the pilot rubrics.
+
+
+GOV-01 · Business-wide risk assessment
+Expert pass wanted on: ratings and their arguments (especially acquiring high, crypto very-high-
+bounded-to-high, channel high-to-medium); the section 13 acceptance formulations against FI
+practice; the conclusions C1 to C10 as binding style; the typology catalogue's realism; anything a
+60-to-90-page BWRA carries that this structure still lacks, with the honest note that Mynta's
+smaller-EMI calibration argues for the lower half of that range.
+
+
+GOV-02 · AML/CTF policy
+Expert pass wanted on: the 5.1 to 5.3 duty enumerations against FFFS 2017:11; the occasional-
+transaction position; the 7.5 and 7.6 statements; the section 13 control-plan and self-assessment
+design; and any statement a Swedish EMI board policy carries that this draft still lacks.
+
+
+GOV-03 · Sanctions policy
+Expert pass wanted on: the OFAC stance formulation; the 50%-rule treatment and its freeze-first
+ordering; list-update SLA realism; and whether Swedish practice expects an explicit sectoral-
+measures section (dual-use, trade restrictions) at an EMI of this profile or leaves it at the transaction-
+screening level.
+
+
+GOV-04 · Customer risk appetite
+Expert pass wanted on: the prohibited list against real Swedish EMI practice; the metric values in
+section 5 as plausible board numbers; the restricted-category conditions; and whether adult content
+beyond live-streaming, CBD, tobacco and similar conditional sectors should appear here rather than
+resolving through C-7.
+
+
+SOP-10 · KYB onboarding routine
+Expert pass wanted on: the section 5 matrix against real Swedish practice (especially stiftelse and
+ekonomisk förening rows); the 7.2 language and legalisation standards; SDD scope in section 9; the
+review intervals in Appendix C; SLA values in S1.2 and S1.4; and anything a real 20-page KYB routine
+contains that this one still lacks. S4.2, S4.3, S4.5 and S5.1 are pinned by the pilot case; changes
+there propagate to the Halvix rubric.
+
+
+SOP-11 · KYC onboarding routine
+Expert pass wanted on: the automated approval and decline boundaries in S6.2 and S6.3; the
+address non-verification position at S2.5; the sole-trader interface with SOP-10; the 2% sampling
+rate for straight-through approvals; and the Appendix B list against what consumer desks actually
+see.
+
+
+Mynta AB | REVIEW Reviewer notes | v1.0                                                          Page 1 of 3
+SOP-12 · PEP and sanctions screening
+Expert pass wanted on: the designated adverse-media category set; the S2.2 two-identifier
+standard against practice; delta-screening SLA realism at Mynta's base size; the 5% discount-
+sampling rate; and whether a real routine carries an explicit ongoing-PEP-rescreen cycle beyond
+delta screening.
+
+
+SOP-13 · Enhanced due diligence
+Expert pass wanted on: the measures-by-trigger mapping against practice; the SoF/SoW hierarchy
+wording; timeline realism; whether first-payment-from-own-account verification belongs as a
+standard Tier 3 measure; and the T-3 report structure (drafted with the templates batch).
+
+
+SOP-14 · Risk scoring methodology
+Expert pass wanted on: factor values and weights as plausible desk arithmetic; the band cut-offs;
+the downward-only override design; whether industry risk should be a register (C-style list) rather
+than a two-value factor; and the validation set a real MLRO would demand beyond section 7.
+
+
+SOP-18 · Transaction monitoring
+Expert pass wanted on: the rule family coverage per rail against desk practice; the register-not-
+instruction placement of all values; the new-account regime design; the alert content standard; the
+suppression governance; and the section 9 testing set against what FI expects to see evidenced.
+
+
+SOP-19 · Alert investigation and escalation
+Expert pass wanted on: the disposition set against real desk practice; the S4 contact wording
+constraints; the S5 four-eyes trigger list; aging thresholds; and whether the internal-report channel
+needs its own intake form.
+
+
+SOP-20 · Reporting and goAML
+Expert pass wanted on: the S3 refrain-versus-execute wording against PTL 4 kap; the drafting
+content list against what Finanspolisen actually values; the deputy-review design; register access
+mechanics in a small function; and the exit-timing coordination guidance.
+
+
+SOP-25 · Regulatory change management
+Expert pass wanted on: the source list's completeness for a Swedish EMI; the four-way gap
+classification against how real gap analyses are written; the interim-measure-as-deviation
+treatment; and the AMLR workstream's shape against how firms are actually running the transition.
+
+
+
+
+Mynta AB | REVIEW Reviewer notes | v1.0                                                       Page 2 of 3
+REG-C · Conventions and registers
+Calibration pass wanted from Augustinas on every numeric value above, and from Anilla on the C-2
+snapshot composition and the C-7 conditional set. Values deliberately uneven; correct toward what a
+real desk runs, and the corrected values become canon for case authoring.
+
+
+
+
+Mynta AB | REVIEW Reviewer notes | v1.0                                                    Page 3 of 3
+
