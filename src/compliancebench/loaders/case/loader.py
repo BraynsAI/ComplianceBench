@@ -1,5 +1,5 @@
 # Python stdlib
-import os, re
+import os
 from pathlib import Path
 
 # Project Dependencies
@@ -18,7 +18,7 @@ def build_case_messages(case_dir: Path, profile_dir: Path):
     if not case_yaml_file.exists():
         raise FileNotFoundError(f"No such file or directory: {case_yaml_file}")
     case_yaml: DictConfig = OmegaConf.load(case_yaml_file)
-    referenced_sops = case_yaml["sop_refs"] if "sop_refs" in case_yaml else []
+    referenced_sops = case_yaml.get("sop_refs", [])
     # Sometimes referenced SOPS contain alos the section number, e.g. "SOP-01 1.2.3".
     # We only want the SOP ID.
     referenced_sops = [x.split(" ")[0].lower() for x in referenced_sops]
@@ -30,7 +30,8 @@ def build_case_messages(case_dir: Path, profile_dir: Path):
         if hits:
             # SOP have unique names, so there shouldn't be more than one hit.
             sop = hits[0]
-            raw_sop = open(sop, encoding="utf-8", errors="ignore").read()
+            raw_sop = Path(sop).read_text(encoding="utf-8", errors="ignore")
+
             user_message_packs.append(
                 f'<document id="{ref}" name="{os.path.basename(sop)}">\n'
                 f"{raw_sop}\n</document>\n"
@@ -46,7 +47,7 @@ def build_case_messages(case_dir: Path, profile_dir: Path):
     for txt in sorted(material_docs):
         doc_id = txt.stem.split("-")[0]  # m01, m02 ...
         name = txt.stem.split("-")[1]  # human name
-        raw = open(txt, encoding="utf-8", errors="ignore").read()
+        raw = Path(txt).read_text(encoding="utf-8", errors="ignore")
         user_message_packs.append(
             f'<document id="{doc_id}" name="{name}">\n{raw}\n</document>\n'
         )

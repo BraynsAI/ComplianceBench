@@ -3,14 +3,17 @@ from logging import INFO, Formatter, StreamHandler, getLogger
 from logging.handlers import RotatingFileHandler
 from pathlib import Path
 
-
 # Project Dependencies
-
+from compliancebench.project import Project
 
 # Project Imports
 
+
 def get_logger(
-        name: str = "compliance_bench.log", log_to_file=False, log_file_path=None, level=INFO
+    name: str = "compliance_bench.log",
+    log_to_file=False,
+    log_file_path=None,
+    level=INFO,
 ):
     _FMT = "%(asctime)s [%(levelname)s] (%(module)s:%(lineno)d): %(message)s"
     _DATE = "%a, %Y-%m-%d %I:%M:%S %p"

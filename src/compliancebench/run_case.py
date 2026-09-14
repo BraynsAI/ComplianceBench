@@ -1,16 +1,15 @@
-#!/usr/bin/env python3
 import argparse
 import json
 import xml.etree.ElementTree as ET
-from compliancebench.llms import LLMClient, LLMClientModelConfig
 from pathlib import Path
-
-from compliancebench.project import Project
+from dotenv import load_dotenv
+from compliancebench.llms import LLMClient, LLMClientModelConfig
 from compliancebench.loaders.case import build_case_messages
+from compliancebench.project import Project
 
 
 def call_model(
-        client: LLMClient, model_config: LLMClientModelConfig, messages: list[dict]
+    client: LLMClient, model_config: LLMClientModelConfig, messages: list[dict]
 ):
     response = client.call_model(messages)
     return response
@@ -23,8 +22,9 @@ def parse_xml_output(xml_output: str) -> dict:
     root = ET.fromstring(xml_str)
     result = {
         "outcome": root.findtext("outcome"),
-        "reasoning": [{"doc": p.get("doc"), "text": p.text} for p in
-                      root.find("reasoning")],
+        "reasoning": [
+            {"doc": p.get("doc"), "text": p.text} for p in root.find("reasoning")
+        ],
         "actions": [a.text for a in root.find("actions")],
         "explanation": root.findtext("explanation"),
     }
@@ -38,6 +38,7 @@ def parse_args() -> argparse.Namespace:
 
 
 if __name__ == "__main__":
+    load_dotenv()
     args = parse_args()
     case_dir = Path(args.case)
     if not case_dir.exists():
@@ -52,4 +53,3 @@ if __name__ == "__main__":
     answer = call_model(client, config, messages)
     parsed_answer = parse_xml_output(answer)
     print("Parsed output as JSON:\n", json.dumps(parsed_answer, indent=4))
-
